@@ -1,0 +1,24 @@
+<body>
+        
+    <div class="relative mt-12 lg:mt-16 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+      <div class="relative mx-24">
+            <h3 class="text-base not-italic leading-6 text-gray-600">FEATURED POST</h3>
+        <h1 class="text-5xl fw-500 leading-snug font-normal mb-10">
+            {{ section.title }}
+
+        </h1>
+        <h4 class="text-sm not-italic font-light leading-6 text-gray-600"> 
+            {{ section.extra.date | date(format="%B %e, %Y", timezone="America/Chicago")}} - 
+            {{ section.extra.author }}
+        </h4>
+            
+      </div>
+
+      <div class="mt-10 -mx-4 relative lg:mt-0 max-w-full">
+        <img class="relative mx-auto max-w-full max-h-80" src={{section.extra.imgPath}} alt="" />
+      </div>
+    </div>
+
+  </div>
+</div>
+</body> 

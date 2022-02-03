@@ -1,0 +1,20 @@
+{% extends "_default/base.html" %}
+
+{% block content %}
+<div class="sm:w-5/6 md:w-4/5 mr-auto ml-auto px-6 lg:px-16 xl:w-11/12">
+<img src="/processed_images/threefold_blog.png" alt="">
+<div>
+    <article class="article lg:w-7/12 mx-auto">
+    <h1 class="tracking-tight pt-12 lg:pt-12 2xl:pt-32 text-5xl text-left
+    text-5xl fw-500 leading-snug font-normal mb-10">
+        {{ page.title }}
+    </h1>
+    <h4 class="text-sm not-italic font-light leading-6 text-gray-600"> 
+    </h4>
+        
+      {{ page.content | safe }}
+    </article>
+</div>
+</div>
+    
+{% endblock content %}

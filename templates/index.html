@@ -1,0 +1,31 @@
+{% extends "_default/base.html" %}
+
+{% block content %}
+<main class="pt-16">
+
+    <!-- Landing page banner -->
+    {% include "partials/splitRow.html" %}
+
+    <!-- Landing page vertical image -->
+    <img src="processed_images/threefold_img2.png" alt="">
+
+    {%- set section = get_section(path="about/community/_index.md") %}
+    <br/>
+    <!-- Landing page banner -->
+    {% include "partials/splitRow.html" %}
+    {%- set section = get_section(path="about/sustainability/_index.md") %}
+
+    <br/>
+    <!-- Landing page banner -->
+    {% include "partials/splitRow.html" %}
+    {%- set section = get_section(path="about/creators/_index.md") %}
+
+    <br/>
+    <!-- Landing page banner -->
+    {% include "partials/splitRow.html" %}
+   
+    
+
+
+</main>
+{% endblock content %}

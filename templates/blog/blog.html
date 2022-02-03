@@ -1,0 +1,14 @@
+{% extends "_default/base.html" %}
+
+{% block content %}
+
+<main class="pt-16">
+    {%- set section = get_section(path="blog/featured/_index.md") %}
+    {% include "partials/featuredBlog.html" %}
+
+    <div class="flex">
+        {% include "partials/blogPosts.html" %}
+        {% include "partials/blogSidebar.html" %}
+
+    </div>
+ </main> {% endblock content %}

@@ -1,0 +1,7 @@
+/public
+/.vscode
+# Local Netlify folder
+/.netlify
+/node_modules
+/static/css
+/static/processed_images
