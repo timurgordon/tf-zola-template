@@ -7,7 +7,7 @@ draft: false # Make it "true" if you don't want Zola to "publish" yet
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
-  imgPath: processed_images/threefold-blog.png
+  imgPath: static/images/threefold-blog.png
   date: 2018-10-17T14:40:00-05:00
 ---
 

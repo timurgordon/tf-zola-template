@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "rimraf public && rimraf static/css",
     "initcss": "node initcss.js",
+    "getContent": "node getContent.ts",
     "start": "TAILWIND_MODE=watch NODE_ENV=development npm-run-all clean initcss --parallel dev:*",
     "dev:postcss": "postcss css/index.css -o ./static/css/index.css --config ./postcss.config.js -w",
     "dev:serve": "zola serve",
@@ -29,6 +30,11 @@
     "postcss-import": "^14.0.2",
     "postcss-nesting": "^8.0.1",
     "rimraf": "^3.0.2",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "ts-rmb-http-client": "^1.0.3",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "ts-rmb-http-client": "^1.0.3"
   }
 }

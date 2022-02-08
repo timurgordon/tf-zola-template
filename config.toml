@@ -2,8 +2,8 @@
 base_url = "https://zola-twcss.vercel.app"
 # Change this to your own URL! Please note this variable **must** be uncommented.
 
-title = "Site name here"
-description="Site description here"
+title = "Our World"
+description="Our global digital backbone"
 
 # When set to "true", a feed is automatically generated.
 # generate_feed = true
