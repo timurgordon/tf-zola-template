@@ -8,9 +8,7 @@ async function main() {
 
     async function deploy() {
         try {
-            // must find way to get twinId and proxyUrl
-            // perhaps use getMyTwinId @ grid3_client_ts/src/clients/tf-grid/twins.ts
-            const rmb = new HTTPMessageBusClient(0, "https://gridproxy.test.grid.tf", "https://graphql.dev.grid.tf/graphql", "<mnemonics>");
+            const rmb = new HTTPMessageBusClient(414, "https://gridproxy.test.grid.tf", "https://graphql.test.grid.tf/graphql", "idle tourist member mail flame often invest ring region fashion cloth zebra"); // second url graph url
             const msg = rmb.prepare("zos.statistics.get", [dstNodeId], 0, 2);
             const retMsg = await rmb.send(msg, "{'test':'test'}");
             const result = await rmb.read(retMsg);
@@ -24,6 +22,7 @@ async function main() {
     }
 
     deploy();
+
 }
 
 main();
