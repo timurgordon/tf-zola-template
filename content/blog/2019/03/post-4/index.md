@@ -6,6 +6,7 @@ updated: 2020-01-31T08:13:00-06:00 # Comment-out this line with a # if content i
 extra:
   subtitle: "The UNIQUE Post 4 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
+  category: "Engineering"
   imgPath: images/threefold_blog2.png
   date: 2018-10-17T14:40:00-05:00
 ---

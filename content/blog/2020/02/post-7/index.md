@@ -1,13 +1,15 @@
 ---
-title: "Bridges Connecting the ThreeFold Ecosystem to External Networks " # Quotation marks allow colons, semicolons, etc.
-description: "The UNIQUE description for Post 7." # Quotation marks allow colons, semicolons, etc.
-date: 2020-02-28T21:30:00-06:00
-updated: 2020-04-02T07:23:00-05:00 # Comment-out this line with a # if content is unchanged
+title: "Bridges Connecting the ThreeFold Ecosystem to External Networks" # Quotation marks allow colons, semicolons, etc.
+description: "Since the launch of ThreeFold Grid 3.0, TFT is now available on three blockchains – Stellar, Binance Smart Chain and the Substrate-based ThreeFold Blockchain (aka TF Chain)." # Quotation marks allow colons, semicolons, etc.
+date: 2018-10-17T14:40:00-05:00
+updated: 2019-04-11T20:33:00-05:00 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
+taxonomies:
+  categories: ["Engineering"]
 extra:
-  subtitle: "The UNIQUE Post 7 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: Your name goes here
-  imgPath: "images/threefold_blog2.png"
+  subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
+  author: HANNAH CORDES
+  imgPath: images/sphere-thing.png
   date: 2018-10-17T14:40:00-05:00
 ---
 

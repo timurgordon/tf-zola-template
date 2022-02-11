@@ -31,12 +31,12 @@
 </script>
 
 <body>
-        <div class="z-10 bg-semi-white fixed w-screen">
+        <div class="z-10 bg-white fixed w-screen">
           <div class="relative z-10 shadow">
             <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
               <div>
-                <a href="#" class="flex">
-                  <img class="w-20 h-auto sm:w-32" src="images/ourworld_logo.png" alt="Workflow" />
+                <a href="/" class="flex">
+                  <img class="w-20 h-auto sm:w-32" src="/images/ourworld_logo.png" alt="Workflow" />
                 </a>
               </div>
               <div class="-mr-2 -my-2 md:hidden">
@@ -71,22 +71,11 @@
                     Community
                   </a>
                   <a href="/blog" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
-                    Blog
-                  </a>
-                  <a href="/blog" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                     Career
                   </a>
-                  <div class="relative">
-                    <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-                    <button type="button" class="text-gray-500 group inline-flex items-center space-x-2 text-sm leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
-                      <span>Menu</span>
-                      <!--
-                        Heroicon name: chevron-down
-        
-                        Item active: "text-gray-600", Item inactive: "text-gray-400"
-                      -->
-                    </button>
-                  </div>
+                  <a href="/blog" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                    Blog
+                  </a>
                 </nav>
                 <div class="flex items-center space-x-8">
                   <a href="#" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
@@ -117,7 +106,7 @@
           <div id="learn" class="opacity-0 -translate-y-1 absolute inset-x-0 transform shadow-lg backdrop-blur">
             <div class="bg-semi-white">
               <div class="max-w-7xl mx-auto grid gap-y-6 px-4 py-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16">
-                <a href="#" class="-m-3 p-3 flex flex-col justify-between space-y-6 rounded-lg transition ease-in-out duration-150">
+                <div href="#" class="-m-3 p-3 flex flex-col justify-between space-y-6 rounded-lg transition ease-in-out duration-150">
                   <div class="space-x-4 flex md:h-full lg:flex-col lg:space-x-0 lg:space-y-4">
                     <div class="flex-shrink-0">
                       <span class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
@@ -128,27 +117,27 @@
                       </span>
                     </div>
                     <div class="space-y-2 md:flex-1 md:flex md:flex-col md:justify-between lg:space-y-4">
-                      <div class="space-y-1">
+                      <a href="" class="space-y-1 border-transparent">
                         <p class="text-sm leading-6 font-normal text-gray-900">
                           Analytics
                         </p>
                         <p class="text-sm leading-5 text-gray-500">
                           Get a better understanding of where your traffic is coming from.
                         </p>
-                      </div>
+                    </a>
                     </div>
                     <div class="space-y-2 md:flex-1 md:flex md:flex-col md:justify-between lg:space-y-4">
-                        <div class="space-y-1">
+                        <a href="" class="space-y-1 border-transparent">
                           <p class="text-sm leading-6 font-normal text-gray-900">
                             Analytics
                           </p>
                           <p class="text-sm leading-5 text-gray-500">
                             Get a better understanding of where your traffic is coming from.
                           </p>
-                        </div>
+                        </a>
                       </div>
                   </div>
-                </a>
+                </div>
                 <a href="#" class="-m-3 p-3 flex flex-col justify-between space-y-6 rounded-lg transition ease-in-out duration-150">
                   <div class="space-x-4 flex md:h-full lg:flex-col lg:space-x-0 lg:space-y-4">
                     <div class="flex-shrink-0">
@@ -253,12 +242,7 @@
             <a href="#" class="-m-3 p-3 flex flex-col justify-between space-y-6 rounded-lg transition ease-in-out duration-150">
               <div class="space-x-4 flex md:h-full lg:flex-col lg:space-x-0 lg:space-y-4">
                 <div class="flex-shrink-0">
-                  <span class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
-                    <!-- Heroicon name: chart-bar -->
-                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                    </svg>
-                  </span>
+                  <h3>BASICS</h3>
                 </div>
                 <div class="space-y-2 md:flex-1 md:flex md:flex-col md:justify-between lg:space-y-4">
                   <div class="space-y-1">
@@ -373,7 +357,7 @@
                 <div class="pt-5 pb-6 px-5 space-y-6 sm:space-y-8 sm:pb-8">
                   <div class="flex items-center justify-between">
                     <div>
-                      <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/v1/workflow-mark-on-white.svg" alt="Workflow" />
+                      <img class="h-8 w-auto" src="/https://tailwindui.com/img/logos/v1/workflow-mark-on-white.svg" alt="Workflow" />
                     </div>
                     <div class="-mr-2">
                       <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">

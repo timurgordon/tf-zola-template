@@ -1,40 +1,65 @@
+<script>
+  var category = window.location.pathname.split("/")[1];
+  console.log("logging", category);
+</script>
 
 <div class="font-sans text-center px-0 w-full md:w-2/3 lg:w-2/3 mx-auto">
-    <h1 class="tracking-tight pt-12 lg:pt-24 2xl:pt-32 text-5xl text-left
-    text-5xl fw-500 leading-snug font-normal mb-10">The Latest from ThreeFold
-    </h1>
-    <div>
-      
-      <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
-          {%- for post in paginator.pages %}
-            {% include "partials/postCard.html" %}
-
-      {%- endfor %}
-      </div>
-      <hr class="mt-6" />
-      <p class="text-center text-sm mt-2 mb-16">
-        {% if paginator.previous %}
-          <a class="border-transparent" aria-label="First page" href="{{ paginator.first }}">{% include "partials/svgPrevPageIcon.html" %}{% include "partials/svgPrevPageIcon.html" %}</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a class="border-transparent" aria-label="Previous page" href="{{ paginator.previous }}">{% include "partials/svgPrevPageIcon.html" %}</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        {% else %}
-          {% include "partials/svgFirstPageIcon.html" %}{% include "partials/svgFirstPageIcon.html" %}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          {% include "partials/svgFirstPageIcon.html" %}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        {% endif %}
-        {% if paginator.next %}
-          <a class="border-transparent" aria-label="Next page" href="{{ paginator.next }}">{% include "partials/svgNextPageIcon.html" %}</a>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a class="border-transparent" aria-label="Last page" href="{{ paginator.last }}">{% include "partials/svgNextPageIcon.html" %}{% include "partials/svgNextPageIcon.html" %}</a>
-        {% else %}
-          {% include "partials/svgLastPageIcon.html" %}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          {% include "partials/svgLastPageIcon.html" %}{% include "partials/svgLastPageIcon.html" %}
-        {% endif %}
-        </p>
-      </div>
-    </div>  
+  <h1
+    class="tracking-tight pt-12 lg:pt-24 2xl:pt-32 text-5xl text-left text-5xl fw-500 leading-snug font-normal mb-10"
+  >
+    The Latest from ThreeFold
+  </h1>
+  <div>
+    <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
+      {%- for post in paginator.pages %} 
+        {% if "Engineering" == "Engineering"%}
+            {% include "partials/postCard.html" %} 
+        {%endif%} {%- endfor %}
+    </div>
+    <hr class="mt-6" />
+    <p class="text-center text-sm mt-2 mb-16">
+      {% if paginator.previous %}
+      <a
+        class="border-transparent"
+        aria-label="First page"
+        href="{{ paginator.first }}"
+        >{% include "partials/svgPrevPageIcon.html" %}{% include
+        "partials/svgPrevPageIcon.html" %}</a
+      >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a
+        class="border-transparent"
+        aria-label="Previous page"
+        href="{{ paginator.previous }}"
+        >{% include "partials/svgPrevPageIcon.html" %}</a
+      >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% else %} {%
+      include "partials/svgFirstPageIcon.html" %}{% include
+      "partials/svgFirstPageIcon.html" %}
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% include
+      "partials/svgFirstPageIcon.html" %}
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% endif %} {% if
+      paginator.next %}
+      <a
+        class="border-transparent"
+        aria-label="Next page"
+        href="{{ paginator.next }}"
+        >{% include "partials/svgNextPageIcon.html" %}</a
+      >
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a
+        class="border-transparent"
+        aria-label="Last page"
+        href="{{ paginator.last }}"
+        >{% include "partials/svgNextPageIcon.html" %}{% include
+        "partials/svgNextPageIcon.html" %}</a
+      >
+      {% else %} {% include "partials/svgLastPageIcon.html" %}
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% include
+      "partials/svgLastPageIcon.html" %}{% include
+      "partials/svgLastPageIcon.html" %} {% endif %}
+    </p>
+  </div>
+</div>

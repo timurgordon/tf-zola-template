@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://zola-twcss.vercel.app"
+base_url = "https://ourworld.tf"
 # Change this to your own URL! Please note this variable **must** be uncommented.
 
 title = "Our World"
@@ -50,6 +50,12 @@ external_links_no_referrer = true
 # Whether smart punctuation is enabled (changing quotes, dashes, dots in their typographic form)
 # For example, `...` into `…`, `"quote"` into `“curly”` etc
 smart_punctuation = true
+
+[[taxonomies]]
+name = "categories"
+feed = true
+paginate_by = 2
+paginate_path = "/blog-posts"
 
 [extra]
 # Put all your custom variables here

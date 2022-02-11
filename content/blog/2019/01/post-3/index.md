@@ -7,6 +7,7 @@ draft: false # Make it "true" if you don't want Zola to "publish" yet
 extra:
   subtitle: "The UNIQUE Post 3 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
+  category: "Engineering"
   imgPath: images/threefold_blog2.png
   date: 2018-10-17T14:40:00-05:00
 ---
@@ -23,6 +24,6 @@ Text here.
 
 And here is an example of how to use the `imgc` shortcode in `/templates/shortcodes`:
 
-{{ (path="blog//2019/01/post-3/screen-cap-from-Pippin-Williamson-s-page-builders-review.png", alt="Screen capture showing shortcodes from a WordPress page builder", width=986, height=482) }}
+![Image](images/threefold-blog.png)
 
 Closing text. That ends Post 3!
