@@ -11,10 +11,6 @@ extra:
   date: 2018-10-17T14:40:00-05:00
 ---
 
-{% yellowBox() %}
-**Note**: Maybe you have a note here about why you updated the post, for example. In that case, this `yellowBox` CSS/SCSS class is useful.
-{% end %}
-
 Your opening text goes here.
 
 ## In-article heading --- it's an H2 because your title is the H1
