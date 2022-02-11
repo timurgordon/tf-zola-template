@@ -7,11 +7,11 @@ draft: false # Make it "true" if you don't want Zola to "publish" yet
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
-  imgPath: static/images/threefold-blog.png
+  imgPath: images/sphere-thing.png
   date: 2018-10-17T14:40:00-05:00
 ---
 
-![Image](processed_images/threefold-blog.png)
+![Image](images/threefold-blog.png)
 
 ## In-article heading --- it's an H2 because your title is the H1
 

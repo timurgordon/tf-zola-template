@@ -10,5 +10,5 @@ insert_anchor_links: "left"
 template: "blog/blog.html"
 #transparent: true
 extra:
-  imgPath: processed_images/threefold_img2.png
+  imgPath: images/threefold_img2.png
 ---

@@ -6,7 +6,7 @@ updated: 2021-02-20T14:40:00-06:00
 draft: false
 extra:
   author: Your name here
-  imgPath: processed_images/threefold_globe.png
+  imgPath: images/threefold_globe.png
   #subtitle:
 ---
 

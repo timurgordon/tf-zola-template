@@ -7,7 +7,7 @@ draft: false # Make it "true" if you don't want Zola to "publish" yet
 extra:
   subtitle: "The UNIQUE Post 7 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
-  imgPath: "processed_images/threefold_blog2.png"
+  imgPath: "images/threefold_blog2.png"
   date: 2018-10-17T14:40:00-05:00
 ---
 
