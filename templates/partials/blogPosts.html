@@ -1,13 +1,14 @@
-<script>
-  var category = window.location.pathname.split("/")[1];
-  console.log("logging", category);
-</script>
-
 <div class="font-sans text-center px-0 w-full md:w-2/3 lg:w-2/3 mx-auto">
   <h1
     class="tracking-tight pt-12 lg:pt-24 2xl:pt-32 text-5xl text-left text-5xl fw-500 leading-snug font-normal mb-10"
   >
-    The Latest from ThreeFold
+  {% set path_array = current_path | split(pat="/") %}
+  {% set taxonomy = path_array[1] %}
+  {% set category = path_array[2] %}
+    The Latest from ThreeFold   
+    {% if taxonomy == "categories" %} - 
+            {{category | replace(from='-', to=' ' ) | title}}
+    {% endif %}
   </h1>
   <div>
     <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">

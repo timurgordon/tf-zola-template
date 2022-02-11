@@ -4,6 +4,8 @@ description: "The UNIQUE description for Post 1." # Quotation marks allow colons
 date: 2018-10-17T14:40:00-05:00
 updated: 2019-04-11T20:33:00-05:00 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
+taxonomies:
+  categories: ["Community"]
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: "Your name goes here"
