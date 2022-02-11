@@ -1,9 +1,18 @@
 /*! purgecss start ignore */
-@import 'nav.css';
-@import 'code.css';
-@import 'tailwindcss/base';
-@import 'layout.css';
-@import 'tailwindcss/components';
-@import 'ffoxobliq.css';
+@import "nav.css";
+@import "code.css";
+@import "tailwindcss/base";
+@import "layout.css";
+@import "tailwindcss/components";
+@import "ffoxobliq.css";
 /*! purgecss end ignore */
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
+
+/* Custom CSS for header partial */
+.backdrop-blur {
+  -webkit-backdrop-filter: blur(40px);
+}
+
+.bg-semi-white {
+  background-color: rgba(255, 255, 255, 0.75);
+}
