@@ -10,6 +10,32 @@ extra:
   #subtitle:
 ---
 
-# Together, we create the future
+{% row() %}
+
+## Together, we create the future
 
 Together we expand and create this OurWorld platform, with the purpose to give a better digital life to billions of people. Anyone is invited to build solutions (experiences on top). OurWorld can provide the alternative to the current too centralized, unsustainable and abused internet. Let's go back to what the internet was supposed to be.
+
+|||
+
+![Image](/images/threefold_globe.png#medium)
+
+{% end %}
+
+{% row() %}
+
+![Image](/images/threefold_img2.png)
+
+{% end %}
+
+{% row() %}
+
+## A world for and by the people
+
+Together we expand and create this OurWorld platform, with the purpose to give a better digital life to billions of people. OurWorld can provide the alternative to the current too centralized, unsustainable and abused internet. Let's go back to what the internet was supposed to be.
+
+|||
+
+![Image](/images/threefold_globe.png)
+
+{% end %}

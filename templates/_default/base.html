@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" charset="utf-8">
   {% include "partials/head.html" %}
+
+  {%- set section = get_section(path="header/_index.md") %}
   {% include "partials/header.html" %}
 
+  {%- set section = get_section(path="_index.md") %}
   <body>
 
     <div id="content">

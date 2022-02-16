@@ -26,6 +26,4 @@ Text here.
 
 And here's an example of how to use the `imgc` shortcode in `/templates/shortcodes`:
 
-{{ imgc(path="blog//2018/10/post-2/Early-Web-font-grfx-1-2018-10-16_1218x1296.jpg", alt="Image from Apple Web site in 1999 showing graphic elements as text", width=1218, height=1296) }}
-
 Closing text. That ends Post 2!

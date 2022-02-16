@@ -26,10 +26,4 @@ Text here.
 
 And here are some examples of how to use the `imgc` shortcode in `/templates/shortcodes`:
 
-{{ imgc(path="blog//2018/10/post-1/Typography-scr-cap-2-2018-10-16.jpg", alt="Thin and dim text that is hard to read", width=1344, height=200) }}
-
-{{ imgc(path="blog//2018/10/post-1/Typography-scr-cap-3-2018-10-16.jpg", alt="More thin and dim text that is hard to read", width=1398, height=252) }}
-
-{{ imgc(path="blog//2018/10/post-1/Typography-scr-cap-4-2018-10-16.jpg", alt="Still more thin and dim text that is hard to read", width=1398, height=164) }}
-
 Closing text. That ends Post 1!

@@ -1,0 +1,14 @@
+
+{% set columns = body | split(pat="|||") %}
+{% set classes =  "relative mt-12 lg:mt-24 flex flex-col lg:flex-row m-8 sm:m-12 md:m-16 lg:m-20 items-center" %}
+{% if isLean %}
+    {% set classes = "relative flex flex-col lg:flex-row items-baseline" %}
+{% endif %}
+
+<div class="{{classes}}">
+{% for column in columns%} 
+<div class="flex-1 lg:mx-8">
+    {{ column }}
+{% endfor %}
+</div>
+</div>

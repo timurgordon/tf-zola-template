@@ -16,3 +16,42 @@
 .bg-semi-white {
   background-color: rgba(255, 255, 255, 0.75);
 }
+
+/* Custom css allowing image styling in markdown */
+img[src*="#small"] {
+  width: 38px;
+}
+
+img[src*="#medium"] {
+  width: 400px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 20px 0px;
+}
+
+h3 {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 15px;
+}

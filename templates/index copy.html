@@ -4,8 +4,6 @@
 <!-- Landing page template, has a banner and rows of page summaries -->
 <main class="pt-16">
 
-    {{section.content | safe}}
-
     <!-- Landing page banner -->
     {% include "partials/splitRow.html" %}
 
@@ -26,5 +24,8 @@
     {%- set section = get_section(path="about/creators/_index.md") %}    
     {% include "partials/splitRow.html" %}
    
+    
+
+
 </main>
 {% endblock content %}
