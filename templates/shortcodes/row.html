@@ -1,5 +1,5 @@
 
-{% set columns = body | split(pat="|||") %}
+{% set columns = body | safe | markdown | split(pat="|||") %}
 {% set classes =  "relative mt-12 lg:mt-24 flex flex-col lg:flex-row m-8 sm:m-12 md:m-16 lg:m-20 items-center" %}
 {% if isLean %}
     {% set classes = "relative flex flex-col lg:flex-row items-baseline" %}
@@ -8,7 +8,7 @@
 <div class="{{classes}}">
 {% for column in columns%} 
 <div class="flex-1 lg:mx-8">
-    {{ column }}
-{% endfor %}
+    {{ column | safe }}
 </div>
+{% endfor %}
 </div>

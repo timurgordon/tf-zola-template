@@ -7,11 +7,9 @@ extra:
   imgPath: "/images/careers-hero.jpg"
 ---
 
-{% rowWithBackground(imagePath="/images/careers-hero.jpg") %}
-
 # Rebuild the web
 
-![Image](/images/tf_logo.png#bg)
+![Image](/images/tf_logo.png#background)
 
 NEAR is on a mission to empower everyone to take back control of their money, their data, and their identity. Join us.
 
