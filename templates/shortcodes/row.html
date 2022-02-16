@@ -1,11 +1,18 @@
 
 {% set columns = body | safe | markdown | split(pat="|||") %}
-{% set classes =  "relative mt-12 lg:mt-24 flex flex-col lg:flex-row m-8 sm:m-12 md:m-16 lg:m-20 items-center" %}
+{% set classes =  "relative pt-12 flex flex-col lg:flex-row p-8 sm:p-12 md:p-16 lg:p-20 lg:py-16 items-center" %}
 {% if isLean %}
     {% set classes = "relative flex flex-col lg:flex-row items-baseline" %}
 {% endif %}
 
-<div class="{{classes}}">
+{% set styles = ""  %}
+
+{% if bgPath %}
+    {% set styles = "background: url('" ~ bgPath ~ "')"  %}
+    {% set classes = classes ~ " bg-cover lg:py-40"  %}
+{% endif %}
+
+<div class="{{classes}}" style="{{styles}}">
 {% for column in columns%} 
 <div class="flex-1 lg:mx-8">
     {{ column | safe }}

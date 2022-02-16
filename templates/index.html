@@ -6,25 +6,6 @@
 
     {{section.content | safe}}
 
-    <!-- Landing page banner -->
-    {% include "partials/splitRow.html" %}
-
-    <!-- Landing page full width vertical image -->
-    <img src="/images/threefold_img2.png" alt="">
-    <br/>
-
-    {%- set section = get_section(path="about/community/_index.md") %}
-    {% include "partials/splitRow.html" %}
-    <br/>
-
-    <!-- Summary row of sustainability page -->
-    {%- set section = get_section(path="about/sustainability/_index.md") %}
-    {% include "partials/splitRow.html" %}
-    <br/>
-
-    <!-- Summary row of creators page -->
-    {%- set section = get_section(path="about/creators/_index.md") %}    
-    {% include "partials/splitRow.html" %}
    
 </main>
 {% endblock content %}

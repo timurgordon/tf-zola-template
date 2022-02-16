@@ -7,13 +7,15 @@ extra:
   imgPath: "/images/careers-hero.jpg"
 ---
 
-# Rebuild the web
+{% row(bgPath="/images/careers-hero.jpg#background") %}
 
-![Image](/images/tf_logo.png#background)
+# Rebuild the web
 
 NEAR is on a mission to empower everyone to take back control of their money, their data, and their identity. Join us.
 
 [View Current Openings](https://near.org/careers/#openings)
+
+|||
 
 {% end %}
 
@@ -57,6 +59,10 @@ Work with people who have built world-changing companies.
 ## Ecosystem Values
 
 The NEAR Collective has unashamedly high standards. We’re looking for people at the top of their game who share our values of building a future that is open, inclusive and fair.
+
+|||
+
+|||
 
 {% end %}
 
