@@ -30,6 +30,7 @@
 
 </script>
 
+{%- set section = get_section(path="header/_index.md") %}
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 

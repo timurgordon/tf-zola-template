@@ -4,6 +4,7 @@ description: "The UNIQUE description for Post 5." # Quotation marks allow colons
 date: 2019-03-08T16:08:00-05:00 # This would be 10:08 PM (2208) UTC on March 8, 2019
 updated: 2020-01-01T02:39:00-06:00 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
+template: blogPage.html
 extra:
   subtitle: "The UNIQUE Post 5 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
