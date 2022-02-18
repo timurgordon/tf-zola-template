@@ -11,6 +11,8 @@ extra:
 
 # Rebuild the web
 
+<br>
+
 NEAR is on a mission to empower everyone to take back control of their money, their data, and their identity. Join us.
 
 [View Current Openings](https://near.org/careers/#openings)
@@ -23,6 +25,8 @@ NEAR is on a mission to empower everyone to take back control of their money, th
 
 ## Who is building NEAR?
 
+<br>
+
 NEAR Protocol is built by a global, world-class, cross-organizational group of contributors called the NEAR Collective. Its teams are creating the technical groundwork for the applications and companies of the future while solving some of the hardest problems that exist in decentralized and distributed systems.
 
 |||
@@ -32,6 +36,8 @@ NEAR Protocol is built by a global, world-class, cross-organizational group of c
 {% row() %}
 
 ## Well Vetted
+
+<br>
 
 Work with people who have built world-changing companies.
 
@@ -57,6 +63,8 @@ Work with people who have built world-changing companies.
 {% row() %}
 
 ## Ecosystem Values
+
+<br>
 
 The NEAR Collective has unashamedly high standards. We’re looking for people at the top of their game who share our values of building a future that is open, inclusive and fair.
 

@@ -33,8 +33,6 @@
 {%- set section = get_section(path="header/_index.md") %}
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
-
-
 <body>
         <div class="z-10 bg-white fixed w-screen">
           <div class="relative z-10 shadow">
@@ -70,6 +68,9 @@
                       -->
                     </button>
                   </div>
+                  <a href="/careers" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                    Careers
+                  </a>
                   <a href="/blog" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                     Blog
                   </a>

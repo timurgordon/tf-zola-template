@@ -50,49 +50,34 @@ Decentralized autonomous organizations
 
 |||
 
-Use Cases
+### USE CASES
 
-DeFi: Decentralized finance
-NFTs: Non-fungible tokens
-DAOs: Decentralized autonomous organizations
+<br>
+<br>
 
-|||
+#### DeFi
 
-Featured
+Decentralized finance
 
-Nightshade Sharding Launches: Paving the Way for Mass Adoption
+<br>
 
-{% end %}
+#### NFTs
 
-- Learn
+Non-fungible tokens
 
-{% row() %}
+#### DAOs
 
-Basics
-
-The Platform: NEAR in a nutshell
-The Blog: Official news & updates
+Decentralized autonomous organizations
 
 |||
 
-Use Cases
+### FEATURED
 
-DeFi: Decentralized finance
-NFTs: Non-fungible tokens
-DAOs: Decentralized autonomous organizations
+<br>
+<br>
 
-|||
+#### Nightshade Sharding Launches
 
-Use Cases
-
-DeFi: Decentralized finance
-NFTs: Non-fungible tokens
-DAOs: Decentralized autonomous organizations
-
-|||
-
-Featured
-
-Nightshade Sharding Launches: Paving the Way for Mass Adoption
+Paving the Way for Mass Adoption
 
 {% end %}
