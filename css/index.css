@@ -50,7 +50,7 @@ img[src*="#large"] {
   }
 
   h5 {
-    @apply text-base lg:text-base font-light leading-8 my-2 text-gray-600;
+    @apply text-base lg:text-base leading-8 my-2;
   }
 }
 

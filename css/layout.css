@@ -66,6 +66,7 @@ nav a:active {
 }
 
 a {
+  @apply text-blue-600 font-semibold;
 }
 a:focus,
 a:hover {
@@ -73,6 +74,10 @@ a:hover {
 }
 a:active {
   @apply text-blue-800 border-blue-500;
+}
+
+h5 a {
+  @apply text-gray-600 font-light;
 }
 
 /*

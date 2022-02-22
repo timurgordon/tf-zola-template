@@ -44,6 +44,8 @@ The Creator Economy requires robust infrastructure
 including a set of intuitive developer tools, and an
 engaged, decentralized community.
 
+<br>
+
 [Learn about the Creator Economy on OurWorld]("/")
 
 |||
@@ -63,6 +65,8 @@ adoption. With high speeds, low fees, and
 progressive UX, OurWord climate-neutral
 blockchain is ready for explosive growth.
 
+<br>
+
 [Link to something]("/")
 
 |||
@@ -78,6 +82,8 @@ blockchain is ready for explosive growth.
 <br>
 
 OurWorld runs in concert with Ethereum, Polkadot, Cosmos, and more, allowing for the free flow of assets and communication between networks for the betterment of all.
+
+<br>
 
 [Link to something]("/")
 
@@ -98,7 +104,7 @@ OurWorldverse is by creating registering.
 
 Then, choose the first step in your journey.
 
-<button>[REGISTER]("/")</button>
+<br>
 
 |||
 
