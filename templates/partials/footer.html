@@ -8,10 +8,11 @@
 
 <html>
     <head /><body>
+        <div class="mt-12 border-t border-gray-200 pt-8"></div>
         <footer class="bg-white">
           <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
             <div class="xl:flex xl:gap-4">
-              <div class="space-y-8 xl:col-span-1">
+              <div class="space-y-8 lg:max-w-sm xl:max-w-sm lg:mx-8 lg:mb-8 xl:col-span-1">
                 <img class="h-6" src="{{logoPath}}" alt="Company name" />
                 <p class="text-gray-500 text-base leading-6 ">
                   {{section.description}}
@@ -22,11 +23,6 @@
               {{ section.content | safe }}
               
               </div>
-            </div>
-            <div class="mt-12 border-t border-gray-200 pt-8">
-              <p class="text-base leading-6 text-gray-400 xl:text-center">
-                &#xA9; 2020 Workflow, Inc. All rights reserved.
-              </p>
             </div>
           </div>
         </footer>

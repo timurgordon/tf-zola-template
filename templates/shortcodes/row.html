@@ -10,9 +10,9 @@ Parameters:
 
 
 {% set columns = body | safe | markdown | split(pat="|||") %}
-{% set classes =  "relative pt-12 flex flex-col md:flex-row lg:flex-row p-8 sm:p-12 md:p-16 lg:p-20 lg:py-16 lg:items-center" %}
+{% set classes =  "relative pt-12 flex flex-col md:flex-row lg:flex-row p-8 sm:p-12 md:p-16 lg:p-20 lg:py-16 lg:items-center"%}
 {% if isLean %}
-    {% set classes = "relative flex flex-col lg:flex-row items-baseline" %}
+    {% set classes = "relative flex flex-col lg:flex-row items-baseline w-full" %}
 {% endif %}
 
 {% set styles = ""  %}

@@ -10,72 +10,48 @@ extra:
 
 {% row(isLean="true") %}
 
-### BASICS
-
-<br>
-<br>
-
-#### The Platform
-
-NEAR in a nutshell
+#### Purpose
 
 <br>
 
-#### The Blog
+##### [The Internot]("/")
 
-Official news & updates
+##### [Internet for all]("/")
+
+##### [The Internot]("/")
 
 |||
 
-### USE CASES
-
-<br>
-<br>
-
-#### DeFi
-
-Decentralized finance
+#### Ecosystem
 
 <br>
 
-#### NFTs
+##### [OurWorld DAO]("/")
 
-Non-fungible tokens
+##### [Communities]("/")
 
-#### DAOs
-
-Decentralized autonomous organizations
+##### [DAO's]("/")
 
 |||
 
-### USE CASES
-
-<br>
-<br>
-
-#### DeFi
-
-Decentralized finance
+#### Applications
 
 <br>
 
-#### NFTs
+##### [DAPPs]("/")
 
-Non-fungible tokens
-
-#### DAOs
-
-Decentralized autonomous organizations
+##### [Projects]("/")
 
 |||
 
-### FEATURED
+#### Join
 
 <br>
-<br>
 
-#### Nightshade Sharding Launches
+##### [People]("/")
 
-Paving the Way for Mass Adoption
+##### [Ideators]("/")
+
+##### [Developers]("/")
 
 {% end %}
