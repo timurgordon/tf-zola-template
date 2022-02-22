@@ -22,7 +22,7 @@ sustainable and inclusive future.
 
 |||
 
-![Image](/images/ourworld_mycellium.png#medium)
+![Image](/images/ourworld_mycellium.png#large)
 
 {% end %}
 
@@ -46,7 +46,7 @@ engaged, decentralized community.
 
 |||
 
-![Image](/images/threefold_globe.png#medium)
+![Image](/images/threefold_globe.png#large)
 
 {% end %}
 
@@ -65,7 +65,7 @@ blockchain is ready for explosive growth.
 
 |||
 
-![Image](/images/landing_img2.jpg#medium)
+![Image](/images/landing_img2.jpg#large)
 
 {% end %}
 

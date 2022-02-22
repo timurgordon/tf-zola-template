@@ -28,6 +28,11 @@ img[src*="#small"] {
 }
 
 img[src*="#medium"] {
+  width: 150px;
+  margin: auto;
+}
+
+img[src*="#large"] {
   width: 400px;
   margin: auto;
 }
@@ -55,4 +60,8 @@ h4 {
 
 p {
   font-size: 15px;
+}
+
+a {
+  border: none;
 }
