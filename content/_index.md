@@ -89,7 +89,7 @@ OurWorld runs in concert with Ethereum, Polkadot, Cosmos, and more, allowing for
 
 |||
 
-![Image](/images/threefold_sustainability.png)
+![Image](/images/threefold_technology_home.jpg)
 
 {% end %}
 
