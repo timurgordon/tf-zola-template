@@ -12,37 +12,39 @@ extra:
 
 {% row(isLean="true") %}
 
-### BASICS
+### PURPOSE
 
 <br>
 <br>
 
-#### The Platform
+#### The Internot
 
 NEAR in a nutshell
 
 <br>
 
-#### The Blog
+#### Our Internet
 
-Official news & updates
+Vision for the new internet
 
 |||
 
-### USE CASES
+### ECOSYSTEM
 
 <br>
 <br>
 
-#### DeFi
+#### OurWorld DAO
 
-Decentralized finance
+Be a part of governance
 
 <br>
 
-#### NFTs
+#### Communities
 
-Non-fungible tokens
+Explore communities in OurWorld
+
+<br>
 
 #### DAOs
 
@@ -50,24 +52,20 @@ Decentralized autonomous organizations
 
 |||
 
-### USE CASES
+### APPLICATIONS
 
 <br>
 <br>
 
-#### DeFi
+#### DAPPs
 
-Decentralized finance
+Decentralized applications
 
 <br>
 
-#### NFTs
+#### Projects
 
-Non-fungible tokens
-
-#### DAOs
-
-Decentralized autonomous organizations
+Projects in OurWorld
 
 |||
 
@@ -76,8 +74,8 @@ Decentralized autonomous organizations
 <br>
 <br>
 
-#### Nightshade Sharding Launches
+#### OurWorld is Live
 
-Paving the Way for Mass Adoption
+Be a part of the new internet
 
 {% end %}

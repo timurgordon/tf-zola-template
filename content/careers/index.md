@@ -7,13 +7,13 @@ template: "page.html"
 
 {% row(bgPath="/images/bernhard-eisenmann-unsplash.jpg") %}
 
-# Rebuild the web
+# Create OurWorld together
 
 <br>
 
-NEAR is on a mission to empower everyone to take back control of their money, their data, and their identity. Join us.
+Together we expand and create this OurWorld platform, with the purpose to give a better digital life to billions of people. Anyone is invited to build solutions (experiences on top). OurWorld can provide the alternative to the current too centralized, unsustainable and abused internet. Let's go back to what the internet was supposed to be.
 
-[View Current Openings](https://near.org/careers/#openings)
+[Explore areas of creation](https://)
 
 |||
 
@@ -21,11 +21,11 @@ NEAR is on a mission to empower everyone to take back control of their money, th
 
 {% row() %}
 
-## Who is building NEAR?
+## OurWorld is powered by ThreeFold & Source Code Incubator
 
 <br>
 
-NEAR Protocol is built by a global, world-class, cross-organizational group of contributors called the NEAR Collective. Its teams are creating the technical groundwork for the applications and companies of the future while solving some of the hardest problems that exist in decentralized and distributed systems.
+The Source Code Incubator and ThreeFold are changing this. OurWorld platform allows everyone to be equal, free and powerful. There is no reason to be afraid. The OurWorld platform allows developers to save on cost and provide better experience to their users. The platform is super complete.
 
 |||
 
@@ -33,11 +33,11 @@ NEAR Protocol is built by a global, world-class, cross-organizational group of c
 
 {% row() %}
 
-## Well Vetted
+## OurWorld Ecosystem
 
 <br>
 
-Work with people who have built world-changing companies.
+Join an ecosystem of gamechanging communities and organizations
 
 |||
 
@@ -60,11 +60,13 @@ Work with people who have built world-changing companies.
 
 {% row() %}
 
-## Ecosystem Values
+## Our Values
 
 <br>
 
-The NEAR Collective has unashamedly high standards. We’re looking for people at the top of their game who share our values of building a future that is open, inclusive and fair.
+OurWorld platform allows everyone to be equal, free and powerful. There is no reason to be afraid. The OurWorld platform allows developers to save on cost and provide better experience to their users.
+
+<br>
 
 |||
 
@@ -76,32 +78,46 @@ The NEAR Collective has unashamedly high standards. We’re looking for people a
 
 ![Image](/images/tf_icon.png#small)
 
-### Fast-learner
+### For the planet
 
-We’re building technology that has never been seen before. We learn each day and build on this new knowledge as we go.
-
-|||
-
-![Image](/images/tf_icon.png#small)
-
-### Fast-learner
-
-We’re building technology that has never been seen before. We learn each day and build on this new knowledge as we go.
+Carbon Removing Concept (green)
+Sustainable e.g. use less hardware
+Uses a lot less energy (can be upto 100x more efficient compared to today)
 
 |||
 
 ![Image](/images/tf_icon.png#small)
 
-### Fast-learner
+### For the end user
 
-We’re building technology that has never been seen before. We learn each day and build on this new knowledge as we go.
+Data is private and only owned by end-user.
+More performance, because twin is in country
+Less cost, because this infrastructure costs less
+Hackers & Manipulators have a lot less chance.
+Way more convenient, no need to remember all apps
+Less addictive behavior
 
 |||
 
 ![Image](/images/tf_icon.png#small)
 
-### Fast-learner
+### For the planet
 
-We’re building technology that has never been seen before. We learn each day and build on this new knowledge as we go.
+Carbon Removing Concept (green)
+Sustainable e.g. use less hardware
+Uses a lot less energy (can be upto 100x more efficient compared to today)
+
+|||
+
+![Image](/images/tf_icon.png#small)
+
+### For the end user
+
+Data is private and only owned by end-user.
+More performance, because twin is in country
+Less cost, because this infrastructure costs less
+Hackers & Manipulators have a lot less chance.
+Way more convenient, no need to remember all apps
+Less addictive behavior
 
 {% end %}
