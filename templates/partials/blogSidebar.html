@@ -3,16 +3,25 @@
     <div class="lg:pt-24 flex flex-col mb-12 mr-24">
         <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> FILTER POSTS BY</h4>
         <a class="mb-3" href="/blog">All</a>
-        <a class="mb-3" href="/categories/engineering">Engineering</a>
-        <a class="mb-3" href="/categories/community">Community</a>
-        <a class="mb-3" href="/categories/use-cases">Use Cases</a>
+        {% set taxonomy = get_taxonomy(kind="categories") %}
+        {% set categories = taxonomy.items %}
+        {% for category in categories %}
+            {% set path = category.name | slugify %}
+            {% set fullpath = "/categories/" ~ path %}
+            <a class="mb-3" href={{fullpath}}> {{category.name}} </a>
+        {% endfor %}
     </div>
-    
+
+{% set section = get_section(path="blog/_index.md")%}
+
     <div class="lg:pt-6 flex flex-col mb-12 w-64 mr-24">
-        <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> POPULAR POSTS</h4>
-        <a class="mb-3 text-blue-700" href="">NEAR Launches Nightshade Sharding, Paving the Way for Mass Adoption</a>
-        <a class="mb-3" href="/categories/engineering">Engineering</a>
-        <a class="mb-3" href="/categories/community">Community</a>
-        <a class="mb-3" href="">Use Cases</a>
+        <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> FEATURED POSTS</h4>
+
+        {% for page in section.pages %}
+        {% if page.extra.isFeatured %}
+            <a class="mb-3 text-blue-700" href={{page.permalink}}>{{ page.title }}</a>
+        {% endif %}
+        {% endfor %}
+        
     </div>
 </div>

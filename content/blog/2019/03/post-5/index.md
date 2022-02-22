@@ -7,10 +7,10 @@ draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 extra:
   subtitle: "The UNIQUE Post 5 subtitle" # Quotation marks allow colons, semicolons, etc.
-  author: Your name goes here
+  author: Post Author
   category: "Engineering"
-  imgPath: images/threefold_blog2.png
-  date: 2018-10-17T14:40:00-05:00
+  imgPath: images/ourworld_mycellium.png
+  isFeatured: "true"
 ---
 
 Your opening text goes here.
