@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 template: "partials/footer.html"
 extra:
   logoPath: "/images/ourworld_logo2.png"
-  socialLinks: { Github: "https://" }
+  socialLinks: { Facebook: "https://", Github: "https://", Twitter: "https://" }
 ---
 
 {% row(isLean="true") %}
