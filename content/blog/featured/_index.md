@@ -11,7 +11,7 @@ categories=["Engineering"]
 [extra]
 subtitle = "The UNIQUE Post 1 subtitles"
 author = "HANNAH CORDES"
-imgPath = "images/sphere-thing.png"
+imgPath = "images/ourworld_mycellium.png"
 date = 2018-10-17T19:40:00.000Z
 
 +++

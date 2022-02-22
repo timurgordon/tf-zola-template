@@ -58,13 +58,6 @@ code {
   @apply text-xs;
 }
 
-a,
-a:focus,
-a:hover,
-a:active {
-  @apply no-underline border-b border-solid border-blue-500;
-}
-
 nav a,
 nav a:focus,
 nav a:hover,
@@ -72,14 +65,12 @@ nav a:active {
   @apply border-0 text-white hover:text-gray-300;
 }
 
-/*
 a {
-  @apply text-blue-500 dark:text-blue-200 dark:border-blue-200;
 }
-*/
-
 a:focus,
-a:hover,
+a:hover {
+  @apply border-none text-blue-300;
+}
 a:active {
   @apply text-blue-800 border-blue-500;
 }

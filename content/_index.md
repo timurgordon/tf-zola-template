@@ -14,6 +14,8 @@ extra:
 
 # Reimagine your world
 
+<br/>
+
 Through simple, secure, and scalable technology,
 OurWorld empowers millions to invent and explore
 new experiences. Business, creativity, and
@@ -81,7 +83,7 @@ OurWorld runs in concert with Ethereum, Polkadot, Cosmos, and more, allowing for
 
 |||
 
-![Image](/images/landing_img3.png)
+![Image](/images/threefold_sustainability.png)
 
 {% end %}
 
