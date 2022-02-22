@@ -10,7 +10,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: HANNAH CORDES
-  imgPath: images/sphere-thing.png
+  imgPath: images/ourworld_mycellium.png
   date: 2018-10-17T14:40:00-05:00
 ---
 

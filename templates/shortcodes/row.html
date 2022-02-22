@@ -8,8 +8,8 @@
 {% set styles = ""  %}
 
 {% if bgPath %}
-    {% set styles = "background: url('" ~ bgPath ~ "')"  %}
-    {% set classes = classes ~ " bg-cover lg:py-40"  %}
+    {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover"  %}
+    {% set classes = classes ~ " lg:py-40"  %}
 {% endif %}
 
 <div class="{{classes}}" style="{{styles}}">

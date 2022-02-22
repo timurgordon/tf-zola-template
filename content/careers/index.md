@@ -3,11 +3,9 @@ title: "Careers"
 description: "NEAR is on a mission to empower everyone to take back control of their money, their data, and their identity. Join us."
 insert_anchor_links: "left"
 template: "page.html"
-extra:
-  imgPath: "/images/careers-hero.jpg"
 ---
 
-{% row(bgPath="/images/careers-hero.jpg#background") %}
+{% row(bgPath="/images/bernhard-eisenmann-unsplash.jpg") %}
 
 # Rebuild the web
 
