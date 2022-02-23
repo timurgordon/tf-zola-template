@@ -18,8 +18,11 @@ Parameters:
     {% set classes = classes ~ " lg:items-center" %}
 {% endif %}
 
+{% set column_classes = "flex-1 lg:mx-8" %}
+
 {% if isLean %}
     {% set classes = "relative flex flex-col lg:flex-row items-baseline w-full" %}
+    {% set column_classes = "flex-1" %}
 {% endif %}
 
 {% set styles = ""  %}
@@ -31,7 +34,7 @@ Parameters:
 
 <div class="{{classes}}" style="{{styles}}">
 {% for column in columns%} 
-<div class="flex-1 lg:mx-8">
+<div class="{{column_classes}}">
     {{ column | safe }}
 </div>
 {% endfor %}

@@ -53,6 +53,9 @@ img[src*="#large"] {
   nav p {
     @apply hidden sm:block md:block lg:block xl:block 2xl:block;
   }
+  blockquote {
+    @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
+  }
 }
 
 h3 {

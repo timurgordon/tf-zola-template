@@ -14,7 +14,7 @@ body {
 p,
 li {
   /* for handling Markdown-created <p> and <li> */
-  @apply mb-3 text-lg;
+  @apply text-lg;
 }
 
 pre,
