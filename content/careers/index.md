@@ -1,5 +1,5 @@
 ---
-title: "Careers"
+title: "Join us"
 description: ""
 insert_anchor_links: "left"
 template: "page.html"

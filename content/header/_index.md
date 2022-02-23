@@ -17,9 +17,9 @@ extra:
 <br>
 <br>
 
-#### The Internot
+#### [The Internot](apage)
 
-Whats wrong with the internet
+Whats wrong with the [internet](apage)
 <br>
 
 #### Our Internet
@@ -77,7 +77,7 @@ Projects in OurWorld
 
 Be a part of the new internet
 
-- [Careers]("/careers")
+- [Join us]("/careers")
 - [Blog]("/blog")
 
 {% end %}

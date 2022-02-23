@@ -16,7 +16,7 @@ To use this repository as a template, simply:
 - clone repository
 - add your own content to templates directory (see more below)
 - [install Zola](https://www.getzola.org/documentation/getting-started/installation/),
-- run npm insall to install dependencies
+- run `npm install` to install dependencies
 - run `npm run start`
 
 ## How to create pages using this template
