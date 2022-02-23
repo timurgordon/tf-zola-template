@@ -19,8 +19,7 @@ extra:
 
 #### The Internot
 
-NEAR in a nutshell
-
+Whats wrong with the internet
 <br>
 
 #### Our Internet
