@@ -10,7 +10,7 @@ extra:
 
 - Learn
 
-{% row(isLean="true") %}
+{% row(style="lean") %}
 
 ### PURPOSE
 
@@ -20,6 +20,7 @@ extra:
 #### [The Internot](apage)
 
 Whats wrong with the [internet](apage)
+
 <br>
 
 #### Our Internet
@@ -77,7 +78,7 @@ Projects in OurWorld
 
 Be a part of the new internet
 
-- [Join us]("/careers")
+- [Join us]("/join-us")
 - [Blog]("/blog")
 
 {% end %}

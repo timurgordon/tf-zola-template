@@ -1,5 +1,5 @@
 ---
-title: Bridges Connecting the ThreeFold Ecosystem to External Networks
+title: New Bridges Connecting the ThreeFold Ecosystem to External Networks
 description: Sinces the launch of ThreeFold Grid 3.0, TFT is now available on
   three blockchains – Stellar, Binance Smart Chain and the Substrate-based
   ThreeFold Blockchain (aka TF Chain).
@@ -12,12 +12,12 @@ taxonomies:
 extra:
   subtitle: The UNIQUE Post 1 subtitles
   author: HANNAH CORDES
-  imgPath: /images/ourworld_mycellium.png
+  imgPath: images/ourworld_mycellium.png
   date: 2018-10-17T19:40:00.000Z
   isFeatured: "true"
 ---
 
-![Image](images/threefold-blog.png)
+![Image](/images/threefold-blog.png)
 
 ## In-article heading --- it's an H2 because your title is the H1
 

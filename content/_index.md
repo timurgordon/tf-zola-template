@@ -28,7 +28,7 @@ sustainable and inclusive future.
 
 {% end %}
 
-{% row(isLean="true") %}
+{% row(style="lean") %}
 
 ![Image](/images/threefold_img2.png)
 

@@ -1,7 +1,8 @@
 ---
-title: "Join us"
-description: ""
+title: "OurWorld Ambassador"
+description: "Together we expand and create this OurWorld platform, with the purpose to give a better digital life to billions of people. Anyone is invited to build solutions and we need help reaching out to people and spreading the vision of a better digital world."
 insert_anchor_links: "left"
+updated: 2019-04-11T20:33:00-05:00 # Comment-out this line with a # if content is unchanged
 template: "page.html"
 ---
 
@@ -121,3 +122,41 @@ Way more convenient, no need to remember all apps
 Less addictive behavior
 
 {% end %}
+
+{% row() %}
+
+## Find out how you can contribute
+
+<br>
+
+Think about ourworld like a global digital backbone, which allows everyone to extend their current physical life. It's a digital backbone created and owned by all of us. We need creatives, ideators, social entrepreneurs, developers, community builders and wisdom providers to reach our ultimate goal. If you want to be a part in making OurWorld become a reality, check out the ares we need the most help with.
+
+|||
+
+{% end %}
+
+---
+
+{% row(style="lean center") %}
+
+|||
+
+### Create
+
+|||
+
+### Share
+
+|||
+
+### Develop
+
+|||
+
+### Ideate
+
+|||
+
+{% end %}
+
+---

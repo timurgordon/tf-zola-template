@@ -4,7 +4,8 @@ Divides markdown into columns by splitting content using column identifier "|||"
 Creates equal width blocks in a flex row.
 
 Parameters: 
-- isLean: if an isLean variable is passed, the row doesn't have outer margins
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
 - bgPath: if bgPath is passed, the row has a full width background
 -->
 
@@ -20,9 +21,17 @@ Parameters:
 
 {% set column_classes = "flex-1 lg:mx-8" %}
 
-{% if isLean %}
+{% if style %}
+
+{% if "lean" in style %}
     {% set classes = "relative flex flex-col lg:flex-row items-baseline w-full" %}
     {% set column_classes = "flex-1" %}
+{% endif %}
+
+{% if "center" in style %}
+    {% set classes = classes ~ " text-center" %}
+{% endif %}
+
 {% endif %}
 
 {% set styles = ""  %}

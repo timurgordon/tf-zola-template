@@ -1,0 +1,18 @@
+{% extends "_default/base.html" %}
+
+{% block content %}
+
+<main class="pt-16">
+    {{ section.content | safe}}
+<div class="mx-20 flex">
+    {% for page in section.pages %}
+        <div class="w-3/12 m-8" >
+            {% include "partials/pageBox.html" %}
+        </div>
+    {% endfor %}
+</div>
+ 
+
+ </main> 
+
+ {% endblock content %}

@@ -11,8 +11,7 @@ body {
 }
 */
 
-p,
-li {
+p {
   /* for handling Markdown-created <p> and <li> */
   @apply text-lg;
 }
@@ -58,11 +57,13 @@ code {
   @apply text-xs;
 }
 
-nav a,
-nav a:focus,
-nav a:hover,
-nav a:active {
-  @apply border-0 text-white hover:text-gray-300;
+nav h4 a:hover {
+  @apply border-0 text-blue-300 font-light;
+}
+nav h4 a,
+nav h4 a:focus,
+nav h4 a:active {
+  @apply border-0 text-black font-light;
 }
 
 a {
@@ -225,9 +226,8 @@ article h4 {
   @apply tracking-tight mt-8 mb-6;
 }
 
-article p,
-li {
-  @apply text-lg mt-6 mb-6 leading-relaxed;
+article p {
+  @apply text-lg leading-relaxed;
 }
 
 article img.containedImage {
@@ -249,15 +249,13 @@ article img.containedImage {
 }
 
 @media screen and (min-width: 768px) {
-  article p,
-  li {
+  article p {
     @apply text-xl leading-relaxed;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  article p,
-  li {
+  article p {
     @apply text-2xl leading-relaxed;
   }
 }

@@ -8,7 +8,7 @@ extra:
   socialLinks: { Facebook: "https://", Github: "https://", Twitter: "https://" }
 ---
 
-{% row(isLean="true") %}
+{% row(style="lean") %}
 
 #### Purpose
 
