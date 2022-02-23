@@ -78,4 +78,7 @@ Projects in OurWorld
 
 Be a part of the new internet
 
+- [Careers]("/careers")
+- [Blog]("/blog")
+
 {% end %}

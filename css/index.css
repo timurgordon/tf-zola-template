@@ -44,13 +44,14 @@ img[src*="#large"] {
   h2 {
     @apply text-2xl lg:text-4xl font-light;
   }
-
+  h4 {
+    @apply text-lg lg:text-xl font-light;
+  }
   h5 {
     @apply text-base lg:text-base font-light leading-8 my-2;
   }
-
-  h5 {
-    @apply text-base lg:text-base leading-8 my-2;
+  nav p {
+    @apply hidden sm:block md:block lg:block xl:block 2xl:block;
   }
 }
 
@@ -59,11 +60,7 @@ h3 {
   font-style: normal;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
-}
-
-h4 {
-  font-size: 1.3em;
-  font-weight: 400;
+  margin: 10px 0px;
 }
 
 p {
