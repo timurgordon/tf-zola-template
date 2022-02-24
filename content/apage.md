@@ -19,8 +19,34 @@ test
 
 {% end %}
 
+## My example mermaid diagram
 
+I wanted to use mermaid in this project, and it looks like this
+{% mermaid() %}
 
+classDiagram
+Animal <|-- Duck
+Animal <|-- Fish
+Animal <|-- Zebra
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+class Duck{
++String beakColor
++swim()
++quack()
+}
+class Fish{
+-int sizeInFeet
+-canEat()
+}
+class Zebra{
++bool is_wild
++run()
+}
+
+{% end %}
 
 {% row() %}
 
@@ -41,9 +67,7 @@ Finally a framework fun to be used.
 - test
 - test2
   - internet
-  - something 
+  - something
 - test3
-
-
 
 {% end %}
