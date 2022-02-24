@@ -1,7 +1,8 @@
-{% extends "_default/base.html" %}
+{% extends "index.html" %}
 
 {% block content %}
 
+{% set section = get_section(path="join-us/_index.md")%}
 <main class="pt-16">
     {{ section.content | safe}}
     <hr>

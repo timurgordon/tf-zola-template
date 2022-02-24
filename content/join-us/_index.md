@@ -132,29 +132,3 @@ Think about ourworld like a global digital backbone, which allows everyone to ex
 |||
 
 {% end %}
-
----
-
-{% row(style="lean center") %}
-
-|||
-
-### Create
-
-|||
-
-### Share
-
-|||
-
-### Develop
-
-|||
-
-### Ideate
-
-|||
-
-{% end %}
-
----

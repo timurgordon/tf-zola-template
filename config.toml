@@ -58,10 +58,10 @@ paginate_by = 2
 paginate_path = "/blog-posts"
 
 [[taxonomies]]
-name = "hiring_categories"
+name = "roles"
 feed = true
 paginate_by = 2
-paginate_path = "/blog-posts"
+paginate_path = "/join-us"
 
 [extra]
 # Put all your custom variables here

@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 updated: 2019-04-11T20:33:00-05:00 # Comment-out this line with a # if content is unchanged
 template: "page.html"
 taxonomies:
-  hiring_categories: ["Engineering"]
+  roles: ["Develop", "Inspire", "Ideate"]
 ---
 
 {% row(bgPath="/images/bernhard-eisenmann-unsplash.jpg") %}
@@ -143,7 +143,7 @@ Think about ourworld like a global digital backbone, which allows everyone to ex
 
 |||
 
-### Create
+### Creator
 
 |||
 

@@ -7,7 +7,7 @@
   {% set category = path_array[2] %}
     The Latest from ThreeFold   
     {% if taxonomy == "categories" %} - 
-            {{category | replace(from='-', to=' ' ) | title}}
+        {{category | replace(from='-', to=' ' ) | title}}
     {% endif %}
   </h1>
   <div>

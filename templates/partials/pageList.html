@@ -1,0 +1,31 @@
+
+<div id="list"></div>
+<div class="mx-40 flex justify-around text-center">
+    <a href="/join-us#list">All</a>
+    {% set taxonomy = get_taxonomy(kind="roles") %}
+    {% set roles = taxonomy.items %}
+    {% for role in roles %}
+        {% set path = role.name | slugify %}
+        {% set fullpath = "/roles/" ~ path ~ "#list" %}
+        <a href={{fullpath}}> {{role.name}} </a>
+    {% endfor %}
+</div>
+<hr>
+
+<div class="pt-16">
+    <div class="mx-20 flex">
+        {% if paginator %}
+        {% for page in paginator.pages %}
+            <div class="w-3/12 m-8" >
+                {% include "partials/pageBox.html" %}
+            </div>
+        {% endfor %}
+        {% else %}
+        {% for page in section.pages %}
+            <div class="w-3/12 m-8" >
+                {% include "partials/pageBox.html" %}
+            </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+    </div>
