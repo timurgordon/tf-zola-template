@@ -19,9 +19,14 @@ test
 
 {% end %}
 
+{% row() %}
+
 ## My example mermaid diagram
 
 I wanted to use mermaid in this project, and it looks like this
+
+|||
+
 {% mermaid() %}
 
 classDiagram

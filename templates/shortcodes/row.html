@@ -9,7 +9,6 @@ Parameters:
 - bgPath: if bgPath is passed, the row has a full width background
 -->
 
-
 {% set columns = body | safe | markdown | split(pat="|||") %}
 {% set classes =  "relative pt-12 flex flex-col md:flex-row lg:flex-row p-8 sm:p-12 md:p-16 lg:p-20 lg:py-16"%}
 
@@ -41,10 +40,27 @@ Parameters:
     {% set classes = classes ~ " lg:py-40"  %}
 {% endif %}
 
+
 <div class="{{classes}}" style="{{styles}}">
 {% for column in columns%} 
+
 <div class="{{column_classes}}">
+    {% if "{% mermaid() %}" in column %}
+
+    {% set mermaid_section = column | safe | markdown | split(pat="{% mermaid() %}") %}
+    {% set mermaid_content = mermaid_section[1] | striptags | replace(from="–", to="--")%}
+    
+    <div class="mermaid">
+        {{mermaid_content | safe }} yo
+    </div> 
+
+    {% else %}
+
     {{ column | safe }}
+
+    {% endif %}
+
+    
 </div>
 {% endfor %}
 </div>
