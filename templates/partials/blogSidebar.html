@@ -1,14 +1,24 @@
+<script>
 
-<div clas="flex flex-col">
-    <div class="lg:pt-24 flex flex-col mb-12 mr-24">
+    window.onload = function(){
+        let activeCategory = window.location.pathname.split("/")[2]    
+        if (typeof activeCategory === "undefined") { activeLink = document.getElementById("all") }
+        else { activeLink = document.getElementById(activeCategory)}
+        activeLink.className = activeLink.className.replace("text-black font-normal", "text-black font-semibold");
+    }
+
+</script>
+
+<div class="mx-8 md:mx-4 flex flex-col">
+    <div class="lg:pt-24 flex flex-col mb-12 md:mr-24">
         <h4 class="text-base not-italic font-medium leading-6 text-gray-600 mb-6"> FILTER POSTS BY</h4>
-        <a class="mb-3" href="/blog">All</a>
+        <a id="all" class="mb-3 text-black font-normal" href="/blog">All</a>
         {% set taxonomy = get_taxonomy(kind="categories") %}
         {% set categories = taxonomy.items %}
         {% for category in categories %}
             {% set path = category.name | slugify %}
             {% set fullpath = "/categories/" ~ path %}
-            <a class="mb-3" href={{fullpath}}> {{category.name}} </a>
+            <a id="{{path}}" class="mb-3 text-black font-normal" href={{fullpath}}> {{category.name}} </a>
         {% endfor %}
     </div>
 

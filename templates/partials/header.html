@@ -64,9 +64,7 @@
     window.onload = function(){
         let elements = document.getElementsByTagName("button");
         let buttons = [...elements]
-        console.log("logg:", buttons)
         buttons.forEach((button) => {
-            console.log("logg:", button)
             button.addEventListener( 'click', function() { handleClick(button) });
         })
 

@@ -66,6 +66,10 @@ nav h4 a:active {
   @apply border-0 text-black font-light;
 }
 
+a h2 {
+  @apply text-black;
+}
+
 a {
   @apply text-blue-600 font-semibold;
 }
