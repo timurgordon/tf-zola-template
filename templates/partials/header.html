@@ -3,18 +3,26 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 --><!-- This example requires Tailwind CSS v1.4.0+ -->
 <script type="text/javascript">
-    var inDisplay = "";
+    var displayedMenu = "";
     var hamburgerShown = false;
 
-    function toggleMenu() {
-        if (inDisplay === "learn") { 
-            hideMenu();
-            inDisplay = "";
+    let width = screen.width;
+    var isMobile = width < 640;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            hideMenu(button.id.split("-")[0]);
+            displayedMenu = "";
         }
         else { 
-            showMenu();
-            inDisplay = "learn";
+            showMenu(button.id.split("-")[0]);
+            displayedMenu = button.id.split("-")[0]
         }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { toggleMenu(button) }
     }
 
     function toggleHamburger() {
@@ -28,12 +36,14 @@
         }
     }
 
-    function showMenu() {
-        document.getElementById('learn').className = "mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg backdrop-blur transition ease-out duration-150 opacity-1 -translate-y-0";
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        document.getElementById(menuId).className = document.getElementById(menuId).className.replace("hidden ease-in opacity-0 -translate-y-1", "ease-out opacity-1 -translate-y-0");
     }
 
-    function hideMenu() {
-        document.getElementById('learn').className = "hidden absolute inset-x-0 transform shadow-lg backdrop-blur transition ease-in duration-150 opacity-0 -translate-y-1";
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        document.getElementById(menuId).className = document.getElementById(menuId).className.replace("ease-out opacity-1 -translate-y-0", "hidden ease-in opacity-0 -translate-y-1");
     }
 
     function showHamburger() {
@@ -52,10 +62,15 @@
     }
 
     window.onload = function(){
-        document.getElementById("learn-btn").addEventListener( 'click', toggleMenu);
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        console.log("logg:", buttons)
+        buttons.forEach((button) => {
+            console.log("logg:", button)
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+
         document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
-        document.getElementById("hamburger-btn").addEventListener( 'click', toggleHamburger);
-        document.getElementById("close-hamburger-btn").addEventListener( 'click', toggleHamburger);
     }
 
     function showMobileNav() {
@@ -105,8 +120,9 @@
             </a>
         {% else %}
             <div class="relative">
+                {% set button_id = header_label ~ "-menu-btn" | slugify %}
             <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-            <button type="button" id="learn-btn" class="text-gray-500 group inline-flex items-center space-x-2 text-sm leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+            <button type="button" id="{{button_id}}" class="text-gray-500 group inline-flex items-center space-x-2 text-sm leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                 <span>{{ header_label }}</span>
                 <!--
                 Heroicon name: chevron-down
@@ -130,9 +146,10 @@
         {% set header_arr = header_item | split(pat="</li>") %}
         {% set header_label = header_arr[0] %}
         {% set header_menu = header_arr[1] %}
+        {% set menu_id = header_label ~ "-menu" | slugify %}
     
     <nav>
-        <div id="learn" class="z-50 mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 hidden opacity-0 -translate-y-1 absolute inset-x-0 transform shadow-lg md:backdrop-blur lg:backdrop-blur xl:backdrop-blur">
+        <div id="{{menu_id}}" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-150 hidden ease-in opacity-0 -translate-y-1">
             <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
               <div class="mx-8 lg:mx-20 xl:mx-20 px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 xl:py-12">
                 {{header_menu | safe }}
@@ -175,8 +192,9 @@
                                     </a>
                                 {% else %}
                                     <div class="relative">
+                                    {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
                                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-                                    <button type="button" id="mobile-learn-btn" class="text-gray-500 group inline-flex items-center space-x-2 text-sm leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                    <button type="button" id="{{button_id}}" class="text-gray-500 group inline-flex items-center space-x-2 text-sm leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                         <span>{{ header_label }}</span>
                                         <!--
                                         Heroicon name: chevron-down
@@ -191,7 +209,31 @@
                         {% endfor %}
                         </nav>                    
               </div>
+              {% for header_item in header_items %}
+            {% if not loop.first %}
+                {% set header_arr = header_item | split(pat="</li>") %}
+                {% set header_label = header_arr[0] %}
+                {% set header_menu = header_arr[1] %}
+            
+            <nav>
+                {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
+
+                <div id="{{menu_id}}" class="z-50 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 absolute inset-x-0 transform shadow-lg md:backdrop-blur lg:backdrop-blur xl:backdrop-blur hidden ease-in opacity-0 -translate-y-1">
+                    <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+                      <div class="mx-8 lg:mx-20 xl:mx-20 px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 xl:py-12">
+                        {{header_menu | safe }}
+                      </div>
+                    </div>            
+                  </div>
+                </nav>
+        
+            
+            {% endif %}
+        {% endfor %}
             </div>
+            
           </div>
         </div>
+
+
         </body>
