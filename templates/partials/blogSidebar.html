@@ -1,13 +1,3 @@
-<script>
-
-    window.onload = function(){
-        let activeCategory = window.location.pathname.split("/")[2]    
-        if (typeof activeCategory === "undefined") { activeLink = document.getElementById("all") }
-        else { activeLink = document.getElementById(activeCategory)}
-        activeLink.className = activeLink.className.replace("text-black font-normal", "text-black font-semibold");
-    }
-
-</script>
 
 <div class="mx-8 md:mx-4 flex flex-col">
     <div class="lg:pt-24 flex flex-col mb-12 md:mr-24">
@@ -35,3 +25,14 @@
         
     </div>
 </div>
+
+<script>
+    function setActiveCategory() {
+        let activeCategory = window.location.pathname.split("/")[2]    
+        if (typeof activeCategory === "undefined") { activeLink = document.getElementById("all") }
+        else { activeLink = document.getElementById(activeCategory)}
+        activeLink.className = activeLink.className.replace("text-black font-normal", "text-black font-semibold");
+    }
+
+    setActiveCategory()
+</script>

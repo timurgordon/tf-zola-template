@@ -18,12 +18,12 @@ Parameters:
     {% set classes = classes ~ " lg:items-center" %}
 {% endif %}
 
-{% set column_classes = "flex-1 lg:mx-8" %}
+{% set column_classes = "flex-1 md:mx-8" %}
 
 {% if style %}
 
 {% if "lean" in style %}
-    {% set classes = "relative flex flex-col lg:flex-row items-baseline w-full" %}
+    {% set classes = "relative flex flex-col md:flex-row items-baseline w-full" %}
     {% set column_classes = "flex-1 m-4 md:m-0" %}
 {% endif %}
 

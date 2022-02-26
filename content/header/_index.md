@@ -19,7 +19,7 @@ extra:
 
 #### [The Internot](apage)
 
-Whats wrong with the [internet](apage)
+Whats wrong with the [internet](/apage)
 
 <br>
 

@@ -26,6 +26,7 @@
     }
 
     function toggleHamburger() {
+        console.log("toggling hamburger", hamburgerShown)
         if (hamburgerShown) { 
             hideHamburger();
             hamburgerShown = false;
@@ -43,6 +44,7 @@
 
     function hideMenu(menuName) {
         var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        console.log(menuId)
         document.getElementById(menuId).className = document.getElementById(menuId).className.replace("ease-out opacity-1 -translate-y-0", "hidden ease-in opacity-0 -translate-y-1");
     }
 
@@ -58,7 +60,7 @@
         document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right md:hidden";
         document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
         document.getElementById('close-hamburger-btn').className = "hidden md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
-        hideMenu();
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
     }
 
     window.onload = function(){
