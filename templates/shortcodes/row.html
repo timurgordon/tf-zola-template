@@ -12,54 +12,60 @@ Parameters:
 {% set columns = body | safe | markdown | split(pat="|||") %}
 {% set classes =  "relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row md:py-12 lg:py-16"%}
 
+<!-- aligns columns depending on col number-->
 {% if 2 < columns | length %}
     {% set classes = classes ~ " lg:items-start" %}
 {% else %} 
     {% set classes = classes ~ " lg:items-center" %}
 {% endif %}
 
-{% set column_classes = "flex-1 md:mx-8" %}
+{% set column_classes = "flex-1 mb-8 md:mb-0 md:mx-8" %}
+
 
 {% if style %}
 
-{% if "lean" in style %}
-    {% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
-    {% set column_classes = "flex-1 m-4 lg:m-0" %}
+    <!-- makes row full screen width, strips margins -->
+    {% if "lean" in style %}
+        {% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+        {% set column_classes = "flex-1 m-4 lg:m-0" %}
+    {% endif %}
+
+    {% if "center" in style %}
+        {% set classes = classes ~ " text-center" %}
+    {% endif %}
+
 {% endif %}
 
-{% if "center" in style %}
-    {% set classes = classes ~ " text-center" %}
-{% endif %}
-
-{% endif %}
-
+<!-- makes row full screen width and adds background img -->
 {% set styles = ""  %}
-
 {% if bgPath %}
     {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover"  %}
     {% set classes = classes ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20 lg:py-40 p-8 sm:p-12 md:p-16 lg:p-20" %}
 {% endif %}
 
-
 <div class="{{classes}}" style="{{styles}}">
-{% for column in columns%} 
+    {% for column in columns%} 
 
-<div class="{{column_classes}}">
-    {% if "{% mermaid() %}" in column %}
+        <!-- Hides empty columns if displayed vertically in small screen -->
+        {% if column | as_str | length < 10 %} 
+            <div class="hidden md:block flex-1 md:mb-0 md:mx-8 sm:flex-1">
+                {{ column | safe }}
+            </div>
 
-    {% set mermaid_section = column | safe | markdown | split(pat="{% mermaid() %}") %}
-    {% set mermaid_content = mermaid_section[1] | striptags | replace(from="–", to="--")%}
-    
-    <div class="mermaid">
-        {{mermaid_content | safe }} yo
-    </div> 
-
-    {% else %}
-
-    {{ column | safe }}
-
-    {% endif %}
-
-</div>
-{% endfor %}
+        {% else %}
+            <div class="{{column_classes}}">
+                <!-- handles mermaid markdown content display -->
+                {% if "{% mermaid() %}" in column %}
+                    {% set mermaid_section = column | safe | markdown | split(pat="{% mermaid() %}") %}
+                    {% set mermaid_content = mermaid_section[1] | striptags | replace(from="–", to="--")%}
+                    <div class="mermaid">
+                        {{mermaid_content | safe }}
+                    </div> 
+                {% else %}
+                    {{ column | safe }}
+                {% endif %}
+            </div>
+            
+        {% endif %}
+    {% endfor %}
 </div>
