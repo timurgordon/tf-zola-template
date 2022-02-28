@@ -10,7 +10,7 @@ Parameters:
 -->
 
 {% set columns = body | safe | markdown | split(pat="|||") %}
-{% set classes =  "relative pt-12 flex flex-col md:flex-row lg:flex-row p-8 sm:p-12 md:p-16 lg:p-20 lg:py-16"%}
+{% set classes =  "relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row p-8 sm:p-12 md:p-16 lg:p-20 lg:py-16"%}
 
 {% if 2 < columns | length %}
     {% set classes = classes ~ " lg:items-start" %}

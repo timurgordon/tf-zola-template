@@ -28,6 +28,11 @@ img[src*="#medium"] {
   margin: auto;
 }
 
+img[src*="#logo"] {
+  max-width: 260px;
+  margin: auto;
+}
+
 img[src*="#large"] {
   width: 400px;
   margin: auto;

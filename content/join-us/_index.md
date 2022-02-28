@@ -40,20 +40,20 @@ Join an ecosystem of gamechanging communities and organizations
 
 |||
 
-![Image](/images/tf_logo.png)
-![Image](/images/tf_logo.png)
-![Image](/images/tf_logo.png)
+![Image](/images/tf_logo.png#logo)
+![Image](/images/tf_logo.png#logo)
+![Image](/images/tf_logo.png#logo)
 
 |||
 
-![Image](/images/tf_logo.png)
-![Image](/images/tf_logo.png)
-![Image](/images/tf_logo.png)
+![Image](/images/tf_logo.png#logo)
+![Image](/images/tf_logo.png#logo)
+![Image](/images/tf_logo.png#logo)
 
 |||
 
-![Image](/images/tf_logo.png)
-![Image](/images/tf_logo.png)
+![Image](/images/tf_logo.png#logo)
+![Image](/images/tf_logo.png#logo)
 
 {% end %}
 
