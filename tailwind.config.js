@@ -26,7 +26,14 @@ module.exports = {
         '800': '#000088',
         '900': '#000066',
       },
+      
     },
+    extend: {
+        screens: {
+          '2xl': '1450px',
+          // => @media (min-width: 992px) { ... }
+        },
+      },
   },
   variants: {},
   plugins: [], // if we add forms, do it here

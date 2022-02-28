@@ -29,7 +29,7 @@ img[src*="#medium"] {
 }
 
 img[src*="#logo"] {
-  max-width: 260px;
+  max-width: min(250px, 100%);
   margin: auto;
 }
 

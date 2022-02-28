@@ -17,7 +17,7 @@ extra:
 <br>
 <br>
 
-#### [The Internot](apage)
+#### [The Internot](/apage)
 
 Whats wrong with the [internet](/apage)
 

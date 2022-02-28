@@ -10,7 +10,7 @@ insert_anchor_links: "left"
 
 <br>
 
-Together we expand and create this OurWorld platform, with the purpose to give a better digital life to billions of people. Anyone is invited to build solutions (experiences on top). OurWorld can provide the alternative to the current too centralized, unsustainable and abused internet. Let's go back to what the internet was supposed to be.
+Together we expand and create this OurWorld platform, with the purpose to give a better digital life to billions of people. Anyone is invited to build solutions and experiences. OurWorld can provide the alternative to the current too centralized, unsustainable and abused internet.
 
 [Explore areas of creation](https://)
 
