@@ -9,7 +9,7 @@
     var hamburgerShown = false;
 
     let width = screen.width;
-    var isMobile = width < 640;
+    var isMobile = width < 1024;
 
     function toggleMenu(button) {
         if (displayedMenu === button.id.split("-")[0]) { 
@@ -52,7 +52,7 @@
 
     function showHamburger() {
         document.getElementById('header-container').className = "overflow-hidden";
-        document.getElementById('hamburger').className = "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger').className = "fixed mt-12 z-20 top-0 inset-x-0 transition transform origin-top-right";
         document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
         document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out";
     }
@@ -87,7 +87,7 @@
 <header id="header-container">
         <div class="z-10 bg-white fixed w-screen">
           <div class="relative z-10 shadow">
-            <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 lg:justify-start lg:space-x-10">
+            <div class="mx-auto flex justify-between items-center px-6 py-5 sm:px-8 sm:py-4 lg:px-12 lg:justify-start lg:space-x-20">
               <div>
                 <a href="/" class="flex">
                   <img class="w-20 h-auto sm:w-32" src="{{section.extra.logoPath}}" alt="Workflow" />
@@ -153,7 +153,7 @@
     <nav>
         <div id="{{menu_id}}" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-150 hidden ease-in opacity-0 -translate-y-1">
             <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
-              <div class="mx-8 lg:mx-20 xl:mx-20 px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 xl:py-12">
+              <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:px-8 sm:py-6 lg:px-12 lg:py-8 xl:py-12">
                 {{header_menu | safe }}
               </div>
             </div>            
@@ -175,10 +175,10 @@
               From: "opacity-100 scale-100"
               To: "opacity-0 scale-95"
           -->
-        <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+        <div id="hamburger" class="hidden fixed mt-12 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
             <div>
                 <div class="shadow-xs bg-white divide-y-2 divide-gray-50">
-                    <div class="pt-5 pb-6 px-5 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+                    <div class="pt-5 pb-6 px-8 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
 
                         <nav class="flex flex-col justify-around pb-12">
                         {% for header_item in header_items %}
@@ -189,13 +189,13 @@
                                 {% if '<a' in header_label %}
                                     {% set link_label = header_label | striptags %}
                                     {% set link_path = header_label | split(pat="%22") | safe%}
-                                    <a href="{{link_path[1]}}" class="text-3xl leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 m-4 transition ease-in-out duration-150 mt-0">
+                                    <a href="{{link_path[1]}}" class="text-3xl leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 my-8 transition ease-in-out duration-150 mt-0">
                                         {{link_label}}
                                     </a>
                                 {% else %}
                                     {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
                                         <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-                                        <button type="button" id="{{button_id}}" class="flex flex-col items-start text-left text-gray-500 group inline-flex space-x-2 text-3xl m-4 leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                        <button type="button" id="{{button_id}}" class="flex flex-col items-start text-left text-gray-500 group inline-flex space-x-2 text-3xl my-8 leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                             <span>{{ header_label }}</span>
                                         <!--
                                         Heroicon name: chevron-down
@@ -203,7 +203,7 @@
                                         Item active: "text-gray-600", Item inactive: "text-gray-400"
                                         -->
                                         {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
-                                        <div id="{{menu_id}}" class="z-50 leading-3 mt-6 inset-x-0 text-sm transform hidden ease-in opacity-0 -translate-y-1">
+                                        <div id="{{menu_id}}" class="z-50 leading-3 mt-6 pl-12 inset-x-0 text-sm transform hidden ease-in opacity-0 -translate-y-1">
                                             {{ header_arr[1] | safe }}
                                         </div>
                                         </button>

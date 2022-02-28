@@ -10,7 +10,7 @@ Parameters:
 -->
 
 {% set columns = body | safe | markdown | split(pat="|||") %}
-{% set classes =  "relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row lg:py-16"%}
+{% set classes =  "relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row md:py-12 lg:py-16"%}
 
 {% if 2 < columns | length %}
     {% set classes = classes ~ " lg:items-start" %}
@@ -23,8 +23,8 @@ Parameters:
 {% if style %}
 
 {% if "lean" in style %}
-    {% set classes = "relative flex flex-col md:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
-    {% set column_classes = "flex-1 m-4 md:m-0" %}
+    {% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
+    {% set column_classes = "flex-1 m-4 lg:m-0" %}
 {% endif %}
 
 {% if "center" in style %}
