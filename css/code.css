@@ -7,7 +7,7 @@ code.language-text,
 code.language-js,
 span.o,
 span.nx {
-  color: black;
+  color: rgb(255, 255, 255);
   line-height: 1.4;
 }
 span.c {
