@@ -1,3 +1,9 @@
-<h4>{{page.title}}</h4>
-<p>{{page.description}}</p>
-<p>Last updated: {{page.updated}}</p>
+<div class="mb-8 flex flex-col">
+    <a href="{{page.permalink}}" class="text-lg font-medium cursor-pointer text-blue-400 py-4">
+        {{page.title | safe}}
+    </a>
+    {% include "partials/tags.html" %}
+    <p>
+        {{page.description | safe}}
+    </p>
+</div>

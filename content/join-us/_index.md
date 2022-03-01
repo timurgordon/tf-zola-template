@@ -1,6 +1,7 @@
 ---
 title: "Join us"
 template: "section.html"
+page_template: "positionPage.html"
 insert_anchor_links: "left"
 ---
 
