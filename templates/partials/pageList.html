@@ -1,31 +1,30 @@
 
 <div id="list"></div>
-<div class="mx-40 flex justify-around text-center">
-    <a href="/join-us#list">All</a>
+<div class="flex flex-col md:grid md:grid-cols-2 md:gap-12 lg:flex lg:flex-row justify-around text-center">
     {% set taxonomy = get_taxonomy(kind="roles") %}
     {% set roles = taxonomy.items %}
     {% for role in roles %}
+    <div class="flex flex-col items-start text-left my-8 mx-4 md:mx-8 lg:mx-4 flex-1 w-72">
+        {% set icon_path = config.extra.taxonomies["roles"][role.name].iconPath | as_str %}
+        <img src="{{icon_path}}" alt="role category icon" class="h-10 my-4">
         {% set path = role.name | slugify %}
         {% set fullpath = "/roles/" ~ path ~ "#list" %}
-        <a href={{fullpath}}> {{role.name}} </a>
+        <a href={{fullpath}} class="text-2xl text-black font-normal lg:mb-8 cursor-pointer"> {{role.name}} </a>
+        {% for page in role.pages %}
+            <div class="mb-8 flex flex-col">
+                <a href="{{page.permalink}}" class="text-lg font-medium cursor-pointer text-blue-400 py-4">
+                    {{page.title | safe}}
+                </a>
+                <div class="flex mb-4">
+                    {% for tag in page.taxonomies.tags %}
+                        <div class="bg-gray-200 rounded font-semibold text-xs w-auto px-2 py-1 mr-2">{{tag}}</div>
+                    {% endfor %}
+                </div>
+                <p>
+                    {{page.description | safe}}
+                </p>
+            </div>
+        {% endfor %}
+    </div>
     {% endfor %}
 </div>
-<hr>
-
-<div class="pt-16">
-    <div class="mx-20 flex">
-        {% if paginator %}
-        {% for page in paginator.pages %}
-            <div class="w-3/12 m-8" >
-                {% include "partials/pageBox.html" %}
-            </div>
-        {% endfor %}
-        {% else %}
-        {% for page in section.pages %}
-            <div class="w-3/12 m-8" >
-                {% include "partials/pageBox.html" %}
-            </div>
-        {% endfor %}
-        {% endif %}
-    </div>
-    </div>

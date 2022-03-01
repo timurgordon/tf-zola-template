@@ -63,6 +63,26 @@ feed = true
 paginate_by = 2
 paginate_path = "/join-us"
 
+[[taxonomies]]
+name = "tags"
+feed = true
+paginate_by = 2
+paginate_path = "/join-us"
+
 [extra]
 # Put all your custom variables here
+
+[extra.taxonomies."roles"]
+	[extra.taxonomies."roles".Create]
+	iconPath = "images/icons/paint-brush-art-svgrepo-com.svg"
+
+    [extra.taxonomies."roles".Develop]
+	iconPath = "images/icons/code-svgrepo-com.svg"
+
+    [extra.taxonomies."roles".Inspire]
+	iconPath = "images/icons/bar-svgrepo-com.svg"
+
+    [extra.taxonomies."roles".Organize]
+	iconPath = "images/icons/form-svgrepo-com.svg"
+
 
