@@ -3,11 +3,10 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 --><!-- This example requires Tailwind CSS v1.4.0+ -->
 
-
 <script type="text/javascript">
+    
     var displayedMenu = "";
     var hamburgerShown = false;
-
     let width = screen.width;
     var isMobile = width < 1024;
 
@@ -41,13 +40,16 @@
 
     function showMenu(menuName) {
         var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
-        document.getElementById(menuId).className = document.getElementById(menuId).className.replace("hidden ease-in opacity-0 -translate-y-1", "ease-out opacity-1 -translate-y-0");
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
     }
 
     function hideMenu(menuName) {
         var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
-        console.log(menuId)
-        document.getElementById(menuId).className = document.getElementById(menuId).className.replace("ease-out opacity-1 -translate-y-0", "hidden ease-in opacity-0 -translate-y-1");
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
     }
 
     function showHamburger() {
@@ -71,7 +73,6 @@
         buttons.forEach((button) => {
             button.addEventListener( 'click', function() { handleClick(button) });
         })
-
         document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
     }
 
@@ -85,142 +86,142 @@
 {% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
-        <div class="z-10 bg-white fixed w-screen">
-          <div class="relative z-10 shadow">
-            <div class="mx-auto flex justify-between items-center px-6 py-5 sm:px-8 sm:py-4 lg:px-12 lg:justify-start lg:space-x-20">
-              <div>
+    <div class="z-10 bg-white fixed w-screen">
+        <div class="relative z-10 shadow">
+        <div class="mx-auto flex justify-between items-center px-6 py-5 sm:px-8 sm:py-4 lg:px-12 lg:justify-start lg:space-x-20">
+            <div>
                 <a href="/" class="flex">
-                  <img class="w-20 h-auto sm:w-32" src="{{section.extra.logoPath}}" alt="Workflow" />
+                    <img class="w-20 h-auto sm:w-32" src="{{section.extra.logoPath}}" alt="Ourworld Logo" />
                 </a>
-              </div>
-              <div class="-mr-2 -my-2 lg:hidden">
+            </div>
+            <div class="-mr-2 -my-2 lg:hidden">
                 <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
-                  <!-- Heroicon name: menu -->
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-                <button id="close-hamburger-btn" type="button" class="hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
-                    <!-- Heroicon name: x -->
+                    <!-- Heroicon name: menu -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
-                  </button>
-              </div>
-              <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-between lg:space-x-12">
-                <nav class="flex space-x-10">
+                </button>
+            <button id="close-hamburger-btn" type="button" class="hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                <!-- Heroicon name: x -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-between lg:space-x-12">
+            <nav class="flex space-x-10">
 
 {% for header_item in header_items %}
-    {% if not loop.first %}
-        {% set header_arr = header_item | split(pat="</li>") %}
-        {% set header_label = header_arr[0] %}
-        {% if '<a' in header_label %}
-            {% set link_label = header_label | striptags %}
-            {% set link_path = header_label | split(pat="%22") | safe%}
-            <a href="{{link_path[1]}}" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
-                {{link_label}}
-            </a>
-        {% else %}
-            <div class="relative">
-                {% set button_id = header_label ~ "-menu-btn" | slugify %}
-            <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-            <button type="button" id="{{button_id}}" class="text-gray-500 group inline-flex items-center space-x-2 text-sm leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
-                <span>{{ header_label }}</span>
-                <!--
-                Heroicon name: chevron-down
+{% if not loop.first %}
+    {% set header_arr = header_item | split(pat="</li>") %}
+    {% set header_label = header_arr[0] %}
+    {% if '<a' in header_label %}
+        {% set link_label = header_label | striptags %}
+        {% set link_path = header_label | split(pat="%22") | safe%}
+        <a href="{{link_path[1]}}" class="text-sm leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+            {{link_label}}
+        </a>
+    {% else %}
+        <div class="relative">
+            {% set button_id = header_label ~ "-menu-btn" | slugify %}
+        <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+        <button type="button" id="{{button_id}}" class="text-gray-500 group inline-flex items-center space-x-2 text-sm leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+            <span>{{ header_label }}</span>
+            <!--
+            Heroicon name: chevron-down
 
-                Item active: "text-gray-600", Item inactive: "text-gray-400"
-                -->
-            </button>
-            </div>
+            Item active: "text-gray-600", Item inactive: "text-gray-400"
+            -->
+        </button>
+        </div>
 
-        {% endif %}  
-    {% endif %}
+    {% endif %}  
+{% endif %}
 {% endfor %}
 </nav>
 
 
-              </div>
             </div>
-          </div>
+        </div>
+        </div>
 {% for header_item in header_items %}
-    {% if not loop.first %}
-        {% set header_arr = header_item | split(pat="</li>") %}
-        {% set header_label = header_arr[0] %}
-        {% set header_menu = header_arr[1] %}
-        {% set menu_id = header_label ~ "-menu" | slugify %}
-    
-    <nav>
-        <div id="{{menu_id}}" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-150 hidden ease-in opacity-0 -translate-y-1">
-            <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
-              <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:px-8 sm:py-6 lg:px-12 lg:py-8 xl:py-12">
-                {{header_menu | safe }}
-              </div>
-            </div>            
-          </div>
-        </nav>
+{% if not loop.first %}
+    {% set header_arr = header_item | split(pat="</li>") %}
+    {% set header_label = header_arr[0] %}
+    {% set header_menu = header_arr[1] %}
+    {% set menu_id = header_label ~ "-menu" | slugify %}
 
-    
-    {% endif %}
+<nav>
+    <div id="{{menu_id}}" class="mt-16 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 z-50 absolute inset-x-0 transform shadow-lg lg:backdrop-blur xl:backdrop-blur transition duration-200 ease-in opacity-0 -translate-y-1 hidden">
+        <div class="bg-white lg:bg-semi-white md:bg-semi-white xl:bg-semi-white">
+            <div class="mx-8 lg:mx-20 xl:mx-20 px-6 py-4 sm:px-8 sm:py-6 lg:px-12 lg:py-8 xl:py-12">
+            {{header_menu | safe }}
+            </div>
+        </div>            
+        </div>
+    </nav>
+
+
+{% endif %}
 {% endfor %}
 
-        
-          <!--
-            Mobile menu, show/hide based on mobile menu state.
-        
-            Entering: "duration-200 ease-out"
-              From: "opacity-0 scale-95"
-              To: "opacity-100 scale-100"
-            Leaving: "duration-100 ease-in"
-              From: "opacity-100 scale-100"
-              To: "opacity-0 scale-95"
-          -->
-        <div id="hamburger" class="hidden fixed mt-12 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
-            <div>
-                <div class="shadow-xs bg-white divide-y-2 divide-gray-50">
-                    <div class="pt-5 pb-6 px-8 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+    
+        <!--
+        Mobile menu, show/hide based on mobile menu state.
+    
+        Entering: "duration-200 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+    <div id="hamburger" class="hidden fixed mt-12 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+        <div>
+            <div class="shadow-xs bg-white divide-y-2 divide-gray-50">
+                <div class="pt-5 pb-6 px-8 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
 
-                        <nav class="flex flex-col justify-around pb-12">
-                        {% for header_item in header_items %}
+                    <nav class="flex flex-col justify-around pb-12">
+                    {% for header_item in header_items %}
 
-                            {% if not loop.first %}
-                                {% set header_arr = header_item | split(pat="</li>") %}
-                                {% set header_label = header_arr[0] %}
-                                {% if '<a' in header_label %}
-                                    {% set link_label = header_label | striptags %}
-                                    {% set link_path = header_label | split(pat="%22") | safe%}
-                                    <a href="{{link_path[1]}}" class="text-3xl leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 my-8 transition ease-in-out duration-150 mt-0">
-                                        {{link_label}}
-                                    </a>
-                                {% else %}
-                                    {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
-                                        <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-                                        <button type="button" id="{{button_id}}" class="flex flex-col items-start text-left text-gray-500 group inline-flex space-x-2 text-3xl my-8 leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
-                                            <span>{{ header_label }}</span>
-                                        <!--
-                                        Heroicon name: chevron-down
-                        
-                                        Item active: "text-gray-600", Item inactive: "text-gray-400"
-                                        -->
-                                        {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
-                                        <div id="{{menu_id}}" class="z-50 leading-3 mt-6 pl-12 inset-x-0 text-sm transform hidden ease-in opacity-0 -translate-y-1">
-                                            {{ header_arr[1] | safe }}
-                                        </div>
-                                        </button>
-                        
-                                {% endif %}
-                                {% if header_arr[1] %}  
-
-                                {% endif %}
+                        {% if not loop.first %}
+                            {% set header_arr = header_item | split(pat="</li>") %}
+                            {% set header_label = header_arr[0] %}
+                            {% if '<a' in header_label %}
+                                {% set link_label = header_label | striptags %}
+                                {% set link_path = header_label | split(pat="%22") | safe%}
+                                <a href="{{link_path[1]}}" class="text-3xl leading-6 font-normal text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 my-8 transition ease-in-out duration-150 mt-0">
+                                    {{link_label}}
+                                </a>
+                            {% else %}
+                                {% set button_id = header_label ~ "-mobile-menu-btn" | slugify %}
+                                    <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+                                    <button type="button" id="{{button_id}}" class="flex flex-col items-start text-left text-gray-500 group inline-flex space-x-2 text-3xl my-8 leading-6 font-normal hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                        <span>{{ header_label }}</span>
+                                    <!--
+                                    Heroicon name: chevron-down
+                    
+                                    Item active: "text-gray-600", Item inactive: "text-gray-400"
+                                    -->
+                                    {% set menu_id = header_label ~ "-mobile-menu" | slugify %}
+                                    <div id="{{menu_id}}" class="z-50 leading-3 mt-6 pl-12 inset-x-0 text-sm transform hidden ease-in opacity-0 -translate-y-1">
+                                        {{ header_arr[1] | safe }}
+                                    </div>
+                                    </button>
+                    
                             {% endif %}
-                        {% endfor %}
-                        </nav>                    
-                    </div>
-              
-            </div>
+                            {% if header_arr[1] %}  
+
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    </nav>                    
+                </div>
             
-          </div>
         </div>
+        
+        </div>
+    </div>
 
 
-    </header>
+</header>
