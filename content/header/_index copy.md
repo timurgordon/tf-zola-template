@@ -10,23 +10,26 @@ extra:
 
 - Learn
 
-{% menu() %}
+{% row(style="lean") %}
 
-##### PURPOSE
+### PURPOSE
 
-###### [The Internot](/apage)
+<br>
+<br>
+
+#### [The Internot](/apage)
 
 Whats wrong with the [internet](/apage)
 
 <br>
 
-###### Our Internet
+#### Our Internet
 
 Vision for the new internet
 
 |||
 
-##### ECOSYSTEM
+### ECOSYSTEM
 
 <br>
 <br>
