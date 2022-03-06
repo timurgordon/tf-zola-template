@@ -4,6 +4,7 @@
 @import "tailwindcss/base";
 @import "layout.css";
 @import "tailwindcss/components";
+@import "admonition.css";
 /*! purgecss end ignore */
 @import "tailwindcss/utilities";
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");

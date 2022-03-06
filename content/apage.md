@@ -76,3 +76,57 @@ Finally a framework fun to be used.
 - test3
 
 {% end %}
+
+{% admonition(title="Admonition test" type="note") %}
+
+slipped outer exact open under people particularly growth feet amount steep there arrow introduced pencil distance possibly buffalo store former pound throughout equator column
+
+{% end %}
+
+{% admonition() %}
+
+!!! note ""
+
+slipped outer exact open under people particularly growth feet amount steep there arrow introduced pencil distance possibly buffalo store former pound throughout equator column
+
+{% end %}
+
+{% admonition() %}
+
+??? note
+
+slipped outer exact open under people particularly growth feet amount steep there arrow introduced pencil distance possibly buffalo store former pound throughout equator column
+
+{% end %}
+
+{% admonition() %}
+
+???+ bug "Bug title"
+
+slipped outer exact open under people particularly growth feet amount steep there arrow introduced pencil distance possibly buffalo store former pound throughout equator column
+
+{% end %}
+
+{% admonition() %}
+
+!!! bug "Example title"
+
+slipped outer exact open under people particularly growth feet amount steep there arrow introduced pencil distance possibly buffalo store former pound throughout equator column
+
+{% end %}
+
+{% admonition() %}
+
+??? success "Example title"
+
+slipped outer exact open under people particularly growth feet amount steep there arrow introduced pencil distance possibly buffalo store former pound throughout equator column
+
+{% end %}
+
+{% admonition() %}
+
+!!! warning "Example title"
+
+slipped outer exact open under people particularly growth feet amount steep there arrow introduced pencil distance possibly buffalo store former pound throughout equator column
+
+{% end %}
