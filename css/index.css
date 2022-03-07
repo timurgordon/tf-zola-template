@@ -51,13 +51,13 @@ img[src*="#large"] {
     @apply text-2xl lg:text-4xl font-light;
   }
   h4 {
-    @apply text-lg lg:text-xl font-light;
+    @apply text-md tracking-widest text-zinc-500 font-semibold;
   }
   h5 {
-    @apply text-base not-italic font-light leading-8;
+    @apply text-md not-italic font-normal leading-8;
   }
   h6 {
-    @apply text-sm lg:text-sm font-normal;
+    @apply text-sm lg:text-base font-normal;
   }
   nav p {
     @apply hidden sm:block md:block lg:block xl:block 2xl:block;
@@ -71,6 +71,19 @@ img[src*="#large"] {
   li li {
     @apply text-sm lg:text-sm font-light;
   }
+}
+
+button:hover :is(:where(a)) {
+  color: #3b82f6;
+}
+
+button :is(:where(p)) {
+  color: #3d3b39;
+  font-weight: 400;
+}
+
+button a {
+  color: black;
 }
 
 h3 {

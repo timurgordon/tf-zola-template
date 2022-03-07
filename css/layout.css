@@ -82,7 +82,7 @@ a:active {
 }
 
 h5 a {
-  @apply text-gray-600 font-light;
+  @apply text-gray-900 font-normal;
 }
 
 /*

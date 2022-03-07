@@ -14,18 +14,13 @@ Parameters:
 <!-- aligns columns depending on col number-->
 
 
-{% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
-{% set column_classes = "flex-1 m-4 lg:m-4" %}
+{% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-8" %}
+{% set column_classes = "flex-1 m-8 lg:m-4" %}
     
 
 <!-- makes row full screen width and adds background img -->
-{% set styles = ""  %}
-{% if bgPath %}
-    {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover"  %}
-    {% set classes = classes ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20 lg:py-40 p-8 sm:p-12 md:p-16 lg:p-20" %}
-{% endif %}
 
-<div class="{{classes}}" style="{{styles}}">
+<div class="{{classes}}">
     {% for column in columns%} 
         <!-- Hides empty columns if displayed vertically in small screen -->
         {% if column | as_str | length < 10 %} 
@@ -40,7 +35,7 @@ Parameters:
         {% else %}
             <div class="{{column_classes}}">
                 {{column | split(pat="{% button() %}") | slice(end=1) | first | safe}}
-                <hr>
+                <hr class="border-t-2 mt-2">
                 <br/>
 
                 <!-- handles mermaid markdown content display -->
