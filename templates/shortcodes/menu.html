@@ -27,19 +27,28 @@ Parameters:
 
 <div class="{{classes}}" style="{{styles}}">
     {% for column in columns%} 
-
         <!-- Hides empty columns if displayed vertically in small screen -->
         {% if column | as_str | length < 10 %} 
             <div class="hidden md:block flex-1 md:mb-0 md:mx-8 sm:flex-1">
-                {{ column | safe }}
+                {{column | split(pat="{% button() %}") | slice(end=1)}}
+                {% for button in column | split(pat="{% button() %}") | slice(start=1) | join(sep="") | split(pat="{%% end %%}") | slice(end=-1) %}
+                    {% set body = button %}
+                    {% include "shortcodes/button.html" %}               
+                {% endfor %}
             </div>
 
         {% else %}
             <div class="{{column_classes}}">
+                {{column | split(pat="{% button() %}") | slice(end=1) | first | safe}}
+                <hr>
+                <br/>
+
                 <!-- handles mermaid markdown content display -->
-                {{ column | safe }}
+                {% for button in column | split(pat="{% button() %}") | slice(start=1) | join(sep="") | split(pat="{%% end %%}") | slice(end=-1) %}
+                    {% set body = button %}
+                    {% include "shortcodes/button.html" %}               
+                {% endfor %}
             </div>
-            
         {% endif %}
     {% endfor %}
 </div>

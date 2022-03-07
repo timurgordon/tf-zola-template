@@ -7,10 +7,10 @@
 {% set admonition = parsed_first_line | first %}
 {% set style = "" %}
 
-
 {% set content = body | split(pat="\n") | slice(start=2) | join(sep="\n") %}
 
-<!-- hides content if doesn't adhere to admonition formatting -->
+<!-- sets admonition type depending on qualifiers and modifiers 
+    hides content if doesn't adhere to admonition formatting -->
 {% if admonition == "!!!" %}
     {% set classes = "admonition" %}
 {% elif admonition == "???" %}

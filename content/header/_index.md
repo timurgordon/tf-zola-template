@@ -14,38 +14,51 @@ extra:
 
 ##### PURPOSE
 
+{% button() %}
+
 ###### [The Internot](/apage)
 
 Whats wrong with the [internet](/apage)
 
 <br>
 
+{%% end %%}
+
+{% button() %}
+
 ###### Our Internet
 
 Vision for the new internet
+
+{%% end %%}
 
 |||
 
 ##### ECOSYSTEM
 
-<br>
-<br>
+{% button() %}
 
 #### OurWorld DAO
 
 Be a part of governance
 
-<br>
+{%% end %%}
+
+{% button() %}
 
 #### Communities
 
 Explore communities in OurWorld
 
-<br>
+{%% end %%}
+
+{% button() %}
 
 #### DAOs
 
 Decentralized autonomous organizations
+
+{%% end %%}
 
 |||
 
@@ -75,7 +88,7 @@ Projects in OurWorld
 
 Be a part of the new internet
 
+{% end %}
+
 - [Join us]("/join-us")
 - [Blog]("/blog")
-
-{% end %}
