@@ -3,6 +3,8 @@ title: "Join us"
 template: "section.html"
 page_template: "positionPage.html"
 insert_anchor_links: "left"
+extra:
+  group_pages_by: "roles"
 ---
 
 {% row(bgPath="/images/bernhard-eisenmann-unsplash.jpg") %}
