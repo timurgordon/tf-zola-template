@@ -13,10 +13,8 @@ Parameters:
 
 <!-- aligns columns depending on col number-->
 
-
-{% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-8" %}
-{% set column_classes = "flex-1 m-8 lg:m-4" %}
-    
+{% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 lg:-mx-12 xl:-mx-8" %}
+{% set column_classes = "flex-1 m-2 lg:m-4" %}
 
 <!-- makes row full screen width and adds background img -->
 
@@ -31,14 +29,11 @@ Parameters:
                     {% include "shortcodes/button.html" %}               
                 {% endfor %}
             </div>
-
         {% else %}
             <div class="{{column_classes}}">
                 {{column | split(pat="{% button() %}") | slice(end=1) | first | safe}}
                 <hr class="border-t-2 mt-2">
                 <br/>
-
-                <!-- handles mermaid markdown content display -->
                 {% for button in column | split(pat="{% button() %}") | slice(start=1) | join(sep="") | split(pat="{%% end %%}") | slice(end=-1) %}
                     {% set body = button %}
                     {% include "shortcodes/button.html" %}               

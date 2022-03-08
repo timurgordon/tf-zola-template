@@ -48,19 +48,22 @@ img[src*="#large"] {
     @apply text-3xl lg:text-5xl font-light;
   }
   h2 {
-    @apply text-2xl lg:text-4xl font-light;
+    @apply text-2xl lg:text-4xl my-2 font-light;
+  }
+  h3 {
+    @apply text-xl lg:text-2xl font-normal;
   }
   h4 {
-    @apply text-md tracking-widest text-zinc-500 font-semibold;
+    @apply text-md my-1 tracking-widest text-zinc-500 font-semibold;
   }
   h5 {
-    @apply text-md not-italic font-normal leading-8;
+    @apply text-md not-italic font-normal my-1;
   }
   h6 {
     @apply text-sm lg:text-base font-normal;
   }
-  nav p {
-    @apply hidden sm:block md:block lg:block xl:block 2xl:block;
+  p {
+    @apply text-xs;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
@@ -84,13 +87,6 @@ button :is(:where(p)) {
 
 button a {
   color: black;
-}
-
-h3 {
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.5);
 }
 
 p {

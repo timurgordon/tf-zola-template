@@ -20,8 +20,6 @@ extra:
 
 Whats wrong with the [internet](/apage)
 
-<br>
-
 {%% end %%}
 
 {% button() %}
