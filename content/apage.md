@@ -63,8 +63,6 @@ class Zebra{
 
 <br/>
 
-Its really cool how this has been done.
-
 Finally a framework fun to be used.
 
 > Am super happy about it

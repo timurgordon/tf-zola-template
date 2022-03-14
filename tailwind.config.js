@@ -1,12 +1,9 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  mode: 'jit',
-  purge: {
-    content: [
+  content: [
       './templates/**/*.html'
-    ],
-  },
+  ],
   darkMode: false,
   theme: {
     fontSize: {
@@ -55,6 +52,5 @@ module.exports = {
         },
       },
   },
-  variants: {},
   plugins: [], // if we add forms, do it here
 }
