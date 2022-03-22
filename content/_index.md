@@ -9,86 +9,85 @@ extra:
   imgPath: /images/threefold_globe.png
 ---
 
-{% row() %}
+{% row(style="center narrow") %}
 
-# Reimagine your world
+## WELCOME TO THE <br> **PEOPLE’S INTERNET**
 
-<br/>
+### Join the peer-to-peer revolution
 
-Through simple, secure, and scalable technology,
-OurWorld empowers millions to invent and explore
-new experiences. Business, creativity, and
-community are being reimagined for a more
-sustainable and inclusive future.
-
-|||
-
-![Image](/images/ourworld_mycellium.png#large)
+Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity.
 
 {% end %}
 
 {% row(style="lean") %}
 
-![Image](/images/threefold_img2.png)
+![Image](/images/threefold_img.jpg)
 
 {% end %}
 
-{% row() %}
+{% row(style="center") %}
 
-## Foundation for Creation
+### EXPAND THE PEOPLE’S INTERNET <br> AND EARN TFT
 
-<br>
+By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
 
-The Creator Economy requires robust infrastructure
-including a set of intuitive developer tools, and an
-engaged, decentralized community.
+<button>[Become a farmer](/become-farmer)</button>
 
-<br>
-
-[Learn about the Creator Economy on OurWorld]("/")
+![Image](/images/become_farmer_new.jpg)
 
 |||
 
-![Image](/images/threefold_globe.png#large)
+### DECENTRALIZE YOUR
+
+### DATA AND WORKLOADS
+
+Companies and developers have already started using ThreeFold for it’s autonomous, decentralization and privacy features.
+
+<button>[Deploy](/deploy)</button>
+
+![Image](/images/network_new.jpg)
 
 {% end %}
 
-{% row() %}
+{% row(style="center") %}
 
-## Solutions for Scaling
-
-<br>
-
-OurWorld is eliminating the barriers to Web 3
-adoption. With high speeds, low fees, and
-progressive UX, OurWord climate-neutral
-blockchain is ready for explosive growth.
-
-<br>
-
-[Link to something]("/")
+![Image](/images/p4p_new.png#medium)
 
 |||
 
-![Image](/images/landing_img2.jpg#large)
+## BUILT BY <br> THE PEOPLE <br> FOR HUMANITY
+
+The People’s Internet is formed by independent people from all around the world who connect Internet capacity to a new Planetary Network. Together they form a collective that brings a new paradigm – an open-source peer-to-peer Internet owned by humanity.
+
+<button>[Learn More](/learn-more)</button>
 
 {% end %}
 
-{% row() %}
+{% row(style="center") %}
 
-## For a multi-chain future
+## POWERED BY A
 
-<br>
+## DECENTRALIZED OS
 
-OurWorld runs in concert with Ethereum, Polkadot, Cosmos, and more, allowing for the free flow of assets and communication between networks for the betterment of all.
+Zero-OS is a stateless and lightweight operating system designed to host anything that runs on Linux in a decentralized way. Once installed, Zero-OS locks the hardware and dedicates its capacity to the People’s Internet via the ThreeFold Blockchain.
 
-<br>
-
-[Link to something]("/")
+<button>[Learn More](/learn-more)</button>
 
 |||
 
-![Image](/images/threefold_technology_home.jpg)
+![Image](/images/zero_os.jpg#large)
+
+{% end %}
+
+{% row(style="center moderate") %}
+
+## OUR GREATEST STRENGTH <br> COMES FROM OUR PARTNERS
+
+We are truly proud to be trusted by some of the biggest names in the industry.
+
+![Image](/images/ourpartners.png)
+
+<button>[Check All Partners](/learn-more)</button>
 
 {% end %}
 

@@ -30,7 +30,7 @@ img[src*="#small"] {
 }
 
 img[src*="#medium"] {
-  width: 150px;
+  width: 250px;
   margin: auto;
 }
 
@@ -74,6 +74,9 @@ img[src*="#large"] {
   }
   li li {
     @apply text-sm lg:text-sm font-light;
+  }
+  button a {
+    @apply inline-block lg:text-lg hover:bg-gray-400 px-12 py-1 mr-5 my-10 border-2 shadow border-black capitalize;
   }
 }
 
