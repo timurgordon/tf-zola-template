@@ -15,7 +15,7 @@ extra:
 
 ### Join the peer-to-peer revolution
 
-Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity.
+#### Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity.
 
 {% end %}
 
@@ -27,7 +27,7 @@ Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infra
 
 {% row(style="center") %}
 
-### EXPAND THE PEOPLE’S INTERNET <br> AND EARN TFT
+### EXPAND THE PEOPLE’S INTERNET <br> **AND EARN TFT**
 
 By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
 
@@ -37,9 +37,7 @@ By connecting hardware at your home or office, support the growth of a decentral
 
 |||
 
-### DECENTRALIZE YOUR
-
-### DATA AND WORKLOADS
+### DECENTRALIZE YOUR <br> **DATA AND WORKLOADS**
 
 Companies and developers have already started using ThreeFold for it’s autonomous, decentralization and privacy features.
 
@@ -55,7 +53,7 @@ Companies and developers have already started using ThreeFold for it’s autonom
 
 |||
 
-## BUILT BY <br> THE PEOPLE <br> FOR HUMANITY
+## BUILT BY <br> THE PEOPLE <br> **FOR HUMANITY**
 
 The People’s Internet is formed by independent people from all around the world who connect Internet capacity to a new Planetary Network. Together they form a collective that brings a new paradigm – an open-source peer-to-peer Internet owned by humanity.
 
@@ -65,9 +63,7 @@ The People’s Internet is formed by independent people from all around the worl
 
 {% row(style="center") %}
 
-## POWERED BY A
-
-## DECENTRALIZED OS
+## POWERED BY A <br> **DECENTRALIZED OS**
 
 Zero-OS is a stateless and lightweight operating system designed to host anything that runs on Linux in a decentralized way. Once installed, Zero-OS locks the hardware and dedicates its capacity to the People’s Internet via the ThreeFold Blockchain.
 
@@ -81,13 +77,27 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 
 {% row(style="center moderate") %}
 
-## OUR GREATEST STRENGTH <br> COMES FROM OUR PARTNERS
+## OUR GREATEST STRENGTH <br> **COMES FROM OUR PARTNERS**
 
 We are truly proud to be trusted by some of the biggest names in the industry.
 
 ![Image](/images/ourpartners.png)
 
 <button>[Check All Partners](/learn-more)</button>
+
+{% end %}
+
+{% grid_stats() %}
+
+### THE THREEFOLD GRID
+
+## **NOW OPERATIONAL**
+
+{% end %}
+
+{% row(style="center") %}
+
+## **THE TEAM**
 
 {% end %}
 
@@ -110,40 +120,14 @@ Then, choose the first step in your journey.
 
 {% end %}
 
-{% row() %}
+{% row(style="center") %}
 
-![Image](/images/landing_img4.png#small)
+## **IN THE NEWS**
 
-## Build
+{% end %}
 
-<br>
+{% row(style="center") %}
 
-Build decentralized apps on a developer-friendly
-platform that features low fees, high speeds, and
-infinite scalability.
-
-|||
-
-![Image](/images/landing_img5.png#small)
-
-## Grow
-
-<br>
-
-Startup or grow up on a platform that sets you
-up for success. Investors, partners, and users
-are waiting.
-
-|||
-
-![Image](/images/landing_img6.png#small)
-
-## Belong
-
-<br>
-
-When you find your purpose, you find your people.
-Pick a wallet, create an account, and start
-contributing with OurWorld today.
+## **IN THE NEWS**
 
 {% end %}

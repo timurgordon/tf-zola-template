@@ -12,11 +12,11 @@ extra:
 
 {% menu() %}
 
-#### PURPOSE
+##### PURPOSE
 
 {% button() %}
 
-##### [The Internot](/apage)
+###### [The Internot](/apage)
 
 Whats wrong with the [internet](/apage)
 
@@ -24,7 +24,7 @@ Whats wrong with the [internet](/apage)
 
 {% button() %}
 
-##### Our Internet
+###### Our Internet
 
 Vision for the new internet
 
@@ -32,11 +32,11 @@ Vision for the new internet
 
 |||
 
-#### ECOSYSTEM
+##### ECOSYSTEM
 
 {% button() %}
 
-##### OurWorld DAO
+###### OurWorld DAO
 
 Be a part of governance
 
@@ -44,7 +44,7 @@ Be a part of governance
 
 {% button() %}
 
-##### Communities
+###### Communities
 
 Explore communities in OurWorld
 
@@ -52,7 +52,7 @@ Explore communities in OurWorld
 
 {% button() %}
 
-##### DAOs
+###### DAOs
 
 Decentralized autonomous organizations
 
@@ -60,11 +60,11 @@ Decentralized autonomous organizations
 
 |||
 
-#### APPLICATIONS
+##### APPLICATIONS
 
 {% button() %}
 
-##### DAPPs
+###### DAPPs
 
 Decentralized applications
 
@@ -72,7 +72,7 @@ Decentralized applications
 
 {% button() %}
 
-##### Projects
+###### Projects
 
 Projects in OurWorld
 
@@ -80,11 +80,11 @@ Projects in OurWorld
 
 |||
 
-#### FEATURED
+##### FEATURED
 
 {% button() %}
 
-##### OurWorld is Live
+###### OurWorld is Live
 
 Be a part of the new internet
 

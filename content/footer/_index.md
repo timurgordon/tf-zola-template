@@ -10,48 +10,48 @@ extra:
 
 {% row(style="lean") %}
 
-#### Purpose
+##### Purpose
 
 <br>
 
-##### [The Internot]("/")
+###### [The Internot]("/")
 
-##### [Internet for all]("/")
+###### [Internet for all]("/")
 
-##### [The Internot]("/")
+###### [The Internot]("/")
 
 |||
 
-#### Ecosystem
+##### Ecosystem
 
 <br>
 
-##### [OurWorld DAO]("/")
+###### [OurWorld DAO]("/")
 
-##### [Communities]("/")
+###### [Communities]("/")
 
-##### [DAO's]("/")
+###### [DAO's]("/")
 
 |||
 
-#### Applications
+##### Applications
 
 <br>
 
-##### [DAPPs]("/")
+###### [DAPPs]("/")
 
-##### [Projects]("/")
+###### [Projects]("/")
 
 |||
 
-#### Join
+##### Join
 
 <br>
 
-##### [People]("/")
+###### [People]("/")
 
-##### [Ideators]("/")
+###### [Ideators]("/")
 
-##### [Developers]("/")
+###### [Developers]("/")
 
 {% end %}

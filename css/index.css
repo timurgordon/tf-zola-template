@@ -17,7 +17,7 @@
 }
 
 * {
-  font-family: "Work Sans";
+  font-family: "Work Sans", sans-serif;
 }
 
 .bg-semi-white {
@@ -46,25 +46,31 @@ img[src*="#large"] {
 
 @layer components {
   h1 {
-    @apply text-3xl lg:text-5xl font-light;
+    @apply text-3xl lg:text-7xl font-normal;
   }
   h2 {
-    @apply text-2xl lg:text-4xl my-2 font-light;
+    @apply text-3xl lg:text-6xl my-4 font-light leading-none;
+  }
+  h2 strong {
+    @apply font-medium;
   }
   h3 {
-    @apply text-xl lg:text-2xl font-normal;
+    @apply text-xl lg:text-4xl my-4 font-extralight leading-none;
+  }
+  h3 strong {
+    @apply font-semibold;
   }
   h4 {
-    @apply text-md my-1 tracking-widest text-zinc-500 font-semibold;
+    @apply text-sm lg:text-2xl font-normal;
   }
   h5 {
-    @apply text-md not-italic font-normal my-1;
+    @apply text-md my-1 tracking-widest text-zinc-500 font-semibold;
   }
   h6 {
-    @apply text-sm lg:text-base font-normal;
+    @apply text-md not-italic font-normal my-1;
   }
   p {
-    @apply text-xs;
+    @apply text-lg;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
@@ -91,10 +97,6 @@ button :is(:where(p)) {
 
 button a {
   color: black;
-}
-
-p {
-  font-size: 15px;
 }
 
 a {

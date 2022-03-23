@@ -149,11 +149,6 @@ h2,
   @apply text-4xl;
 }
 
-h3,
-.h3 {
-  @apply text-3xl italic;
-}
-
 h4,
 .h4 {
   @apply text-2xl;
