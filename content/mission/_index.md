@@ -62,3 +62,49 @@ Internet access is a human right and it can change everything for the lives of p
 The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
 {% end %}
 
+{% row(style="center narrow") %}
+
+## **JOIN THE FOLD**
+
+Together, we build the People’s Internet. Our Internet.
+
+<br>
+<br>
+
+![Image](/images/100_mission.png)
+
+<button>[Join Us](/learn-more)</button>
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+
+## WE’VE COME A LONG WAY, <br> **AND WE’RE JUST GETTING STARTED**
+
+After setting world records in Internet storage and cloud automation technologies throughout the past 20 years, some of our co-founders decided to start from scratch and build a new Internet infrastructure that is universally open source and peer-to-peer.
+
+
+{% end %}
+
+{% row(style="center") %}
+
+![Image](/images/mission_roadmap.png)
+
+And we’re aiming for new heights. The People’s Internet will turn into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond.
+
+{% end %}
+
+{% row(style="center narrow") %}
+
+## **START THE INTERNET <br> REVOLUTION**
+
+Connect, share and collaborate with our open community to expand the horizons of the People’s Internet. Bring your ideas and let’s co-create together!
+
+<br>
+
+
+<button>[Join The Fold](/learn-more)</button>
+
+{% end %}
+
