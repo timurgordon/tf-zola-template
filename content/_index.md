@@ -17,6 +17,9 @@ extra:
 
 #### Powered by the ThreeFold blockchain the People’s Internet is the layer 0 infrastructure for an open source P2P Internet owned by humanity.
 
+<button>[Become a farmer](/become-farmer)</button>
+
+
 {% end %}
 
 {% row(style="lean") %}
@@ -44,6 +47,8 @@ Companies and developers have already started using ThreeFold for it’s autonom
 <button>[Deploy](/deploy)</button>
 
 ![Image](/images/network_new.jpg)
+
+
 
 {% end %}
 

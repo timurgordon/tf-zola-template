@@ -93,4 +93,5 @@ Be a part of the new internet
 {% end %}
 
 - [Join us]("/join-us")
+- [Mission]("/mission")
 - [Blog]("/blog")
