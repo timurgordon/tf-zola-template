@@ -80,6 +80,24 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 
 {% end %}
 
+{% grid_stats() %}
+
+### THE THREEFOLD GRID
+
+## **NOW OPERATIONAL**
+
+{% end %}
+
+{% row(style="center moderate") %}
+
+## **THE TEAM**
+
+<br>
+
+Spread across the world, our team has built some of the world’s best Internet storage and cloud automation technologies since the ‘90s. With a strong vision for the future, we’re now on a mission to create a peer-to-peer Internet that can host all of humanity’s digital workloads via smart contract, removing all forms of centralization from global IT systems.
+
+{% end %}
+
 {% row(style="center moderate") %}
 
 ## OUR GREATEST STRENGTH <br> **COMES FROM OUR PARTNERS**
@@ -89,20 +107,6 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 ![Image](/images/ourpartners.png)
 
 <button>[Check All Partners](/learn-more)</button>
-
-{% end %}
-
-{% grid_stats() %}
-
-### THE THREEFOLD GRID
-
-## **NOW OPERATIONAL**
-
-{% end %}
-
-{% row(style="center") %}
-
-## **THE TEAM**
 
 {% end %}
 
