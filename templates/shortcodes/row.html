@@ -41,7 +41,6 @@ Parameters:
         {% set row_class = row_class ~ " lg:m-20" %}
     {% endif %}
 
-
 {% endif %}
 
 <!-- makes row full screen width and adds background img -->
@@ -50,6 +49,11 @@ Parameters:
     {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover"  %}
     {% set row_class = row_class ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20 lg:py-40 p-8 sm:p-12 md:p-16 lg:p-20" %}
 {% endif %}
+{% if bgColor %}
+    {% set styles = "background-color: " ~ bgColor ~ "; background-size: cover"  %}
+    {% set row_class = row_class ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20 lg:py-40 p-8 sm:p-12 md:p-16 lg:p-20" %}
+{% endif %}
+
 
 
 <div class="{{row_class}}" style="{{styles}}">

@@ -95,7 +95,9 @@ And we’re aiming for new heights. The People’s Internet will turn into a DAO
 
 {% end %}
 
-{% row(style="center narrow") %}
+
+{% row(bgColor="#70dfc9" style="center narrow") %}
+
 
 ## **START THE INTERNET <br> REVOLUTION**
 
