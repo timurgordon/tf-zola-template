@@ -81,8 +81,18 @@ img[src*="#large"] {
   li li {
     @apply text-sm lg:text-sm font-light;
   }
-  button a {
-    @apply inline-block lg:text-lg hover:bg-gray-400 px-12 py-1 mr-5 my-10 border-2 shadow border-black capitalize;
+  button {
+    @apply 
+    inline-block
+    lg:text-lg
+    px-12
+    py-1
+    mr-5
+    my-10
+    border-2
+    shadow
+    border-black
+    capitalize
   }
 }
 
@@ -105,4 +115,11 @@ a {
 
 header {
   font-family: "Work Sans";
+}
+
+.nav_btn {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
 }
