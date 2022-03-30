@@ -95,4 +95,5 @@ Be a part of the new internet
 - [Join us]("/join-us")
 - [Mission]("/mission")
 - [Grid]("/grid")
+- [Farm]("/farm")
 - [Blog]("/blog")
