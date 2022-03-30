@@ -7,20 +7,22 @@ insert_anchor_links: "left"
 
 
 
-{% row(style="center") %}
+{% row(style="center narrow") %}
 
-# OUR MISSION
+## **INTER-CONNECTING HUMANITY**
 
 <br>
 
-To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems.
+Expand the ThreeFold Grid – an open source peer-to-peer Internet infrastructure powered by the ThreeFold Blockchain and owned by humanity.
 
 
 <button>[The collective dream](/deploy)</button>
 
-|||
+{% end %}
 
-![Image](/images/mission_header.png)
+{% row(style="lean") %}
+
+![Image](/images/gride_header.png)
 
 {% end %}
 
@@ -29,29 +31,15 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 {% row() %}
 
-![Image](/images/globe_mission.png#large)
+## SCALED BY PEOPLE TO THE EDGE
+
+The People’s Internet is formed by Farmers, independent people that connect 3Nodes to the ThreeFold Grid anywhere electricity and network is present. Together, they form a globally distributed Internet infrastructure and earn income in the form of TFT.
+
+<button>[Learn About TFT](/deploy)</button>
 
 |||
 
-## SUPPORTING AN INTERCONNECTED WORLD
-
-Internet access is a human right and it can change everything for the lives of people as an infinite source of tools and information. Our technology was designed to scale the People’s Internet anywhere electricity and bandwidth are present.
-
-{% end %}
-
-
-<br>
-<br>
-
-{% row() %}
-
-## SUPPORTING AN INTERCONNECTED WORLD
-
-Internet access is a human right and it can change everything for the lives of people as an infinite source of tools and information. Our technology was designed to scale the People’s Internet anywhere electricity and bandwidth are present.
-
-|||
-
-![Image](/images/people_mission.png#large)
+![Image](/images/grid_scaled.png)
 
 {% end %}
 
@@ -61,13 +49,34 @@ Internet access is a human right and it can change everything for the lives of p
 
 {% row() %}
 
-![Image](/images/node_mission.png#large)
+![Image](/images/grid_people.jpg)
 
 |||
 
-## OUR VALUES DEFINE OUR ACTIONS
+## THE LAYER-0 FOR DECENTRALIZATION
 
-The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
+Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration, as the infrastructure is compatible with most open source tools and protocols.
+
+<button>[Meet The First Projects](/deploy)</button>
+
+
+{% end %}
+
+
+<br>
+<br>
+
+{% row() %}
+
+## A NEW INTERNET BLUEPRINT
+
+All our code is made open source to energize open collaboration and promote universal access to a peer-to-peer Internet owned by all of us. More than just an Internet infrastructure, the ThreeFold Grid holds the potential to decentralize everything.
+
+
+|||
+
+![Image](/images/grid_new_internet.jpg)
+
 {% end %}
 
 
@@ -77,51 +86,32 @@ The ThreeFold Law states that any good you do will return to you threefold in th
 
 {% row(style="center narrow") %}
 
-## **JOIN THE FOLD**
+![Image](/images/zero_os.png)
 
-Together, we build the People’s Internet. Our Internet.
+## **INTRODUCING ZERO-OS**
 
-<br>
-<br>
-
-![Image](/images/100_mission.png)
-
-<button>[Join Us](/learn-more)</button>
-
-{% end %}
-
-{% row(style="center narrow") %}
+A decentralized autonomous OS designed to dedicate hardware capacity to the People’s Internet via the ThreeFold Blockchain. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
 
 
-## WE’VE COME A LONG WAY, <br> **AND WE’RE JUST GETTING STARTED**
-
-After setting world records in Internet storage and cloud automation technologies throughout the past 20 years, some of our co-founders decided to start from scratch and build a new Internet infrastructure that is universally open source and peer-to-peer.
-
+<button>[Learn More](/learn-more)</button>
+<button>[Expand The Grid](/learn-more)</button>
 
 {% end %}
 
-{% row(style="center") %}
+{% row() %}
 
-![Image](/images/mission_roadmap.png)
+## A DECENTRALIZED INTERNET ECONOMY
 
-And we’re aiming for new heights. The People’s Internet will turn into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond.
+TFT is the official medium of exchange for Internet capacity on the ThreeFold Grid. The utility token allows users to reserve Internet capacity via the ThreeFold Blockchain and rewards farmers for their contribution to the network.
 
-{% end %}
+<button>[Learn More About TFT](/deploy)</button>
 
-<br>
-<br>
+|||
 
-{% row(bgColor="#70dfc9" style="center narrow") %}
-
-
-## **START THE INTERNET <br> REVOLUTION**
-
-Connect, share and collaborate with our open community to expand the horizons of the People’s Internet. Bring your ideas and let’s co-create together!
-
-<br>
-
-
-<button>[Join The Fold](/learn-more)</button>
+![Image](/images/grid_decenter.jpg)
 
 {% end %}
+
+
+
 
