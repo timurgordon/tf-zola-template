@@ -24,7 +24,7 @@ extra:
 
 {% row(style="lean") %}
 
-![Image](/images/threefold_img.jpg)
+![Image](/images/threefold_img.jpg#mx-auto)
 
 {% end %}
 
@@ -36,7 +36,7 @@ By connecting hardware at your home or office, support the growth of a decentral
 
 <button>[Become a farmer](/become-farmer)</button>
 
-![Image](/images/become_farmer_new.jpg)
+![Image](/images/become_farmer_new.jpg#mx-auto)
 
 |||
 
@@ -46,7 +46,7 @@ Companies and developers have already started using ThreeFold for it’s autonom
 
 <button>[Deploy](/deploy)</button>
 
-![Image](/images/network_new.jpg)
+![Image](/images/network_new.jpg#mx-auto)
 
 
 

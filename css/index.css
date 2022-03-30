@@ -25,12 +25,16 @@
 }
 
 /* Custom css allowing image styling in markdown */
+img[src*="#mx-auto"] {
+  margin: auto;
+}
+
 img[src*="#small"] {
   width: 68px;
 }
 
 img[src*="#medium"] {
-  width: 250px;
+  width: 500px;
   margin: auto;
 }
 
@@ -40,7 +44,7 @@ img[src*="#logo"] {
 }
 
 img[src*="#large"] {
-  width: 400px;
+  width: 1000px;
   margin: auto;
 }
 

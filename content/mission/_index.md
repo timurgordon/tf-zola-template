@@ -29,7 +29,7 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 {% row() %}
 
-![Image](/images/globe_mission.png#large)
+![Image](/images/globe_mission.png#medium)
 
 |||
 
@@ -51,7 +51,7 @@ Internet access is a human right and it can change everything for the lives of p
 
 |||
 
-![Image](/images/people_mission.png#large)
+![Image](/images/people_mission.png#medium)
 
 {% end %}
 
@@ -61,7 +61,7 @@ Internet access is a human right and it can change everything for the lives of p
 
 {% row() %}
 
-![Image](/images/node_mission.png#large)
+![Image](/images/node_mission.png#medium)
 
 |||
 
@@ -84,7 +84,7 @@ Together, we build the People’s Internet. Our Internet.
 <br>
 <br>
 
-![Image](/images/100_mission.png)
+![Image](/images/100_mission.png#meduim)
 
 <button>[Join Us](/learn-more)</button>
 
@@ -102,7 +102,7 @@ After setting world records in Internet storage and cloud automation technologie
 
 {% row(style="center") %}
 
-![Image](/images/mission_roadmap.png)
+![Image](/images/mission_roadmap.png#large)
 
 And we’re aiming for new heights. The People’s Internet will turn into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond.
 
