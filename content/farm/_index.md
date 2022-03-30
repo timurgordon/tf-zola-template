@@ -28,91 +28,91 @@ The People’s Internet is powered by an entirely new incentive model made possi
 <br>
 <br>
 
-{% row() %}
-
-## SCALED BY PEOPLE <br> TO THE EDGE
-
-The People’s Internet is formed by Farmers, independent people that connect 3Nodes to the ThreeFold Grid anywhere electricity and network is present. Together, they form a globally distributed Internet infrastructure and earn income in the form of TFT.
-
-<button>[Learn About TFT](/deploy)</button>
-
-|||
-
-![Image](/images/grid_scaled.png)
-
-{% end %}
-
-
-<br>
-<br>
-
-{% row() %}
-
-![Image](/images/grid_people.jpg)
-
-|||
-
-## THE LAYER-0 FOR DECENTRALIZATION
-
-Any current or future technology, including blockchain, metaverses and web 3.0, can be hosted natively on the ThreeFold Grid via smart contracts with minimum migration, as the infrastructure is compatible with most open source tools and protocols.
-
-<button>[Meet The First Projects](/deploy)</button>
-
-
-{% end %}
-
-
-<br>
-<br>
-
-{% row() %}
-
-## A NEW INTERNET BLUEPRINT
-
-All our code is made open source to energize open collaboration and promote universal access to a peer-to-peer Internet owned by all of us. More than just an Internet infrastructure, the ThreeFold Grid holds the potential to decentralize everything.
-
-
-|||
-
-![Image](/images/grid_new_internet.jpg)
-
-{% end %}
-
-
-<br>
-<br>
-
-
 {% row(style="center narrow") %}
 
-![Image](/images/zero_os.png#medium)
+# FARM
+### A new way of growing the Internet
 
-## **INTRODUCING ZERO-OS**
-
-A decentralized autonomous OS designed to dedicate hardware capacity to the People’s Internet via the ThreeFold Blockchain. Zero-OS can be booted on most modern computers to host anything that runs on Linux in a decentralized way.
-
-
-<button>[Learn More](/learn-more)</button>
-<button>[Expand The Grid](/learn-more)</button>
+3Nodes provide Internet capacity for millions of people using ThreeFold’s Planetary Network, and you earn TFT for doing so. And because of a unique operating system, called Zero-OS, once turned on your 3Node runs by itself.
 
 {% end %}
 
-{% row() %}
+{% row(style="center") %}
 
-## A DECENTRALIZED INTERNET ECONOMY
+![Image](/images/plug_1.png)
 
-TFT is the official medium of exchange for Internet capacity on the ThreeFold Grid. The utility token allows users to reserve Internet capacity via the ThreeFold Blockchain and rewards farmers for their contribution to the network.
-
-<button>[Learn More About TFT](/deploy)</button>
+All you need to get started is a 3Node, electricity and a network connection.
 
 |||
 
-![Image](/images/grid_decenter.jpg)
+![Image](/images/offer_2.png)
+
+The 3Node’s Internet capacity is automatically registered in the blockchain.
+
+|||
+
+![Image](/images/Earn_3.png)
+
+Every month, you earn TFT for keeping the 3Node connected to the network.
 
 {% end %}
 
+<br>
+<br>
+
+{% row(style="center") %}
 
 
+## JOIN **A WORLD OF FARMERS**
+
+### We are growing fast
+
+<br>
+
+![Image](/images/farm_map.png#mx-auto)
+
+<button>[Explore ThreeFold Grid Capacity](/become-farmer)</button>
 
 
+{% end %}
 
+<br>
+<br>
+
+{% row() %}
+
+# HELLO <br> TITAN
+
+<br>
+
+The Titan was designed to fit in any home or office. It's compact, optimized for performance, and comes plug-and-farm. Just connect the Titan to electricity and network to start earning. Yes, it's that simple!
+
+
+<button>[Get Titan](/deploy)</button>
+
+|||
+
+![Image](/images/farm_titan.jpg)
+
+{% end %}
+
+<br>
+<br>
+
+{% row(bgColor="#f2f2f2" style="narrow") %}
+
+![Image](/images/farm_do_it.png)
+
+
+|||
+
+## DO IT <br> **YOURSELF**
+
+ThreeFold’s operating system, Zero-OS, can run on any Intel or AMD hardware. From building your own 3Node to using refurbished hardware, deﬁne your ideal conﬁgurations and start farming today.
+
+<br>
+
+
+<button>[See Requirements](/learn-more)</button>
+
+{% end %}
