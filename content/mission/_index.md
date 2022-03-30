@@ -24,7 +24,8 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 {% end %}
 
-
+<br>
+<br>
 
 {% row() %}
 
@@ -37,6 +38,10 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 Internet access is a human right and it can change everything for the lives of people as an infinite source of tools and information. Our technology was designed to scale the People’s Internet anywhere electricity and bandwidth are present.
 
 {% end %}
+
+
+<br>
+<br>
 
 {% row() %}
 
@@ -51,6 +56,9 @@ Internet access is a human right and it can change everything for the lives of p
 {% end %}
 
 
+<br>
+<br>
+
 {% row() %}
 
 ![Image](/images/node_mission.png#large)
@@ -61,6 +69,11 @@ Internet access is a human right and it can change everything for the lives of p
 
 The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
 {% end %}
+
+
+<br>
+<br>
+
 
 {% row(style="center narrow") %}
 
@@ -95,6 +108,8 @@ And we’re aiming for new heights. The People’s Internet will turn into a DAO
 
 {% end %}
 
+<br>
+<br>
 
 {% row(bgColor="#70dfc9" style="center narrow") %}
 
