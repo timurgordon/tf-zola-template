@@ -2,7 +2,7 @@
 base_url = "https://ourworld.tf"
 # Change this to your own URL! Please note this variable **must** be uncommented.
 
-title = "Our World"
+title = "ThreeFold"
 description="Our global digital backbone"
 
 # When set to "true", a feed is automatically generated.

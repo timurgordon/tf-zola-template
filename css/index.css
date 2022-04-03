@@ -34,7 +34,7 @@ img[src*="#small"] {
 }
 
 img[src*="#medium"] {
-  width: 500px;
+  width: 400px;
   margin: auto;
 }
 
@@ -46,6 +46,15 @@ img[src*="#logo"] {
 img[src*="#large"] {
   width: 1000px;
   margin: auto;
+}
+
+img[src*="#tft_img"] {
+  width: 150px;
+  margin: 8px;
+}
+
+.logo_size{
+  width:200px
 }
 
 @layer components {
@@ -126,4 +135,42 @@ header {
   padding: 0 !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+.quicklinks {
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.quicklinks img {
+  height: auto;
+  max-width: 200px;
+  display: inline-block;
+  padding: 10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: relative;
+  margin-right: 30px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  opacity: 0.5;
+}
+
+.quicklinks img:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
