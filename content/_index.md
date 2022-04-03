@@ -19,7 +19,6 @@ extra:
 
 <button>[Become a farmer](/become-farmer)</button>
 
-
 {% end %}
 
 {% row(style="lean") %}
@@ -47,8 +46,6 @@ Companies and developers have already started using ThreeFold for it’s autonom
 <button>[Deploy](/deploy)</button>
 
 ![Image](/images/network_new.jpg#mx-auto)
-
-
 
 {% end %}
 
@@ -88,10 +85,9 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 
 {% end %}
 
-
 {% team_sec() %}
-## **THE TEAM**
 
+## **THE TEAM**
 
 {% end %}
 
@@ -107,26 +103,8 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 {% end %}
 
-{% row() %}
-
-## Register & choose a path
-
-<br>
-
-The best way to stake your claim in the
-OurWorldverse is by creating registering.
-
-Then, choose the first step in your journey.
-
-<br>
-
-|||
-
-|||
-
-{% end %}
-
 {% row(style="center") %}
+
 ## **IN THE NEWS**
 
 {% end %}
@@ -142,7 +120,6 @@ Then, choose the first step in your journey.
 |||
 
 [![yahoo_news](/images/yahoo_news.png)](https://news.yahoo.com/news/threefold-set-disrupt-status-quo-051457787.html?guccounter=1)
-
 
 {% end %}
 
@@ -170,5 +147,11 @@ Then, choose the first step in your journey.
 |||
 
 [![grit_daily](/images/grit_daily.png)](https://gritdaily.com/belarus-governments-control-internet/)
+
+{% end %}
+
+{% featured_stories() %}
+
+## **FEATURED STORIES**
 
 {% end %}
