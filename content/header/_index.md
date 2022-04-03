@@ -96,4 +96,5 @@ Be a part of the new internet
 - [Mission]("/mission")
 - [Grid]("/grid")
 - [Farm]("/farm")
+- [TFT]("/tft")
 - [Blog]("/blog")
