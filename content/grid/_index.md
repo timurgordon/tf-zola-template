@@ -22,7 +22,7 @@ Expand the ThreeFold Grid – an open source peer-to-peer Internet infrastructur
 
 {% row(style="lean") %}
 
-![Image](/images/gride_header.png#mx-auto#mx-auto)
+![Image](/images/gride_header.png#mx-auto)
 
 {% end %}
 

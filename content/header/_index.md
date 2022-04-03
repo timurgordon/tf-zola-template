@@ -97,4 +97,31 @@ Be a part of the new internet
 - [Grid]("/grid")
 - [Farm]("/farm")
 - [TFT]("/tft")
+- Community
+
+{% menu() %}
+
+{% button() %}
+
+
+[Our People](/people)
+
+{%% end %%}
+
+
+{% button() %}
+
+
+[ThreeFold Community](/community)
+
+{%% end %%}
+
+{% button() %}
+
+
+[Developers Resources](/developersy)
+
+{%% end %%}
+
+{% end %}
 - [Blog]("/blog")
