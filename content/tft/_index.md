@@ -217,6 +217,45 @@ Burning permanently removes TFT from the circulating supply when the ThreeFold G
 
 {% end %}
 
+<br>
+<br>
+
+
+<!-- section 9 (partners) -->
+
+{% row(style="center") %}
+
+## **JOIN THE PEOPLE'S INTERNET**
+
+Get TFT today and participate in the realization of a truly decentralized world.
+
+<div class="quicklinks">
+<a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
+ <img class="py-2 my-2 px-5 border-2 border-black" src="/images/get_tft_button.png" alt ="cointelegraph">
+ 
+ </a>
+
+<a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
+ <img class="py-2 my-2 px-5 border-2 border-black" src="/images/pancack_button.png" alt ="cointelegraph">
+ 
+ </a>
+
+ <a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
+ <img class="py-2 my-2 px-5 border-2 border-black" src="/images/iinch_button.png" alt ="cointelegraph">
+ 
+ </a>
+ </div>
+
+{% end %}
+
+{% row(style="lean") %}
+
+![Image](/images/tft_join_internet.png#mx-auto)
+
+
+
+{% end %}
+
 
 <br>
 <br>
