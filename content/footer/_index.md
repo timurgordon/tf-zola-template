@@ -4,7 +4,7 @@ description: "The alternative to the current too centralized and unsustainable i
 insert_anchor_links: "left"
 template: "partials/footer.html"
 extra:
-  logoPath: "/images/ourworld_logo2.png"
+  logoPath: "/images/tft_log.svg"
   socialLinks: { Facebook: "https://", Github: "https://", Twitter: "https://" }
 ---
 
