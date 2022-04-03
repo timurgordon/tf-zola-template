@@ -127,13 +127,48 @@ Then, choose the first step in your journey.
 {% end %}
 
 {% row(style="center") %}
-
 ## **IN THE NEWS**
 
 {% end %}
 
 {% row(style="center") %}
 
-## **IN THE NEWS**
+[![forbes](/images/forbes.png)](https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/?fbclid=IwAR1WKCpqLcWPRWg5bPD6RCQE5JJjRPt6ey5vbEnu3db2FvJnp6-YKeVZNW8#79aa340e6798)
+
+|||
+
+[![cointelegraph](/images/cointelegraph.png)](https://cointelegraph.com/news/peer-to-peer-internet-has-lofty-goal-to-bring-true-decentralization)
+
+|||
+
+[![yahoo_news](/images/yahoo_news.png)](https://news.yahoo.com/news/threefold-set-disrupt-status-quo-051457787.html?guccounter=1)
+
+
+{% end %}
+
+{% row(style="center") %}
+
+[![hackernoon](/images/hackernoon.png)](https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf)
+
+|||
+
+[![smartereum](/images/smartereum.png)](https://smartereum.com/189750/threefold-is-audaciously-building-a-new-decentralized-internet/)
+
+|||
+
+[![tga_daily](/images/tga_daily.png)](https://tgdaily.com/web/6-dfinity-threefold-are-leading-an-internet-decentralization-revolution/)
+
+{% end %}
+{% row(style="center") %}
+
+[![cointelegraph](/images/cointelegraph.png)](https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp)
+
+|||
+
+[![banklesstimes](/images/banklesstimes.png)](https://www.banklesstimes.com/2021/06/14/threefolds-green-technology-strategy-to-a-fairer-more-sustainable-world/)
+
+|||
+
+[![grit_daily](/images/grit_daily.png)](https://gritdaily.com/belarus-governments-control-internet/)
 
 {% end %}
