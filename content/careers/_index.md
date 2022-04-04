@@ -65,7 +65,7 @@ Check out our available positions below. Can't find your perfect fit and don't w
   
 
 <div class="relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20">
-    <a href="/careers" class="section banner" >
+    <a href="/community" class="section banner" >
       <div class="center">
         <h2 class="h1">
           <strong>Join our Team</strong>
