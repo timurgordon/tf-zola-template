@@ -4,7 +4,6 @@ template: "section.html"
 insert_anchor_links: "left"
 ---
 
-
 <!-- section 1 (header) -->
 
 {% row(style="center") %}
@@ -14,7 +13,6 @@ insert_anchor_links: "left"
 <br>
 
 To build an open-source peer-to-peer Internet infrastructure that removes all forms of centralization from the global IT systems.
-
 
 <button>[The collective dream](/deploy)</button>
 
@@ -41,7 +39,6 @@ Internet access is a human right and it can change everything for the lives of p
 
 {% end %}
 
-
 <br>
 <br>
 
@@ -59,13 +56,12 @@ Create, store and share in full control of where your data resides and who can a
 
 {% end %}
 
-
 <br>
 <br>
 
 <!-- section 4 (OUR ACTIONS) -->
 
-{% row() %}
+{% row(gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)") %}
 
 ![Image](/images/node_mission.png#medium)
 
@@ -76,12 +72,10 @@ Create, store and share in full control of where your data resides and who can a
 The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
 {% end %}
 
-
 <br>
 <br>
 
 <!-- section 5 (JOIN THE FOLD) -->
-
 
 {% row(style="center narrow") %}
 
@@ -97,14 +91,12 @@ Together, we build the People’s Internet. Our Internet.
 
 {% end %}
 
-
 <br>
 <br>
 
 <!-- section 6 (GETTING STARTED) -->
 
 {% row(style="center between") %}
-
 
 ## WE’VE COME A LONG WAY, <br> **AND WE’RE JUST GETTING STARTED**
 
@@ -120,7 +112,6 @@ And we’re aiming for new heights. The People’s Internet will turn into a DAO
 
 {% end %}
 
-
 <br>
 <br>
 
@@ -128,15 +119,12 @@ And we’re aiming for new heights. The People’s Internet will turn into a DAO
 
 {% row(bgColor="#70dfc9" style="center narrow") %}
 
-
 ## **START THE INTERNET <br> REVOLUTION**
 
 Connect, share and collaborate with our open community to expand the horizons of the People’s Internet. Bring your ideas and let’s co-create together!
 
 <br>
 
-
 <button>[Join The Fold](/learn-more)</button>
 
 {% end %}
-
