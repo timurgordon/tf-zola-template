@@ -119,7 +119,7 @@ Be a part of the new internet
 {% button() %}
 
 
-[Developers Resources](/developersy)
+[Developers Resources](/developer)
 
 {%% end %%}
 

@@ -9,6 +9,9 @@ extra:
   imgPath: /images/threefold_globe.png
 ---
 
+
+<!-- section 1 (header) -->
+
 {% row(style="center narrow") %}
 
 ## WELCOME TO THE <br> **PEOPLE’S INTERNET**
@@ -26,6 +29,13 @@ extra:
 ![Image](/images/threefold_img.jpg#mx-auto)
 
 {% end %}
+
+
+<br>
+<br>
+
+
+<!-- section 2 (EXPAND) -->
 
 {% row(style="center") %}
 
@@ -49,6 +59,16 @@ Companies and developers have already started using ThreeFold for it’s autonom
 
 {% end %}
 
+
+<br>
+
+<br>
+
+<br>
+
+
+<!-- section 3 (P2P) -->
+
 {% row(style="center") %}
 
 ![Image](/images/p4p_new.png#medium)
@@ -62,6 +82,17 @@ The People’s Internet is formed by independent people from all around the worl
 <button>[Learn More](/learn-more)</button>
 
 {% end %}
+
+
+<br>
+
+<br>
+
+
+<!-- section 4 (DECENTRALIZED) -->
+
+
+
 
 {% row(style="center") %}
 
@@ -77,6 +108,15 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 
 {% end %}
 
+
+<br>
+
+<br>
+
+
+<!-- section 5 (Map) -->
+
+
 {% grid_stats() %}
 
 ### THE THREEFOLD GRID
@@ -85,11 +125,27 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 
 {% end %}
 
+
+<br>
+
+<br>
+
+
+<!-- section 6 (THE TEAM) -->
+
 {% team_sec() %}
 
 ## **THE TEAM**
 
 {% end %}
+
+
+<br>
+
+<br>
+
+
+<!-- section 7 (PARTNERS) -->
 
 {% row(style="center moderate") %}
 
@@ -103,52 +159,67 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 {% end %}
 
+
+<br>
+
+<br>
+
+
+<!-- section 8 (IN THE NEWS) -->
+
 {% row(style="center") %}
 
 ## **IN THE NEWS**
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center between") %}
 
-[![forbes](/images/forbes.png)](https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/?fbclid=IwAR1WKCpqLcWPRWg5bPD6RCQE5JJjRPt6ey5vbEnu3db2FvJnp6-YKeVZNW8#79aa340e6798)
-
-|||
-
-[![cointelegraph](/images/cointelegraph.png)](https://cointelegraph.com/news/peer-to-peer-internet-has-lofty-goal-to-bring-true-decentralization)
+[![forbes](/images/forbes.png#mx-auto)](https://www.forbes.com/sites/johnkoetsier/2020/06/20/largest-distributed-peer-to-peer-grid-on-the-planet-laying-foundation-for-a-decentralized-internet/?fbclid=IwAR1WKCpqLcWPRWg5bPD6RCQE5JJjRPt6ey5vbEnu3db2FvJnp6-YKeVZNW8#79aa340e6798)
 
 |||
 
-[![yahoo_news](/images/yahoo_news.png)](https://news.yahoo.com/news/threefold-set-disrupt-status-quo-051457787.html?guccounter=1)
+[![cointelegraph](/images/cointelegraph.png#mx-auto)](https://cointelegraph.com/news/peer-to-peer-internet-has-lofty-goal-to-bring-true-decentralization)
+
+|||
+
+[![yahoo_news](/images/yahoo_news.png#mx-auto)](https://news.yahoo.com/news/threefold-set-disrupt-status-quo-051457787.html?guccounter=1)
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center between") %}
 
-[![hackernoon](/images/hackernoon.png)](https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf)
-
-|||
-
-[![smartereum](/images/smartereum.png)](https://smartereum.com/189750/threefold-is-audaciously-building-a-new-decentralized-internet/)
+[![hackernoon](/images/hackernoon.png#mx-auto)](https://hackernoon.com/is-it-possible-to-create-a-decentralized-internet-this-startup-and-its-farmers-think-so-ey2e3ycf)
 
 |||
 
-[![tga_daily](/images/tga_daily.png)](https://tgdaily.com/web/6-dfinity-threefold-are-leading-an-internet-decentralization-revolution/)
+[![smartereum](/images/smartereum.png#mx-auto)](https://smartereum.com/189750/threefold-is-audaciously-building-a-new-decentralized-internet/)
+
+|||
+
+[![tga_daily](/images/tga_daily.png#mx-auto)](https://tgdaily.com/web/6-dfinity-threefold-are-leading-an-internet-decentralization-revolution/)
 
 {% end %}
-{% row(style="center") %}
+{% row(style="center between") %}
 
-[![cointelegraph](/images/cointelegraph.png)](https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp)
-
-|||
-
-[![banklesstimes](/images/banklesstimes.png)](https://www.banklesstimes.com/2021/06/14/threefolds-green-technology-strategy-to-a-fairer-more-sustainable-world/)
+[![cointelegraph](/images/cointelegraph.png#mx-auto)](https://cointelegraph-com.cdn.ampproject.org/c/s/cointelegraph.com/news/is-a-new-decentralized-internet-or-web-3-0-possible/amp)
 
 |||
 
-[![grit_daily](/images/grit_daily.png)](https://gritdaily.com/belarus-governments-control-internet/)
+[![banklesstimes](/images/banklesstimes.png#mx-auto)](https://www.banklesstimes.com/2021/06/14/threefolds-green-technology-strategy-to-a-fairer-more-sustainable-world/)
+
+|||
+
+[![grit_daily](/images/grit_daily.png#mx-auto)](https://gritdaily.com/belarus-governments-control-internet/)
 
 {% end %}
+
+<br>
+
+<br>
+
+
+<!-- section 9 (FEATURED STORIES) -->
 
 {% featured_stories() %}
 

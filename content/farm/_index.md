@@ -181,17 +181,16 @@ Farmers earn the TFT after meeting the minimum uptime as proof-of-capacity.
 
 <!-- section 7 (THE VALUE OF TFT) -->
 
-{% row(style="center narrow") %}
+{% row(style="center between") %}
 
 
 ## THE  **VALUE OF TFT**
 
 The ThreeFold Grid is the only Internet infrastructure that can scale to the far edges of our world and meet the insatiable demands of emerging IT workloads. The more the ThreeFold Grid is used, the more TFT are “burnt” to reduce the total circulating supply..
 
-{% end %}
-
-{% row(style="center") %}
+<br>
 
 ![Image](/images/farm_value_tft.jpg#large)
 
 {% end %}
+

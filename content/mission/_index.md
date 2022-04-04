@@ -5,7 +5,7 @@ insert_anchor_links: "left"
 ---
 
 
-
+<!-- section 1 (header) -->
 
 {% row(style="center") %}
 
@@ -27,6 +27,8 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 <br>
 <br>
 
+<!-- section 2 (INTERCONNECTED) -->
+
 {% row() %}
 
 ![Image](/images/globe_mission.png#medium)
@@ -43,11 +45,13 @@ Internet access is a human right and it can change everything for the lives of p
 <br>
 <br>
 
+<!-- section 3 (SOVEREIGN) -->
+
 {% row() %}
 
-## SUPPORTING AN INTERCONNECTED WORLD
+## EMPOWERING PEOPLE TO BE SOVEREIGN
 
-Internet access is a human right and it can change everything for the lives of people as an infinite source of tools and information. Our technology was designed to scale the People’s Internet anywhere electricity and bandwidth are present.
+Create, store and share in full control of where your data resides and who can access it. By combining peer-to-peer, blockchain and autonomous technologies, the People’s Internet provides 100% data ownership and privacy.
 
 |||
 
@@ -58,6 +62,8 @@ Internet access is a human right and it can change everything for the lives of p
 
 <br>
 <br>
+
+<!-- section 4 (OUR ACTIONS) -->
 
 {% row() %}
 
@@ -74,6 +80,8 @@ The ThreeFold Law states that any good you do will return to you threefold in th
 <br>
 <br>
 
+<!-- section 5 (JOIN THE FOLD) -->
+
 
 {% row(style="center narrow") %}
 
@@ -82,7 +90,6 @@ The ThreeFold Law states that any good you do will return to you threefold in th
 Together, we build the People’s Internet. Our Internet.
 
 <br>
-<br>
 
 ![Image](/images/100_mission.png#meduim)
 
@@ -90,26 +97,34 @@ Together, we build the People’s Internet. Our Internet.
 
 {% end %}
 
-{% row(style="center narrow") %}
+
+<br>
+<br>
+
+<!-- section 6 (GETTING STARTED) -->
+
+{% row(style="center between") %}
 
 
 ## WE’VE COME A LONG WAY, <br> **AND WE’RE JUST GETTING STARTED**
 
 After setting world records in Internet storage and cloud automation technologies throughout the past 20 years, some of our co-founders decided to start from scratch and build a new Internet infrastructure that is universally open source and peer-to-peer.
 
-
-{% end %}
-
-{% row(style="center") %}
+<br>
 
 ![Image](/images/mission_roadmap.png#large)
+
+<br>
 
 And we’re aiming for new heights. The People’s Internet will turn into a DAO in 2022, inviting developers and enterprises from all around the world to collaborate on the decentralization of everything that is digital, and beyond.
 
 {% end %}
 
+
 <br>
 <br>
+
+<!-- section 7 (REVOLUTION) -->
 
 {% row(bgColor="#70dfc9" style="center narrow") %}
 
