@@ -106,7 +106,7 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 <!-- section 4 (THE CURRENCY) -->
 
-{% row() %}
+{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)") %}
 
 ![Image](/images/tft_currency.png#medium)
 
