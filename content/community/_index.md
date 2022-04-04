@@ -26,6 +26,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 <br>
 <br>
 
+
 <!-- section 3 (INTERNET) -->
 
 {% row(style="center narrow") %}
@@ -91,11 +92,41 @@ Join the growing community of ThreeFold’s most passionate supporters. Bring yo
 
 Check out the FAQs or ask a question on the ThreeFold Forum.
 
-<button>[ThreeFold FAQ](https://honf2dpejik.typeform.com/to/Hubtbirs)</button>
-<button>[Farm FAQ](https://honf2dpejik.typeform.com/to/Hubtbirs)</button>
-<button>[TFT FAQ](https://honf2dpejik.typeform.com/to/Hubtbirs)</button>
+<button>[ThreeFold FAQ](/faq)</button>
+<button>[Farm FAQ](/farmfaq)</button>
+<button>[TFT FAQ](/tftfaq)</button>
 
 {% end %}
+
+<br>
+<br>
+<!-- 
+  <div class="header section banner">
+      <div class="center">
+        <h1 class="text-8xl uppercase">
+          <strong>Join our Team</strong>
+        </h1>
+      </div>
+      <div
+        class="back"
+        style="background-image: url('/images//tf_people.jpg')"
+      ></div>
+    </div> -->
+    
+
+<div class="relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20">
+    <a href="/careers" class="section banner" >
+      <div class="center">
+        <h2 class="h1">
+          <strong>Join our Team</strong>
+        </h2>
+      </div>
+      <div class="back" style="background-image: url('/images//tf_people.jpg')"
+      ></div>
+    </a>
+</div>
+
+
 
 
 
