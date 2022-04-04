@@ -1,7 +1,6 @@
 ---
 title: "Developer"
-template: "section.html"
-insert_anchor_links: "left"
+page_template: "resourcesPage.html"
 ---
 
 <br>
@@ -10,15 +9,9 @@ insert_anchor_links: "left"
 
 {% row(style="center") %}
 
-
-
-
-
 ## **THREEFOLD <br> DEVELOPER <br> RESOURCES**
 
-
 A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
-
 
 <button>[Join The Developer Community](https://t.me/threefoldtesting)</button>
 
@@ -28,18 +21,15 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
 {% end %}
 
-
 <br>
 
 <br>
-
 
 <!-- section 2 (TESTING GRANTS) -->
 
 {% row(bgColor="#f2f2f2" style="narrow") %}
 
 ![Image](/images/developer_testing.png)
-
 
 |||
 
@@ -49,7 +39,6 @@ We have different use cases for you to take ThreeFold’s technology on a test d
 
 <br>
 
-
 <button>[Sign Up](https://088nfpf6v5s.typeform.com/to/DS8hUAdV)</button>
 
 {% end %}
@@ -57,22 +46,24 @@ We have different use cases for you to take ThreeFold’s technology on a test d
 <br>
 <br>
 
-
 <!-- section 4 (DEVELOPER RESOURCES) -->
 
+{% dev_resourses() %}
+
+## WHERE WOULD YOU LIKE TO START?
+
+## **NOW OPERATIONAL**
+
+{% end %}
+
 {% row(style="narrow center") %}
-
-
 
 ## OUR <br> **DEVELOPER RESOURCES**
 
 hreeFold is here to build the open-source Internet and Cloud infrastructure. The documentation helps you build on ThreeFold by introducing you to some foundational concepts as well as our development stacks.<br>
 Inspired by the open-source movement, everything at ThreeFold is open to be audited, extended and improved. If you have any feedback, please reach out with a GitHub issue or on our telegram.
 
-
-
 <br>
-
 
 <button>[Explore Documentation](#table_link)</button>
 <button>[Offer Feedback](https://github.com/threefoldfoundation/info_threefold_pub/tree/main/wiki)</button>
@@ -88,7 +79,6 @@ Inspired by the open-source movement, everything at ThreeFold is open to be audi
 
 ![Image](/images/developet_tft.jpg)
 
-
 |||
 
 ## JOIN US IN MAKING <br> **THREEFOLD BETTER**
@@ -96,7 +86,6 @@ Inspired by the open-source movement, everything at ThreeFold is open to be audi
 All our docs are the results of community efforts. Create a pull request if you see mistakes, room for improvement, or new opportunities to help the ThreeFold community.
 
 <br>
-
 
 <button>[Contribute](https://github.com/threefoldfoundation/info_threefold_pub)</button>
 
@@ -115,7 +104,6 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 {% row(style="center between") %}
 
-
 ### **Introduction:**
 [Intro to ThreeFold](https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_intro)
 
@@ -130,6 +118,7 @@ All our docs are the results of community efforts. Create a pull request if you 
 |||
 
 ### **Fundamentals:**
+
 [Set up your account](https://library.threefold.me/info/threefold#/tokens/threefold__threefold_connect)
 
 [Charge your wallet](https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy)
@@ -145,6 +134,7 @@ All our docs are the results of community efforts. Create a pull request if you 
 |||
 
 ### **The Stack:**
+
 [Zero-OS](https://library.threefold.me/info/threefold#/technology/threefold__zos)
 
 [Smart Contract for IT](https://library.threefold.me/info/threefold#/technology/threefold__smartcontract_it)
@@ -157,12 +147,6 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 [Planetary Network](https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__grid3_planetary_network)
 
-
 {% end %}
 
 <br>
-
-
-
-
-
