@@ -125,3 +125,5 @@ Be a part of the new internet
 
 {% end %}
 - [Blog]("/blog")
+- [Careers]("/careers")
+- [Support]("/support")

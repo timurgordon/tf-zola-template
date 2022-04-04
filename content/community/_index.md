@@ -100,18 +100,6 @@ Check out the FAQs or ask a question on the ThreeFold Forum.
 
 <br>
 <br>
-<!-- 
-  <div class="header section banner">
-      <div class="center">
-        <h1 class="text-8xl uppercase">
-          <strong>Join our Team</strong>
-        </h1>
-      </div>
-      <div
-        class="back"
-        style="background-image: url('/images//tf_people.jpg')"
-      ></div>
-    </div> -->
     
 
 <div class="relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20">

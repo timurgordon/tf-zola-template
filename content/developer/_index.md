@@ -107,14 +107,14 @@ All our docs are the results of community efforts. Create a pull request if you 
 
 <!-- section 6 (DOCUMENTATION) -->
 
-{% row(style="center") %}
-
-
+{% row(style="center between") %}
 
 ## EXPLORE THE <br> **DOCUMENTATION**
 
+{% end %}
 
-|||
+{% row(style="center between") %}
+
 
 ### **Introduction:**
 [Intro to ThreeFold](https://library.threefold.me/info/threefold#/tfgrid/grid/threefold__grid_intro)
