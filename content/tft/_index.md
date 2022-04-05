@@ -4,6 +4,9 @@ template: "section.html"
 insert_anchor_links: "left"
 ---
 
+<br>
+
+<br>
 
 
 <!-- section 1 (be the Internet) -->
@@ -30,10 +33,10 @@ The People’s Internet creates an entirely new decentralized Internet economy t
  </div>
 
 
-
 {% end %}
 
 
+<br>
 
 <br>
 
@@ -102,6 +105,9 @@ While many projects have created bits and pieces of what a decentralized Interne
 {% end %}
 
 <br>
+
+<br>
+
 <br>
 
 <!-- section 4 (THE CURRENCY) -->
@@ -119,6 +125,12 @@ TFT is a utility token that allows people to hold current and future Internet ca
 <button>[Learn About TFT](https://library.threefold.me/info/threefold/#/tokens/tokens_home.md)</button>
 
 {% end %}
+
+<br>
+
+<br>
+
+<br>
 
 
 <!-- section 5 (OPEN NETWORK) -->
@@ -157,6 +169,9 @@ People buy TFT to store data and run applications privately on a peer-to-peer In
 {% end %}
 
 <br>
+
+<br>
+
 <br>
 
 <!-- section 6 (OPEN NETWORK) -->
@@ -178,6 +193,9 @@ The ThreeFold blockchain automatically scans wallets and provides up-to 60% disc
 
 
 <br>
+
+<br>
+
 <br>
 
 <!-- section 7 (OPEN NETWORK) -->
@@ -198,6 +216,9 @@ TFT is minted only when new Internet capacity is added to the ThreeFold Grid. A 
 
 
 <br>
+
+<br>
+
 <br>
 
 <!-- section 8 (BURN AND FARM) -->
@@ -218,6 +239,9 @@ Burning permanently removes TFT from the circulating supply when the ThreeFold G
 {% end %}
 
 <br>
+
+<br>
+
 <br>
 
 
@@ -258,12 +282,15 @@ Get TFT today and participate in the realization of a truly decentralized world.
 
 
 <br>
+
+<br>
+
 <br>
 
 
 <!-- section 10 (partners) -->
 
-{% row(style="center moderate") %}
+{% row(style="center") %}
 
 ## **BELIEVERS IN TFT**
 

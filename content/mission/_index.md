@@ -23,6 +23,9 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 {% end %}
 
 <br>
+
+<br>
+
 <br>
 
 <!-- section 2 (INTERCONNECTED) -->
@@ -40,6 +43,9 @@ Internet access is a human right and it can change everything for the lives of p
 {% end %}
 
 <br>
+
+<br>
+
 <br>
 
 <!-- section 3 (SOVEREIGN) -->
@@ -121,7 +127,7 @@ And we’re aiming for new heights. The People’s Internet will turn into a DAO
 
 ## **START THE INTERNET <br> REVOLUTION**
 
-Connect, share and collaborate with our open community to expand the horizons of the People’s Internet. Bring your ideas and let’s co-create together!
+Connect, share and collaborate with our open community to expand the horizons of the People’s Internet.<br> Bring your ideas and let’s co-create together!
 
 <br>
 

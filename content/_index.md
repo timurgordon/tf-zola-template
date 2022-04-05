@@ -32,6 +32,9 @@ extra:
 
 
 <br>
+
+<br>
+
 <br>
 
 
@@ -58,6 +61,7 @@ Companies and developers have already started using ThreeFold for it’s autonom
 ![Image](/images/network_new.jpg#mx-auto)
 
 {% end %}
+
 
 
 <br>
