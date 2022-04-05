@@ -8,7 +8,7 @@ extra:
   imgPath: ""
 ---
 
-- Learn
+<!-- - Learn
 
 {% menu() %}
 
@@ -90,14 +90,15 @@ Be a part of the new internet
 
 {%% end %%}
 
-{% end %}
+{% end %} -->
 
 <!-- - [Join us]("/join-us") -->
 - [Mission]("/mission")
 - [Grid]("/grid")
+- [Cloud]("/cloud")
 - [Farm]("/farm")
 - [TFT]("/tft")
-- ECOSYSTEM
+- Ecosystem
 
 {% menu() %}
 
@@ -108,6 +109,7 @@ Be a part of the new internet
 
 {%% end %%}
 
+|||
 
 {% button() %}
 
@@ -128,6 +130,7 @@ Be a part of the new internet
 
 {%% end %%}
 
+|||
 
 {% button() %}
 
@@ -135,6 +138,8 @@ Be a part of the new internet
 [ThreeFold Community](/community)
 
 {%% end %%}
+
+|||
 
 {% button() %}
 
@@ -144,6 +149,53 @@ Be a part of the new internet
 {%% end %%}
 
 {% end %}
-- [Blog]("/blog")
-- [Careers]("/careers")
-- [Support]("/support")
+
+- MoreInfo
+
+{% menu() %}
+
+{% button() %}
+
+[Explorer](https://explorer.threefold.io/all)
+
+{%% end %%}
+
+
+{% button() %}
+
+[Library](https://library.threefold.me/info/threefold#/)
+
+{%% end %%}
+
+|||
+
+{% button() %}
+
+[Blog](/blog)
+
+{%% end %%}
+
+{% button() %}
+
+[Newsroom](/newsroom)
+
+{%% end %%}
+
+|||
+
+{% button() %}
+
+[Careers](/careers)
+
+{%% end %%}
+
+{% button() %}
+
+[Support](/support)
+
+{%% end %%}
+
+
+{% end %}
+
+
