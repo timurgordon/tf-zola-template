@@ -22,15 +22,11 @@ To build an open-source peer-to-peer Internet infrastructure that removes all fo
 
 {% end %}
 
-<br>
 
-<br>
-
-<br>
 
 <!-- section 2 (INTERCONNECTED) -->
 
-{% row() %}
+{% row(style="margin") %}
 
 ![Image](/images/globe_mission.png#medium)
 
@@ -42,15 +38,10 @@ Internet access is a human right and it can change everything for the lives of p
 
 {% end %}
 
-<br>
-
-<br>
-
-<br>
 
 <!-- section 3 (SOVEREIGN) -->
 
-{% row() %}
+{% row(style="margin") %}
 
 ## EMPOWERING PEOPLE TO BE SOVEREIGN
 
@@ -62,12 +53,11 @@ Create, store and share in full control of where your data resides and who can a
 
 {% end %}
 
-<br>
-<br>
+
 
 <!-- section 4 (OUR ACTIONS) -->
 
-{% row(gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)") %}
+{% row(gradient="linear-gradient(90deg,#70dfc9,#ea1ff7)" style="margin") %}
 
 ![Image](/images/node_mission.png#medium)
 
@@ -78,12 +68,11 @@ Create, store and share in full control of where your data resides and who can a
 The ThreeFold Law states that any good you do will return to you threefold in this lifetime. By making our technology actionable, we energize a collective approach towards a single mission – empowering humanity while regenerating our planet.
 {% end %}
 
-<br>
-<br>
+
 
 <!-- section 5 (JOIN THE FOLD) -->
 
-{% row(style="center narrow") %}
+{% row(style="center between margin") %}
 
 ## **JOIN THE FOLD**
 
@@ -97,8 +86,7 @@ Together, we build the People’s Internet. Our Internet.
 
 {% end %}
 
-<br>
-<br>
+
 
 <!-- section 6 (GETTING STARTED) -->
 
@@ -123,7 +111,7 @@ And we’re aiming for new heights. The People’s Internet will turn into a DAO
 
 <!-- section 7 (REVOLUTION) -->
 
-{% row(bgColor="#70dfc9" style="center narrow") %}
+{% row(bgColor="#70dfc9" style="center narrow margin") %}
 
 ## **START THE INTERNET <br> REVOLUTION**
 

@@ -31,20 +31,14 @@ extra:
 {% end %}
 
 
-<br>
-
-<br>
-
-<br>
-
 
 <!-- section 2 (EXPAND) -->
 
-{% row(style="center") %}
+{% row(style="center margin") %}
 
 ### EXPAND THE PEOPLE’S INTERNET <br> **AND EARN TFT**
 
-By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
+By connecting hardware at your home or office, support the growth of <br> a decentralized Internet and earn a new digital currency, TFT.
 
 <button>[Become a farmer](/farm)</button>
 
@@ -54,7 +48,7 @@ By connecting hardware at your home or office, support the growth of a decentral
 
 ### DECENTRALIZE YOUR <br> **DATA AND WORKLOADS**
 
-Companies and developers have already started using ThreeFold for it’s autonomous, decentralization and privacy features.
+Companies and developers have already started using ThreeFold for <br> it’s autonomous, decentralization and privacy features.
 
 <button>[Deploy](/cloud)</button>
 
@@ -64,16 +58,9 @@ Companies and developers have already started using ThreeFold for it’s autonom
 
 
 
-<br>
-
-<br>
-
-<br>
-
-
 <!-- section 3 (P2P) -->
 
-{% row(style="center") %}
+{% row(style="center margin") %}
 
 ![Image](/images/p4p_new.png#medium)
 
@@ -88,17 +75,10 @@ The People’s Internet is formed by independent people from all around the worl
 {% end %}
 
 
-<br>
-
-<br>
-
-
 <!-- section 4 (DECENTRALIZED) -->
 
 
-
-
-{% row(style="center") %}
+{% row(style="center margin") %}
 
 ## POWERED BY A <br> **DECENTRALIZED OS**
 
@@ -144,14 +124,11 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 {% end %}
 
 
-<br>
-
-<br>
 
 
 <!-- section 7 (PARTNERS) -->
 
-{% row(style="center moderate") %}
+{% row(style="center margin") %}
 
 ## OUR GREATEST STRENGTH <br> **COMES FROM OUR PARTNERS**
 
@@ -227,6 +204,6 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 {% featured_stories() %}
 
-## **FEATURED STORIES**
+## FEATURED STORIES
 
 {% end %}
