@@ -4,14 +4,10 @@ template: "section.html"
 insert_anchor_links: "left"
 ---
 
-<br>
-
-<br>
-
 
 <!-- section 1 (be the Internet) -->
 
-{% row(style="center narrow") %}
+{% row(style="center between margin") %}
 
 ![Image](/images/tft_header.png#medium)
 
@@ -21,6 +17,7 @@ insert_anchor_links: "left"
 
 
 The People’s Internet creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet.
+
 
 <div class="relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 xl:flex xl:flex-row md:py-2 lg:py-2 lg:items-center text-center mx-auto justify-center">
 <a class="center" href="https://coinmarketcap.com/currencies/threefold/" rel="some text" target="_blank"> 
@@ -40,15 +37,13 @@ The People’s Internet creates an entirely new decentralized Internet economy t
 
 <br>
 
-<br>
-
 
 
 <!-- section 2 (Meeting Emerging Demand) -->
 
 {% row(style="center narrow") %}
 
-## **Meeting Emerging Demand**
+## **MEETING EMERGING DEMAND**
 
 
 Data has become the most valuable commodity on earth, the Internet infrastructure is experiencing significant growth. While the current centralized model is facing limitations, ThreeFold can scale to the edge to service the emerging demand.

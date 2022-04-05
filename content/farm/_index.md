@@ -8,7 +8,7 @@ insert_anchor_links: "left"
 
 <!-- section 1 (be the Internet) -->
 
-{% row() %}
+{% row(style="margin") %}
 
 ![Image](/images/farm_header.jpg)
 
@@ -25,15 +25,12 @@ The People’s Internet is powered by an entirely new incentive model made possi
 {% end %}
 
 
-<br>
-
-<br>
 
 
 
 <!-- section 2 (Farm) -->
 
-{% row(style="center narrow") %}
+{% row(style="center narrow ") %}
 
 # FARM
 ### A new way of growing the Internet
@@ -41,6 +38,8 @@ The People’s Internet is powered by an entirely new incentive model made possi
 3Nodes provide Internet capacity for millions of people using ThreeFold’s Planetary Network, and you earn TFT for doing so. And because of a unique operating system, called Zero-OS, once turned on your 3Node runs by itself.
 
 {% end %}
+
+<br>
 
 {% row(style="center") %}
 
@@ -69,15 +68,11 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 {% end %}
 
-<br>
-
-<br>
-
 
 
 <!-- section 3 (world of farmers) -->
 
-{% row(style="center") %}
+{% row(style="center margin") %}
 
 
 ## JOIN **A WORLD OF FARMERS**
@@ -93,12 +88,11 @@ Every month, you earn TFT for keeping the 3Node connected to the network.
 
 {% end %}
 
-<br>
-<br>
+
 
 <!-- section 4 (Hello Titan) -->
 
-{% row() %}
+{% row(style="margin") %}
 
 # HELLO <br> TITAN
 
@@ -115,12 +109,10 @@ The Titan was designed to fit in any home or office. It's compact, optimized for
 
 {% end %}
 
-<br>
-<br>
 
 <!-- section 5 (Do It Yourself) -->
 
-{% row(bgColor="#f2f2f2" style="narrow") %}
+{% row(bgColor="#f2f2f2" style="narrow margin") %}
 
 ![Image](/images/farm_do_it.png)
 
@@ -176,12 +168,11 @@ Farmers earn the TFT after meeting the minimum uptime as proof-of-capacity.
 
 {% end %}
 
-<br>
-<br>
+
 
 <!-- section 7 (THE VALUE OF TFT) -->
 
-{% row(style="center between") %}
+{% row(style="center between margin") %}
 
 
 ## THE  **VALUE OF TFT**
