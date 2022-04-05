@@ -43,7 +43,7 @@ extra:
 
 By connecting hardware at your home or office, support the growth of a decentralized Internet and earn a new digital currency, TFT.
 
-<button>[Become a farmer](/become-farmer)</button>
+<button>[Become a farmer](/farm)</button>
 
 ![Image](/images/become_farmer_new.jpg#mx-auto)
 
@@ -53,7 +53,7 @@ By connecting hardware at your home or office, support the growth of a decentral
 
 Companies and developers have already started using ThreeFold for it’s autonomous, decentralization and privacy features.
 
-<button>[Deploy](/deploy)</button>
+<button>[Deploy](/cloud)</button>
 
 ![Image](/images/network_new.jpg#mx-auto)
 
@@ -79,7 +79,7 @@ Companies and developers have already started using ThreeFold for it’s autonom
 
 The People’s Internet is formed by independent people from all around the world who connect Internet capacity to a new Planetary Network. Together they form a collective that brings a new paradigm – an open-source peer-to-peer Internet owned by humanity.
 
-<button>[Learn More](/learn-more)</button>
+<button>[Learn More](/grid)</button>
 
 {% end %}
 
@@ -100,7 +100,7 @@ The People’s Internet is formed by independent people from all around the worl
 
 Zero-OS is a stateless and lightweight operating system designed to host anything that runs on Linux in a decentralized way. Once installed, Zero-OS locks the hardware and dedicates its capacity to the People’s Internet via the ThreeFold Blockchain.
 
-<button>[Learn More](/learn-more)</button>
+<button>[Learn More](/farm)</button>
 
 |||
 
@@ -155,7 +155,7 @@ We are truly proud to be trusted by some of the biggest names in the industry.
 
 ![Image](/images/ourpartners.png)
 
-<button>[Check All Partners](/learn-more)</button>
+<button>[Check All Partners](/partners)</button>
 
 {% end %}
 

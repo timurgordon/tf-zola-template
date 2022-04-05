@@ -92,11 +92,31 @@ Be a part of the new internet
 
 {% end %}
 
-- [Join us]("/join-us")
+<!-- - [Join us]("/join-us") -->
 - [Mission]("/mission")
 - [Grid]("/grid")
 - [Farm]("/farm")
 - [TFT]("/tft")
+- ECOSYSTEM
+
+{% menu() %}
+
+{% button() %}
+
+
+[Our Partners](/partners)
+
+{%% end %%}
+
+
+{% button() %}
+
+
+[Alliance](https://consciousinternet.org/)
+
+{%% end %%}
+
+{% end %}
 - Community
 
 {% menu() %}
