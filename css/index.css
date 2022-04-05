@@ -281,6 +281,13 @@ header {
   font-family: "Lato", sans-serif !important;
   line-height: 1.5;
 }
+.container-fluid {
+  width: 100%;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+}
 @media (max-width: 640px) {
   .banner h2 {
     font: 600 7vw/10vw;

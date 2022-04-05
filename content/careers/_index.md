@@ -1,7 +1,6 @@
 ---
 title: "careers"
-template: "section.html"
-insert_anchor_links: "left"
+page_template: "jobPage.html"
 ---
 
 
@@ -52,6 +51,12 @@ Check out our available positions below. Can't find your perfect fit and don't w
 
 {% end %}
 
+
+{% jobs() %}
+
+## Jobs
+
+{% end %}
 
 
 <br>
