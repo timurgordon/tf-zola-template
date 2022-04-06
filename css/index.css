@@ -53,6 +53,12 @@ img[src*="#tft_img"] {
   margin: 8px;
 }
 
+img[src*="#absolute"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .logo_size{
   width:200px
 }
