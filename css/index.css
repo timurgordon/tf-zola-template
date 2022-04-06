@@ -278,13 +278,16 @@ header {
   transform: none;
 }
 
-.post-content-text {
-  font-family: "Lato", sans-serif !important;
+.my-test{
+  font-family: "Work Sans", sans-serif !important;
+} 
+.post-content-text .my-test  {
+  font-family: "Work Sans", sans-serif !important;
   line-height: 1.7;
 }
 
 .post-content-text h2 {
-  font-family: "Lato", sans-serif !important;
+  font-family: "Work Sans", sans-serif;
   line-height: 1.5;
 }
 .container-fluid {

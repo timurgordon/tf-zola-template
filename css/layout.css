@@ -2,6 +2,9 @@ main {
   @apply pt-0;
 }
 
+article p{
+  @apply text-lg;
+}
 /*
 html, body {
   @apply dark:bg-black;

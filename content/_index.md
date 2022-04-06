@@ -101,7 +101,7 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 <!-- section 5 (Map) -->
 
 
-{% grid_stats() %}
+
 
 ### THE THREEFOLD GRID
 
