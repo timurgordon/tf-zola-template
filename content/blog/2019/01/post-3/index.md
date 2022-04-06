@@ -5,6 +5,11 @@ date: 2019-01-19T03:25:00-06:00
 updated: 2019-10-06T14:00:00-05:00 # Comment-out this line with a # if content is unchanged
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
+taxonomies:
+  categories:
+    - Foundation
+  tags: [threefold_grid, community, farming, interview, update]
+
 extra:
   subtitle: "The UNIQUE Post 3 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here

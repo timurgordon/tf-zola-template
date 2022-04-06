@@ -4,6 +4,11 @@ description: "The UNIQUE description for Post 4." # Quotation marks allow colons
 date: 2019-03-02T10:00:00-06:00
 updated: 2020-01-31T08:13:00-06:00 # Comment-out this line with a # if content is unchanged
 template: blogPage.html
+taxonomies:
+  categories:
+    - Foundation
+  tags: [threefold_grid, community, farming, interview, update]
+
 extra:
   subtitle: "The UNIQUE Post 4 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here

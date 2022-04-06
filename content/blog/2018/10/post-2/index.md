@@ -7,6 +7,8 @@ draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
   categories: ["Use Cases"]
+  tags: [threefold_grid, community, farming, interview, update]
+
 extra:
   subtitle: "The UNIQUE Post 2 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here

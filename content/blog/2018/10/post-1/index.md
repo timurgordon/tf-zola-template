@@ -6,7 +6,10 @@ updated: 2019-04-11T20:33:00-05:00 # Comment-out this line with a # if content i
 draft: false # Make it "true" if you don't want Zola to "publish" yet
 template: blogPage.html
 taxonomies:
-  categories: ["Community"]
+  categories:
+    - Community
+  tags: [threefold_grid, community, farming, interview, update]
+
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: "Your name goes here"
