@@ -114,9 +114,36 @@ img[src*="#absolute"] {
     capitalize
   }
   .article h2{
-    color: red;
+    font-size: 2.25rem;
+    font-family: Lato,sans-serif!important;
+    line-height: 1.5;
+    font-weight: 700;
+    color:#333;
   }
-}
+
+  .article h1{
+    font-family: Lato,sans-serif!important;
+  }
+
+  }
+  .article p{
+    font-size: 1.125rem;
+    font-family: Lato,sans-serif!important;
+    line-height: 1.7;
+    color:#333
+  }
+
+  .article a{
+    color: #4ec48f;
+  }
+
+  .article li{
+    font-size: 1.125rem;
+  }
+  .main-title {
+    font-family: Lato,sans-serif!important;
+  }
+
 
 button:hover :is(:where(a)) {
   color: #3b82f6;
