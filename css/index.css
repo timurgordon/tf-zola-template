@@ -59,6 +59,18 @@ img[src*="#absolute"] {
   left: 0;
   top: 0;
 }
+.footer-cust a{
+  color: #999; 
+}
+
+.footer-cust a:hover {
+  color: rgb(65, 65, 65); 
+}
+
+.footer-cust h6{
+  margin-bottom: 15px;
+}
+
 
 .logo_size{
   width:200px
