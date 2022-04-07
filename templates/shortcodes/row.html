@@ -28,6 +28,10 @@ Parameters:
         {% set col_class = col_class ~ " flex-1 m-4 lg:m-0" %}
     {% endif %}
 
+    {% if "text-white" in style %}
+    {% set row_class = row_class ~ " text-white" %}
+    {% endif %}
+
     <!-- makes row with margins -->
     {% if "margin" in style %}
         {% set row_class = row_class ~ " lg:py-28 sm:p-12 md:p-16 lg:p-20" %}
@@ -70,6 +74,7 @@ Parameters:
     {% set styles = "background: " ~ gradient ~ "; background-size: cover"  %}
     {% set row_class = row_class ~ "w-screen -mx-8 sm:-mx-12 md:-mx-16 lg:-mx-20" %}
 {% endif %}
+
 
 
 
