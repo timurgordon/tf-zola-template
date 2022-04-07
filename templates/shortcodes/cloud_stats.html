@@ -1,9 +1,12 @@
 {% set data = load_data(url="https://explorer.threefold.io/api/stats", required=false, format="json") %}
-{% set capacity = data.hru + data.sru / 1000 %}
-{% set nodes = data.onlinenodes %}
-{% set countries = data.countries %}
-{% set cores = data.cru %}
+{% if data %}
+  {% set capacity = data.hru + data.sru / 1000 %}
+  {% set nodes = data.onlinenodes %}
+  {% set countries = data.countries %}
+  {% set cores = data.cru %}
+{% endif %}
 
+{% if data %}
 <div class="lg:py-20 py-10 sm:pt-16">
   <div class="mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:max-w-xl mx-auto text-center">
@@ -167,3 +170,4 @@
         ">Explore Capacity</a>
   </div>
 </div>
+{% endif %}

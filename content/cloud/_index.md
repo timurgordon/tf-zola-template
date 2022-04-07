@@ -186,6 +186,11 @@ A carefully designed collection of lightweight components that minimize overhead
 
 {% end %}
 
+{% cloud_stats() %}
+
+## **A GLOBAL EDGE INFRASTRUCTURE**
+
+{% end %}
 <br/>
 <br/>
 

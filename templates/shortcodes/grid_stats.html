@@ -1,10 +1,14 @@
 {% set styles = "background-image: url('images/grid_map.png');" %}
 {% set data = load_data(url="https://explorer.threefold.io/api/stats", required=false, format="json") %}
+{% if data %}
 {% set capacity = data.hru + data.sru / 1000 %}
 {% set nodes = data.onlinenodes %}
 {% set countries = data.countries %}
 {% set cores = data.cru %}
+{% endif %}
 
+
+{% if data  %}
 <section class="px-2 h-auto bg-center bg-cover bg-no-repeat" style="{{styles}}">
     <div class="flex flex-wrap lg:p-12 text-center -mx-auto">
         <div class="text-center rounded lg:px-6 mt-10 lg:mt-0 mx-auto">
@@ -67,11 +71,9 @@
             </div>
             <button><a href="https://explorer.threefold.io/all" target="_blank">Explore ThreeFold Grid Capacity</a></button>
         </div>
-        
     </div>
-    
 </section>
-
+{% endif %}
 <style>
     dd {
         display: inline-block;
