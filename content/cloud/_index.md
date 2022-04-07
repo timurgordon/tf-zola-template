@@ -18,10 +18,8 @@ Deploy any workload with unprecedented security, scalability, and eﬃciency, on
 
 {% end %}
 
-<br />
-<br />
 
-{% row(style="center") %}
+{% row(style="center margin") %}
 
 ![storage](/images/storage.jpg#medium)
 
@@ -101,10 +99,8 @@ Optimized for efficient and affordable hosting of cloud alternatives, blockchain
 
 {% end %}
 
-<br />
-<br />
 
-{% row(style="center narrow") %}
+{% row(style="center narrow margin") %}
 
 ![Image](/images/zero_os.png#mx-auto#medium)
 
@@ -122,7 +118,7 @@ A decentralized autonomous OS designed to dedicate hardware capacity to the Peop
 
 {% end %}
 
-{% row(style="center") %}
+{% row(style="center between") %}
 
 ![Image](/images/capacity.png#medium)
 
@@ -194,7 +190,7 @@ A carefully designed collection of lightweight components that minimize overhead
 <br/>
 <br/>
 
-{% row(gradient="linear-gradient(90deg, #000, #323232)" style="center margin text-white") %}
+{% row(gradient="linear-gradient(351deg, #8f8f8f, #383838)" style="center margin text-white") %}
 
 ## **TAKE THREEFOLD** <br> **CLOUD ON A TEST DRIVE**
 
