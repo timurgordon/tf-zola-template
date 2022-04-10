@@ -4,6 +4,7 @@ title: CasperLabs
 description: The First Blockchain Built for Enterprise Adoption
 template: partnerPage.html
 taxonomies:
+  partners-category: [foundation]
   tags: [blockchain]
 date: 2021-12-15
 extra:
