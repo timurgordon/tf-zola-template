@@ -125,6 +125,7 @@ img[src*="#absolute"] {
     border-black
     capitalize
   }
+  
   .article h2{
     font-size: 2.25rem;
     font-family: Lato,sans-serif!important;
@@ -132,7 +133,7 @@ img[src*="#absolute"] {
     font-weight: 700;
     color:#333;
   }
-
+  
   .article h1{
     font-family: Lato,sans-serif!important;
   }
@@ -144,9 +145,13 @@ img[src*="#absolute"] {
     line-height: 1.7;
     color:#333
   }
-
-  .article a{
+  
+  .post-content-text a, .article a{
     color: #4ec48f;
+  }
+  
+  .post-content-text a:hover, .article a:hover{
+    color: #2e9969;
   }
 
   .article li{
@@ -329,8 +334,10 @@ header {
 }
 
 .post-content-text h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: Lato,sans-serif!important;
   line-height: 1.5;
+  font-size: 2.25rem;
+  font-weight: 700;
 }
 .container-fluid {
   width: 100%;
