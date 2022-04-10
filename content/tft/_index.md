@@ -13,7 +13,7 @@ insert_anchor_links: "left"
 
 
 
-## **DECENTRALIZING THE INTERNET ECONOMY**
+## **DECENTRALIZING <br>THE INTERNET ECONOMY**
 
 
 The People’s Internet creates an entirely new decentralized Internet economy that allows anyone to join the world’s fastest growing market – the Internet.
@@ -56,8 +56,8 @@ Data has become the most valuable commodity on earth, the Internet infrastructur
 
 <br>
 
-125 zetabytes of storage capacity needs to be
-created to meet demand for data in the upcoming years.
+125 zetabytes of storage capacity needs to be <br>
+created to meet demand for data in the upcoming years.<br>
 That is a number with 21 zeroes!
 
 |||
@@ -81,7 +81,7 @@ That is a number with 21 zeroes!
 
 <!-- section 3 (world of farmers) -->
 
-{% row(style="center between") %}
+{% row(style="center between margin") %}
 
 
 ## **THE MISSING LAYERS**
@@ -99,15 +99,10 @@ While many projects have created bits and pieces of what a decentralized Interne
 
 {% end %}
 
-<br>
-
-<br>
-
-<br>
 
 <!-- section 4 (THE CURRENCY) -->
 
-{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)") %}
+{% row(gradient="linear-gradient(180deg,#ea1ff7,#70dfc9)" style="margin") %}
 
 ![Image](/images/tft_currency.png#medium#absolute)
 
@@ -163,16 +158,11 @@ People buy TFT to store data and run applications privately on a peer-to-peer In
 
 {% end %}
 
-<br>
-
-<br>
-
-<br>
 
 <!-- section 6 (OPEN NETWORK) -->
 
 
-{% row() %}
+{% row(style="margin") %}
 
 ## **LOYALTY REWARDS**
 
@@ -187,16 +177,11 @@ The ThreeFold blockchain automatically scans wallets and provides up-to 60% disc
 {% end %}
 
 
-<br>
-
-<br>
-
-<br>
 
 <!-- section 7 (OPEN NETWORK) -->
 
 
-{% row() %}
+{% row(style="margin") %}
 
 ![Image](/images/tft_utility.jpg)
 
@@ -210,16 +195,10 @@ TFT is minted only when new Internet capacity is added to the ThreeFold Grid. A 
 {% end %}
 
 
-<br>
-
-<br>
-
-<br>
-
 <!-- section 8 (BURN AND FARM) -->
 
 
-{% row() %}
+{% row(style="margin") %}
 
 ## **BURN AND FARM EQUILIBRIUM**
 
@@ -233,11 +212,6 @@ Burning permanently removes TFT from the circulating supply when the ThreeFold G
 
 {% end %}
 
-<br>
-
-<br>
-
-<br>
 
 
 <!-- section 9 (partners) -->
@@ -290,7 +264,7 @@ Get TFT today and participate in the realization of a truly decentralized world.
 ## **BELIEVERS IN TFT**
 
 
-![Image](/images/ourpartners.png)
+![Image](/images/ourpartners.png#mx-auto)
 
 <button>[Check All Partners](/learn-more)</button>
 

@@ -43,19 +43,22 @@ The People’s Internet is powered by an entirely new incentive model made possi
 
 {% row(style="center") %}
 
-![Image](/images/plug_1.png)
+![Image](/images/plug_1.png#mx-auto)
+<br>
 
 All you need to get started is a 3Node, electricity and a network connection.
 
 |||
 
-![Image](/images/offer_2.png)
+![Image](/images/offer_2.png#mx-auto)
+<br>
 
 The 3Node’s Internet capacity is automatically registered in the blockchain.
 
 |||
 
-![Image](/images/Earn_3.png)
+![Image](/images/Earn_3.png#mx-auto)
+<br>
 
 Every month, you earn TFT for keeping the 3Node connected to the network.
 
