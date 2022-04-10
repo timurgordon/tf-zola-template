@@ -61,7 +61,13 @@ paginate_path = "/blog-posts"
 name = "partners-category"
 feed = true
 paginate_by = 2
-paginate_path = "/join-us"
+paginate_path = "/partner-card"
+
+[[taxonomies]]
+name = "news-category"
+feed = true
+paginate_by = 2
+paginate_path = "/news-card"
 
 [[taxonomies]]
 name = "roles"

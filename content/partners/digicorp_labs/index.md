@@ -20,11 +20,7 @@ extra:
     linkedin: https://www.linkedin.com/company/digicorp-labs
 ---
 
-<br/>
-
 ![digicorp](/images/digicorp_labs.png)
-
-<br/>
 
 ## About
 
