@@ -42,7 +42,7 @@ To inspire change by providing opportunities for students around the world to ta
 
 <BR>
 
-![planting](./tag_planting.jpg)
+![planting](/images/tag_planting.jpg)
 
 <BR>
 
