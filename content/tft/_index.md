@@ -25,7 +25,7 @@ The People’s Internet creates an entirely new decentralized Internet economy t
  
  </a>
 
- <a class="center" href="https://www.coingecko.com/en/coins/threefold-token" rel="some text" target="_blank"><img class="logo_size mx-auto" src="images/coin_logo.png">
+ <a class="center" href="https://www.coingecko.com/en/coins/threefold-token" rel="some text" target="_blank"><img class="logo_size mx-auto" src="/images/coin_logo.png">
  </a>
  </div>
 

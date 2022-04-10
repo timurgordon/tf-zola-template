@@ -29,7 +29,7 @@ We're a 100% open-source and community-driven project that builds the critical i
 
 <!-- section 3 (INTERNET) -->
 
-{% row(style="center narrow") %}
+{% row(style="center between margin") %}
 
 ## EXPAND THE PEOPLE'S <br> **INTERNET**
 
@@ -46,7 +46,7 @@ Join the movement by connecting a node at your home or ofﬁce. All you need is 
 
 <!-- section 4 (DEVELOPER COMMUNITY) -->
 
-{% row(bgColor="#f2f2f2" style="narrow") %}
+{% row(bgColor="#f2f2f2" style="narrow margin") %}
 
 
 ## JOIN THE THREEFOLD <br> **DEVELOPER COMMUNITY**
@@ -85,7 +85,7 @@ Join the growing community of ThreeFold’s most passionate supporters. Bring yo
 
 <!-- section 6 (QUESTIONS) -->
 
-{% row(style="center narrow") %}
+{% row(style="center between margin") %}
 
 ## FREQUENTLY ASKED <br> **QUESTIONS**
 
