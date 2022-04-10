@@ -346,6 +346,10 @@ header {
   margin-right: auto;
   margin-left: auto;
 }
+
+.zola-anchor {
+  display: none;
+}
 @media (max-width: 640px) {
   .banner h2 {
     font: 600 7vw/10vw;
