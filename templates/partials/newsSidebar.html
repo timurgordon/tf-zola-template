@@ -7,7 +7,7 @@
         {% set categories = taxonomy.items %}
         {% for category in categories %}
             {% set path = category.name | slugify %}
-            {% set fullpath = "/news-categories/" ~ path %}
+            {% set fullpath = "/news-category/" ~ path %}
             <a id="{{path}}" class="mb-3 text-black font-normal" href={{fullpath}}> {{category.name}} </a>
         {% endfor %}
     </div>
