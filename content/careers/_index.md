@@ -20,7 +20,8 @@ page_template: "jobPage.html"
     </div>
      </div> -->
 
-{% row(bgPath="/images/team_joinus.jpg" style="center") %}
+
+{% row(bgPath="/images/team_joinus.jpg" style="center margin") %}
 
 # **Join Our Team**
 

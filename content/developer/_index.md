@@ -3,11 +3,11 @@ title: "Developer"
 page_template: "resourcesPage.html"
 ---
 
-<br>
+
 
 <!-- section 1 (header) -->
 
-{% row(style="center") %}
+{% row(style="center margin") %}
 
 ## **THREEFOLD <br> DEVELOPER <br> RESOURCES**
 
@@ -21,13 +21,11 @@ A builder’s manual for ThreeFold. Built <br> by visionaries, for visionaries.
 
 {% end %}
 
-<br>
 
-<br>
 
 <!-- section 2 (TESTING GRANTS) -->
 
-{% row(bgColor="#f2f2f2" style="narrow") %}
+{% row(bgColor="#f2f2f2" style="narrow margin") %}
 
 ![Image](/images/developer_testing.png)
 
