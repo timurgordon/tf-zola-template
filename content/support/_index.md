@@ -43,7 +43,7 @@ insert_anchor_links: "left"
 
 <!-- section 2 (QUESTIONS) -->
 
-{% row(bgColor="#f2f2f2" style="center") %}
+{% row(bgColor="#f2f2f2" style="center margin") %}
 
 ## FREQUENTLY ASKED <br> **QUESTIONS**
 
@@ -60,7 +60,7 @@ Check out the most common questions from the community. <br> There's a good chan
 
 <!-- section 3 (world of farmers) -->
 
-{% row(style="center") %}
+{% row(style="center ") %}
 
 ![Image](/images/ask.png#mx-auto)
 <br>
