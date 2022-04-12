@@ -1,6 +1,6 @@
 ---
 title: "Adnan Fatayerji"
-description: "Work with a team of engineers and build decentralized apps in Ourworld."
+description: "Honored to be part of a team that has the potential to make the world a better place..."
 template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/adnansf/" }

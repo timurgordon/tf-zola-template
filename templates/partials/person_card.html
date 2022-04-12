@@ -4,7 +4,11 @@
         <div>
             <h2 class="text-2xl">{{post.title}}</h2>
             <div class="text-md text-gray-700 text-left line-clamp-3 text-ellipsis">
-                {{post.content | safe}}
+                {% if post.description %}
+                    {{post.description}}
+                {% else %}
+                    {{post.content | safe}}
+                {% endif %}
             </div>
             {% for tag in post.taxonomies.memberships %}
                 <a href="{{'/memberships/' ~ tag}}" class="border-2 text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full ">
