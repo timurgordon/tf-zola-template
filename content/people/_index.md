@@ -1,9 +1,7 @@
 ---
-title: "people"
-template: "section.html"
+title: "People"
+template: "people_page.html"
 insert_anchor_links: "left"
-taxonomies:
-  tags: ["DAPPs"]
 ---
 
 <br>

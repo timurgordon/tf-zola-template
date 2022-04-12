@@ -1,8 +1,5 @@
+{% extends "_default/base.html" %}
 {% block content %}
-
-{% if page %}
-{% set section = page %}
-{% endif %}
 
 <div class="text-center main-title px-0 md:w-full mx-8 md:mx-12">
   <h1
@@ -15,7 +12,7 @@
   </h1>
   <div>
     <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-2 xl:grid-cols-3 lg:max-w-none">
-        {%- for post in paginator.pages %} 
+        {%- for post in section.pages %} 
             {% include "partials/person_card.html" %} 
         {%- endfor %}
     </div>
