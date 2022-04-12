@@ -5,6 +5,7 @@ module.exports = {
       './templates/**/*.html'
   ],
   darkMode: false,
+  important: true,
   theme: {
     fontSize: {
         'xs': '.75rem',

@@ -78,7 +78,7 @@ a {
 }
 a:focus,
 a:hover {
-  @apply border-none text-blue-300;
+  @apply text-blue-300;
 }
 a:active {
   @apply text-blue-800 border-blue-500;

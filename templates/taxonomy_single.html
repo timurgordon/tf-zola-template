@@ -8,6 +8,8 @@
         {% if current_path is containing("partners") %}
         {% include "partials/partnersCards.html" %}
         {% include "partials/partnersSidebar.html" %}
+        {% elif current_path is containing("memberships") %}
+        {% include "partials/memberships.html" %}
         {% else %}
         {% include "partials/newsPosts.html" %}
         {% include "partials/newsSidebar.html" %}

@@ -71,7 +71,6 @@ img[src*="#absolute"] {
   margin-bottom: 15px;
 }
 
-
 .logo_size{
   width:200px
 }
@@ -176,7 +175,7 @@ button a {
 }
 
 a {
-  border: none;
+  border-width: 0px;
 }
 
 header {
