@@ -101,49 +101,103 @@ Be a part of the new internet
 - Ecosystem
 
 {% menu() %}
-{% button() %}
-[Our Partners](/partners)
-{%% end %%}
-{% button() %}
-[Alliance](https://consciousinternet.org/)
-{%% end %%}
-{% end %}
 
+{% button() %}
+
+
+[Our Partners](/partners)
+
+{%% end %%}
+
+|||
+
+{% button() %}
+
+
+[Alliance](https://consciousinternet.org/)
+
+{%% end %%}
+
+{% end %}
 - Community
 
 {% menu() %}
+
 {% button() %}
+
+
 [Our People](/people)
+
 {%% end %%}
+
+|||
+
 {% button() %}
+
+
 [ThreeFold Community](/community)
+
 {%% end %%}
+
+|||
+
 {% button() %}
+
+
 [Developers Resources](/developer)
+
 {%% end %%}
+
 {% end %}
 
 - MoreInfo
 
 {% menu() %}
+
 {% button() %}
+
 [Explorer](https://explorer.threefold.io/all)
+
 {%% end %%}
+
+
 {% button() %}
+
 [Library](https://library.threefold.me/info/threefold#/)
+
 {%% end %%}
+
+|||
+
 {% button() %}
+
 [Blog](/blog)
+
 {%% end %%}
+
 {% button() %}
+
 [Newsroom](/newsroom)
+
 {%% end %%}
+
+|||
+
 {% button() %}
+
 [Careers](/careers)
+
 {%% end %%}
+
 {% button() %}
+
 [Support](/support)
+
 {%% end %%}
+
+
 {% end %}
 
 - [Get TFT]("https://gettft.com/gettft/")
+
+
