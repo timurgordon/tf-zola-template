@@ -106,6 +106,8 @@ Be a part of the new internet
 
 
 [Our Partners](/partners)
+<br>
+Explore Our Partners
 
 {%% end %%}
 
@@ -115,6 +117,8 @@ Be a part of the new internet
 
 
 [Alliance](https://consciousinternet.org/)
+<br>
+Alliance For A Conscious Internet
 
 {%% end %%}
 
@@ -127,6 +131,8 @@ Be a part of the new internet
 
 
 [Our People](/people)
+<br>
+Team, stories, & more
 
 {%% end %%}
 
@@ -136,6 +142,8 @@ Be a part of the new internet
 
 
 [ThreeFold Community](/community)
+<br>
+Welcome To The Fold
 
 {%% end %%}
 
@@ -145,6 +153,8 @@ Be a part of the new internet
 
 
 [Developers Resources](/developer)
+<br>
+Join The Developer Community
 
 {%% end %%}
 
@@ -154,9 +164,13 @@ Be a part of the new internet
 
 {% menu() %}
 
+#### RESOURCES 
+
 {% button() %}
 
 [Explorer](https://explorer.threefold.io/all)
+
+ThreeFold Capacity Explorer
 
 {%% end %%}
 
@@ -164,34 +178,48 @@ Be a part of the new internet
 {% button() %}
 
 [Library](https://library.threefold.me/info/threefold#/)
+<br>
+Explorer The documentation
 
 {%% end %%}
 
 |||
 
+#### DIVE DEEPER
+
 {% button() %}
 
 [Blog](/blog)
+<br>
+Explorer The Blogs
 
 {%% end %%}
 
 {% button() %}
 
 [Newsroom](/newsroom)
+<br>
+Check Last Updates
 
 {%% end %%}
 
 |||
 
+#### SUPPORT AND HELP
+
 {% button() %}
 
 [Careers](/careers)
+<br>
+Join The TEAM
 
 {%% end %%}
 
 {% button() %}
 
 [Support](/support)
+<br>
+Get In Touch With ThreeFold
 
 {%% end %%}
 
