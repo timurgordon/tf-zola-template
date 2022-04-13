@@ -1,19 +1,3 @@
-<script>
-
-    function toggleFilter() {
-        var filterMenu = document.getElementById("filter-menu")
-        if (filterMenu.className.includes("hidden")) { 
-            filterMenu.className = filterMenu.className.replace("hidden", " ")
-        } else { 
-            filterMenu.className = filterMenu.className + " hidden"
-        }
-    }
-
-    window.onload = function(){
-        document.getElementById("filter-btn").addEventListener( 'click', toggleFilter);
-    }
-</script>
-
 {% set path_array = current_path | split(pat="/") %}
 {% set taxonomy = path_array[1] %}
 {% set category = path_array[2] %}
