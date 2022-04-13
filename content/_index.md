@@ -134,7 +134,7 @@ Zero-OS is a stateless and lightweight operating system designed to host anythin
 
 We are truly proud to be trusted by some of the biggest names in the industry.
 
-![Image](/images/ourpartners.png)
+![Image](/images/ourpartners.png#mx-auto)
 
 <button>[Check All Partners](/partners)</button>
 
