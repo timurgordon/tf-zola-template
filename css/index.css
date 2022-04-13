@@ -124,7 +124,10 @@ img[src*="#absolute"] {
     border-black
     capitalize
   }
-  
+  .my-header h4{
+    color:#9f9f9f;
+
+  }
   .article h2{
     font-size: 2.25rem;
     font-family: Lato,sans-serif!important;
