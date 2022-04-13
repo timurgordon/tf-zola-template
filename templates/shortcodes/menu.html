@@ -13,7 +13,7 @@ Parameters:
 
 <!-- aligns columns depending on col number-->
 
-{% set classes = "relative flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 lg:-mx-12 xl:-mx-8" %}
+{% set classes = " flex flex-col lg:flex-row items-baseline -mx-8 sm:-mx-12 lg:-mx-12 xl:-mx-8" %}
 {% set column_classes = "flex-1 m-2 lg:m-4" %}
 
 <!-- makes row full screen width and adds background img -->
@@ -32,11 +32,10 @@ Parameters:
         {% else %}
             <div class="{{column_classes}}">
                 {{column | split(pat="{% button() %}") | slice(end=1) | first | safe}}
-                <hr class="border-t-2 mt-2">
-                <br/>
                 {% for button in column | split(pat="{% button() %}") | slice(start=1) | join(sep="") | split(pat="{%% end %%}") | slice(end=-1) %}
                     {% set body = button %}
-                    {% include "shortcodes/button.html" %}               
+                    {% set path = body | split(pat="href=") | slice(start=1) | first | split(pat=">") | first | trim_start_matches(pat='"') | trim_end_matches(pat='"') %}
+                    <a href="{{path}}" class="text-gray-700 block px-4 py-2 mb-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">{{ body | trim_start_matches(pat="<p>") | safe}}</a>
                 {% endfor %}
             </div>
         {% endif %}
