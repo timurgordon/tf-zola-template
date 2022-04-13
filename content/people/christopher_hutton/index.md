@@ -1,9 +1,9 @@
 ---
-title: "Adnan Fatayerji"
+title: "Christopher Hutton"
 description: "Honored to be part of a team that has the potential to make the world a better place..."
 template: "person_page.html"
 extra:
-  socialLinks: { LinkedIn: "https://www.linkedin.com/in/adnansf/" }
+  socialLinks: { LinkedIn: "https://www.linkedin.com/in/chris-hutton-a3034777/" }
   organizations: ["ThreefoldTech"]
   img_path: /images/people/christhoper_hutton.jpeg
 taxonomies:
