@@ -13,6 +13,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 5 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Post Author
+  authorImg: /images/people/hannah_cordes.jpg
   category: "Engineering"
   imgPath: images/ourworld_mycellium.png
   isFeatured: "true"

@@ -81,7 +81,6 @@ function toggleFilter() {
     }
 }
 window.onload = function () {
-
     let elements = document.getElementsByTagName("button");
     let buttons = [...elements]
 

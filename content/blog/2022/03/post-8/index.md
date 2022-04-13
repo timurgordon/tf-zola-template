@@ -12,6 +12,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 1 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Sacha Obeegadoo
+  authorImg: /images/people/hannah_cordes.jpg
   imgPath: images/realizing_the_promise.png
   
 ---

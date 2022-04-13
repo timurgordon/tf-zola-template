@@ -13,6 +13,7 @@ taxonomies:
 extra:
   subtitle: "The UNIQUE Post 6 subtitle" # Quotation marks allow colons, semicolons, etc.
   author: Your name goes here
+  authorImg: /images/people/hannah_cordes.jpg
   category: "Engineering"
   imgPath: images/threefold_blog2.png
   date: 2018-10-17T14:40:00-05:00
