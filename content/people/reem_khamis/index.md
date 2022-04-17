@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/rkhamis/",
   Github: https://github.com/rkhamis }
   organizations: [foundation, farming]
-  img_path: /images/people/reem_khamis.jpg
+  imgPath: /images/people/reem_khamis.jpg
 taxonomies:
   memberships:
     [foundation, tech]

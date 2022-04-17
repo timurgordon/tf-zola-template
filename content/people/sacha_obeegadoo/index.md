@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/sachaobeegadoo/", 
   Github: "https://github.com/Sacha96" }
   organizations: ["ThreefoldTech"]
-  img_path: /images/people/sacha_obeegadoo.jpg
+  imgPath: /images/people/sacha_obeegadoo.jpg
 taxonomies:
   memberships:
     [foundation, twin, aci]

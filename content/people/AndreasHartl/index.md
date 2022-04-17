@@ -9,7 +9,7 @@ extra:
       Github: "https://github.com/andhartl",
     }
   organizations: ["ThreefoldTech"]
-  img_path: /images/people/andreas_hartl.jpeg
+  imgPath: /images/people/andreas_hartl.jpeg
 taxonomies:
   memberships: ["tech", "foundation", "farmers", "cofounders"]
 ---

@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/libor-voncina-755798143/" }
   organizations: ["foundation, tech"]
-  img_path: /images/people/libor_voncina.jpeg
+  imgPath: /images/people/libor_voncina.jpeg
 taxonomies:
   memberships:
     [foundation, twin, aci]

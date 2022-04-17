@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ehab-hassan-a00897116/"}
   organizations: ["foundation,cloud,farming"]
-  img_path: /images/people/ingo_schildt.jpeg
+  imgPath: /images/people/ingo_schildt.jpeg
 taxonomies:
   memberships:
     [partners]

@@ -6,7 +6,7 @@ extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/ahmed-te-youssef/",
   Github: https://github.com/xmonader }
   organizations: ["foundation"]
-  img_path: /images/people/ahmed_thabet.jpg
+  imgPath: /images/people/ahmed_thabet.jpg
 taxonomies:
   memberships:
     [tech, foundation, technology_council]

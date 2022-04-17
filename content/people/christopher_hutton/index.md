@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/chris-hutton-a3034777/" }
   organizations: ["ThreefoldTech"]
-  img_path: /images/people/christhoper_hutton.jpeg
+  imgPath: /images/people/christhoper_hutton.jpeg
 taxonomies:
   memberships:
     ["tech", "foundation", "cofounders"]

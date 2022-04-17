@@ -5,7 +5,7 @@ template: "person_page.html"
 extra:
   socialLinks: { LinkedIn: "https://www.linkedin.com/in/kwidjim/" }
   organizations: ["foundation, aci"]
-  img_path: /images/people/mamadou_kwidjim_toure.jpg
+  imgPath: /images/people/mamadou_kwidjim_toure.jpg
 taxonomies:
   memberships:
     [partners, aci_members]
