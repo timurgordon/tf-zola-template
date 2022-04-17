@@ -93,7 +93,6 @@ Join the growing community of ThreeFold’s most passionate supporters. Bring yo
 Check out the FAQs or ask a question on the ThreeFold Forum.
 
 <button>[ThreeFold FAQ](/faq)</button>
-<button>[Farm FAQ](/farmfaq)</button>
 <button>[TFT FAQ](/tftfaq)</button>
 
 {% end %}

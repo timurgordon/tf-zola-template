@@ -50,7 +50,6 @@ insert_anchor_links: "left"
 Check out the most common questions from the community. <br> There's a good chance your answer is there already!
 
 <button>[ThreeFold FAQ](/faq)</button>
-<button>[Farm FAQ](/farmfaq)</button>
 <button>[TFT FAQ](/tftfaq)</button>
 
 
